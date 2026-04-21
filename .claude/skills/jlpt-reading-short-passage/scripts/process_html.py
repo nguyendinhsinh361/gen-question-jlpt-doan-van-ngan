@@ -22,7 +22,7 @@ python3 process_html.py --validate --html-dir assets/html/doan_van_ngan
 python3 process_html.py \
     --file assets/html/doan_van_ngan/N3_abcdef.html \
     --csv sheets/samples_v1.csv \
-    --tag "nhật ký" \
+    --tag "daily life" \
     --question-label question_content_match \
     --question "本文の内容と合うものはどれか。" \
     --answers "選択肢1|選択肢2|選択肢3|選択肢4" \

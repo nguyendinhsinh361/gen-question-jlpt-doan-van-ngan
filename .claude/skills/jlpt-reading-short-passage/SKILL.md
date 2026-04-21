@@ -421,7 +421,7 @@ Dùng schema 45 cột chuẩn từ `rules/question_sheet.csv`. Các cột quan t
 |--------|----------------------|
 | `_id` | `{LEVEL}_{uuid}` — e.g. `N3_a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5`. Generate UUID with `uuid.uuid4().hex` (full 32-char hex) |
 | `level` | `N1`, `N2`, `N3`, `N4`, `N5` |
-| `tag` | Topic label (VD: `kinh tế`, `văn hóa`, `y học`, `xã hội`, `công nghệ`, `nhật ký`, `thư từ`, `trường học`, `hội thoại hàng ngày`) — chọn từ `rules/topic.json` hoặc tự define |
+| `tag` | Topic label **bằng tiếng Anh** theo `rules/topic.json` (VD: `economics`, `culture`, `medicine`, `society`, `technology`, `daily life`, `family`, `school`, `conversation`) — BẮT BUỘC chọn từ `rules/topic.json` |
 | `jp_char_count` | Result of `count_body_chars()` trên full HTML |
 | `kind` | Always `đoạn văn ngắn` |
 | `general_audio` | "" (empty string) |
@@ -531,19 +531,26 @@ Chi tiết phân tích từng level xem `references/sample-analysis.md`.
 
 ## Topic Catalog
 
-Chọn `tag` từ các nhóm sau (hoặc từ `rules/topic.json`):
+**Tag PHẢI bằng tiếng Anh**, chọn từ `rules/topic.json`. Dưới đây là các category chính:
 
-| Nhóm | Topic labels |
-|------|--------------|
-| Đời sống | `nhật ký`, `thư từ`, `hội thoại hàng ngày`, `gia đình`, `ăn uống`, `sức khỏe đời sống` |
-| Xã hội | `xã hội`, `văn hóa`, `truyền thống`, `môi trường`, `ngôn ngữ` |
-| Công việc | `công việc`, `email công việc`, `thông báo công ty` |
-| Giáo dục | `trường học`, `giáo dục`, `học tập`, `nghiên cứu` |
-| Kinh tế | `kinh tế`, `tiêu dùng`, `thương mại` |
-| Khoa học | `công nghệ`, `khoa học`, `y học` |
-| Văn học | `tiểu luận`, `phê bình`, `triết học`, `văn học` |
+| Category | Ví dụ tag (tiếng Anh) |
+|----------|----------------------|
+| Personal Life & Psychology | `psychology`, `emotion`, `mindset`, `motivation`, `personal growth`, `happiness`, `childhood` |
+| Society & Relationships | `society`, `family`, `relationships`, `friendship`, `parenting`, `tradition`, `etiquette` |
+| Education & Language | `education`, `school`, `learning`, `language`, `communication`, `library` |
+| Business, Economics & Finance | `economics`, `business`, `market`, `consumption`, `personal finance` |
+| Work & Career | `work`, `career`, `workplace`, `announcement`, `correspondence` |
+| Science & Technology | `science`, `biology`, `technology`, `research`, `energy` |
+| Health & Medicine | `health`, `medicine`, `nutrition`, `diet`, `exercise`, `stress` |
+| Environment & Nature | `environment`, `nature`, `animals`, `weather`, `season`, `recycling` |
+| Culture, Arts & Entertainment | `culture`, `art`, `music`, `literature`, `philosophy`, `sports`, `travel` |
+| Daily Life & Consumerism | `daily life`, `shopping`, `food`, `cooking`, `restaurant`, `pets` |
+| Infrastructure & Media | `transportation`, `city`, `media`, `journalism` |
 
-Trong batch > 5 bài, chọn topic từ ≥ 3 nhóm khác nhau để đa dạng.
+> **⚠️ KHÔNG dùng tag tiếng Việt** (ví dụ: ❌ `nhật ký`, `kinh tế`, `văn hóa`).
+> Phải dùng tiếng Anh theo đúng `rules/topic.json` (ví dụ: ✅ `daily life`, `economics`, `culture`).
+
+Trong batch > 5 bài, chọn topic từ ≥ 3 category khác nhau để đa dạng.
 
 ## Bundled Scripts
 
@@ -560,7 +567,7 @@ python3 <skill>/scripts/process_html.py \
     --file <html-file> \
     --csv sheets/samples_v1.csv \
     --level N3 \
-    --tag "nhật ký" \
+    --tag "daily life" \
     --question-label question_content_match \
     --question "..." \
     --answers "A1|A2|A3|A4" \

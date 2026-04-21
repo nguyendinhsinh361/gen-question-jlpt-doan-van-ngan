@@ -28,8 +28,8 @@ QUY TẮC BẮT BUỘC:
    e. KHÔNG gen hết rồi mới save — save từng bài một
 
 2. ĐA DẠNG trong mỗi level:
-   - Topic (tag): không trùng nhau trong cùng level, chọn từ ≥ 3 nhóm khác nhau
-     (Đời sống, Xã hội, Công việc, Giáo dục, Kinh tế, Khoa học, Văn học)
+   - Topic (tag): không trùng nhau trong cùng level, chọn từ ≥ 3 category khác nhau
+     trong rules/topic.json. Tag PHẢI bằng tiếng Anh (ví dụ: family, economics, culture)
    - question_label: dùng ≥ 2 labels khác nhau per level (nếu N ≥ 2)
 
 3. ĐỘ DÀI (Target Range — đếm không whitespace, không <rt>):
@@ -92,7 +92,7 @@ OUTPUT cho mỗi bài: JSON object
 {
   "id": "{LEVEL}_{uuid32hex}",
   "level": "{LEVEL}",
-  "tag": "{topic tiếng Việt}",
+  "tag": "{English topic from topic.json, e.g. family}",
   "html": "<!DOCTYPE html>...",
   "question_label": "question_content_match",
   "question": "câu hỏi tiếng Nhật",
@@ -114,7 +114,7 @@ Gen {N} bài JLPT {LEVEL} đoạn văn ngắn.
 
 Tuân thủ tất cả quy tắc trong SKILL.md. Đặc biệt:
 - Target Range: {LO}–{HI} chars
-- Topic đa dạng: ≥ {min(N, 3)} topics khác nhau
+- Topic đa dạng: ≥ {min(N, 3)} topics khác nhau (tag tiếng Anh từ topic.json)
 - question_label đa dạng: ≥ {min(N, 3)} labels khác nhau
 - Annotation bằng TIẾNG VIỆT (không Anh)
 - Đáp án KHÔNG có số thứ tự
