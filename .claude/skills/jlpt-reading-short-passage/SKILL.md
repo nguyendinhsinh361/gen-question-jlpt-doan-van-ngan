@@ -122,6 +122,14 @@ After generating, always verify with `count_body_chars()`. Nếu dưới Target 
 
 Furigana (`<ruby>/<rt>`) is **only** added for words/kanji that **exceed** the passage's target JLPT level. Words at or below the target level are written without furigana.
 
+> **🚨 BẮT BUỘC: `<ruby>` PHẢI LUÔN CÓ `<rt>` BÊN TRONG**
+>
+> ✅ ĐÚNG: `<ruby>禁止令<rt>きんしれい</rt></ruby>`
+> ❌ SAI:  `<ruby>禁止令</ruby>` (thiếu `<rt>` → furigana không hiển thị)
+>
+> Mỗi khi viết `<ruby>`, BẮT BUỘC phải có `<rt>reading</rt>` ngay bên trong.
+> **Không bao giờ** viết `<ruby>` mà không có `<rt>`.**
+
 **Key principle**: A well-written passage should contain very few above-level words. Most vocabulary should be within the target level. If you find yourself adding many furigana, rewrite using simpler vocabulary instead.
 
 ### Compound Word Rule — Cấm dạng "Ab"
@@ -608,6 +616,7 @@ Chạy checklist sau mỗi batch:
 - [ ] Không bài nào dưới Hard Reject threshold
 - [ ] Từ vựng/ngữ pháp đúng level (50%+ target level)
 - [ ] Furigana chỉ cho từ vượt level, không dạng "Ab"
+- [ ] **Mọi `<ruby>` đều có `<rt>` bên trong** (không có `<ruby>X</ruby>` thiếu `<rt>`)
 - [ ] Ruby tags count ≤ expected (N5: 2, N4: 4, N3: 6, N2: 4, N1: 2)
 - [ ] Mỗi bài có đúng 1 câu hỏi (`question_2` → `question_5` empty)
 - [ ] `question_label_1` phù hợp với intent câu hỏi

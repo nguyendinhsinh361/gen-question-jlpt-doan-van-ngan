@@ -207,6 +207,14 @@ def classify_char_count(level: str | None, chars: int) -> str:
     return "OK"
 
 
+RUBY_WITHOUT_RT = re.compile(r"<ruby>(?:(?!<rt>).)*?</ruby>", re.DOTALL)
+
+
+def check_ruby_rt(html: str) -> list[str]:
+    """Find <ruby>...</ruby> tags that are missing <rt>. Returns list of broken snippets."""
+    return RUBY_WITHOUT_RT.findall(html)
+
+
 def validate_file(html_path: str) -> dict:
     with open(html_path, "r", encoding="utf-8") as f:
         html = f.read()
@@ -214,6 +222,7 @@ def validate_file(html_path: str) -> dict:
     chars = count_body_chars(html)
     status = classify_char_count(level, chars)
     target = TARGET_RANGE.get(level) if level else None
+    broken_ruby = check_ruby_rt(html)
     return {
         "file": html_path,
         "name": name,
@@ -221,6 +230,7 @@ def validate_file(html_path: str) -> dict:
         "chars": chars,
         "target": target,
         "status": status,
+        "broken_ruby": broken_ruby,
     }
 
 
@@ -336,6 +346,10 @@ def cmd_count(files: list[str]) -> int:
             marker = "  ❓ UNKNOWN LEVEL"
         tgt = f"target {info['target'][0]}-{info['target'][1]}" if info["target"] else ""
         print(f"  {info['name']}: {info['chars']} chars [{info['level']}] {tgt}{marker}")
+        if info["broken_ruby"]:
+            for br in info["broken_ruby"]:
+                print(f"    🚫 BROKEN RUBY (thiếu <rt>): {br}")
+            any_hard_reject = True
     return 1 if any_hard_reject else 0
 
 
@@ -345,10 +359,14 @@ def cmd_validate(files: list[str]) -> int:
     fails = 0
     for f in files:
         info = validate_file(f)
-        ok = info["status"] == "OK"
-        badge = "✅" if ok else ("🚫" if info["status"] == "HARD_REJECT" else "⚠️ ")
+        ruby_ok = len(info["broken_ruby"]) == 0
+        ok = info["status"] == "OK" and ruby_ok
+        badge = "✅" if ok else ("🚫" if info["status"] == "HARD_REJECT" or not ruby_ok else "⚠️ ")
         tgt = f"target {info['target'][0]}-{info['target'][1]}" if info["target"] else "target ?"
         print(f"  {badge} {info['name']}: {info['chars']} chars [{info['level']}] {tgt} — {info['status']}")
+        if info["broken_ruby"]:
+            for br in info["broken_ruby"]:
+                print(f"       🚫 BROKEN RUBY (thiếu <rt>): {br}")
         if not ok:
             fails += 1
     print(f"\n{len(files) - fails}/{len(files)} files OK.")
@@ -396,6 +414,14 @@ def cmd_single_full(args) -> None:
         sys.exit(1)
     if status == "UNDER_TARGET":
         print(f"⚠️  {row['_id']}: {chars} chars — dưới Target Range {TARGET_RANGE[level]}. Cân nhắc bổ sung.")
+    # Check ruby/rt
+    with open(args.file, "r", encoding="utf-8") as fh:
+        broken = check_ruby_rt(fh.read())
+    if broken:
+        for br in broken:
+            print(f"🚫 {row['_id']}: BROKEN RUBY (thiếu <rt>): {br}")
+        print("    → Sửa HTML thêm <rt> rồi chạy lại. Không commit CSV.")
+        sys.exit(1)
 
     rows = load_csv(args.csv)
     rows = upsert_row(rows, row)
