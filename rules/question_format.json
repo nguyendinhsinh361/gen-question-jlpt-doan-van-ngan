@@ -1,0 +1,212 @@
+[
+  {
+    "level": "N1",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đoạn văn ngắn",
+    "format_en": "Test understanding of contents by reading text of approximately 200 characters, such as descriptions and directions for various topics including everyday life and work",
+    "format_vi": "Kiểm tra khả năng hiểu nội dung thông qua việc đọc các đoạn văn khoảng 200 ký tự, chẳng hạn như các mô tả và hướng dẫn về nhiều chủ đề khác nhau bao gồm đời sống hàng ngày và công việc.",
+    "question_parent": 4,
+    "question_child": 1
+  },
+  {
+    "level": "N1",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đoạn văn vừa",
+    "format_en": "Test understanding of causal relations or reasons by reading text of approximately 500 characters, such as reviews, commentary and essays",
+    "format_vi": "Kiểm tra khả năng hiểu các mối quan hệ nhân quả hoặc lý do bằng cách đọc các đoạn văn khoảng 500 ký tự, chẳng hạn như các bài đánh giá, bình luận và tiểu luận.",
+    "question_parent": 4,
+    "question_child": 2
+  },
+  {
+    "level": "N1",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đoạn văn dài",
+    "format_en": "Test understanding of outline or author’s ideas by reading text of approximately 1,000 characters, such as commentary, essays and novel",
+    "format_vi": "Kiểm tra khả năng hiểu đại ý hoặc tư tưởng của tác giả bằng cách đọc các đoạn văn khoảng 1.000 ký tự, chẳng hạn như các bài bình luận, tiểu luận và tiểu thuyết.",
+    "question_parent": 1,
+    "question_child": 3
+  },
+  {
+    "level": "N1",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đọc hiểu tổng hợp",
+    "format_en": "Test understanding through comparison and integration by reading multiple texts (approximately 600 characters in total)",
+    "format_vi": "Kiểm tra khả năng hiểu thông qua việc so sánh và tổng hợp bằng cách đọc nhiều văn bản khác nhau (tổng cộng khoảng 600 ký tự).",
+    "question_parent": 1,
+    "question_child": 2
+  },
+  {
+    "level": "N1",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đọc hiểu chủ đề",
+    "format_en": "Test understanding of overall intended points and ideas by reading abstract and logical text of approximately 1,000 characters, such as editorials and reviews",
+    "format_vi": "Kiểm tra khả năng hiểu các luận điểm và ý tưởng chính tổng quát bằng cách đọc các văn bản trừu tượng và logic khoảng 1.000 ký tự, chẳng hạn như các bài xã luận và phê bình.",
+    "question_parent": 1,
+    "question_child": 3
+  },
+  {
+    "level": "N1",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "tìm thông tin",
+    "format_en": "Test ability to retrieve necessary information from such materials as advertisements, brochures, magazines and business documents (approximately 700 characters)",
+    "format_vi": "Kiểm tra khả năng tìm kiếm thông tin cần thiết từ các tài liệu như quảng cáo, tờ rơi, tạp chí và tài liệu kinh doanh (khoảng 700 ký tự).",
+    "question_parent": 1,
+    "question_child": 2
+  },
+  {
+    "level": "N2",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đoạn văn ngắn",
+    "format_en": "Test understanding of content by reading text of approximately 200 characters, such as descriptions and directions regarding various topics including everyday life and work",
+    "format_vi": "Kiểm tra khả năng hiểu nội dung bằng cách đọc văn bản khoảng 200 ký tự, chẳng hạn như các mô tả và hướng dẫn về các chủ đề đa dạng bao gồm đời sống và công việc.",
+    "question_parent": 5,
+    "question_child": 1
+  },
+  {
+    "level": "N2",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đoạn văn vừa",
+    "format_en": "Test understanding of causal relations, reasons, outline or author’s ideas by reading text of approximately 500 characters, such as relatively easy reviews, commentary and essays",
+    "format_vi": "Kiểm tra khả năng hiểu quan hệ nhân quả, lý do, đại ý hoặc tư tưởng của tác giả bằng cách đọc các văn bản khoảng 500 ký tự, chẳng hạn như các bài đánh giá, bình luận và tiểu luận tương đối dễ.",
+    "question_parent": 4,
+    "question_child": 2
+  },
+  {
+    "level": "N2",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đọc hiểu tổng hợp",
+    "format_en": "Test understanding through comparison and integration by reading relatively easy multiple texts (approximately 600 characters in total)",
+    "format_vi": "Kiểm tra khả năng hiểu thông qua việc so sánh và tổng hợp bằng cách đọc nhiều văn bản tương đối dễ (tổng cộng khoảng 600 ký tự).",
+    "question_parent": 1,
+    "question_child": 2
+  },
+  {
+    "level": "N2",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đọc hiểu chủ đề",
+    "format_en": "Test ability to grasp overall intended points and ideas by reading text of approximately 900 characters, such as reviews with relatively clear logical development",
+    "format_vi": "Kiểm tra khả năng nắm bắt các luận điểm và ý tưởng chính tổng quát bằng cách đọc các văn bản khoảng 900 ký tự, chẳng hạn như các bài đánh giá có sự triển khai logic tương đối rõ ràng.",
+    "question_parent": 1,
+    "question_child": 3
+  },
+  {
+    "level": "N2",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "tìm thông tin",
+    "format_en": "Test ability to retrieve necessary information from such materials as advertisements, brochures, magazines and business documents (approximately 700 characters)",
+    "format_vi": "Kiểm tra khả năng tìm kiếm thông tin cần thiết từ các tài liệu như quảng cáo, tờ rơi, tạp chí và tài liệu kinh doanh (khoảng 700 ký tự).",
+    "question_parent": 1,
+    "question_child": 2
+  },
+  {
+    "level": "N3",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đoạn văn ngắn",
+    "format_en": "Test understanding of content by reading original text of approximately 150- 200 characters, such as descriptions and directions regarding various topics including everyday life and work",
+    "format_vi": "Kiểm tra khả năng hiểu nội dung bằng cách đọc các văn bản gốc khoảng 150-200 ký tự, chẳng hạn như các mô tả và hướng dẫn về các chủ đề khác nhau bao gồm đời sống và công việc.",
+    "question_parent": 4,
+    "question_child": 1
+  },
+  {
+    "level": "N3",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đoạn văn vừa",
+    "format_en": "Test understanding of key words and causal relations by reading text of approximately 350 characters, such as original commentary and essays",
+    "format_vi": "Kiểm tra khả năng hiểu các từ khóa và quan hệ nhân quả bằng cách đọc văn bản khoảng 350 ký tự, chẳng hạn như các bài bình luận và tiểu luận gốc.",
+    "question_parent": 2,
+    "question_child": 3
+  },
+  {
+    "level": "N3",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đoạn văn dài",
+    "format_en": "Test understanding of summary, logical development by reading text of approximately 550 characters, such as commentary, essays and letters",
+    "format_vi": "Kiểm tra khả năng hiểu tóm tắt, triển khai logic bằng cách đọc văn bản khoảng 550 ký tự, chẳng hạn như các bài bình luận, tiểu luận và thư từ.",
+    "question_parent": 1,
+    "question_child": 4
+  },
+  {
+    "level": "N3",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "tìm thông tin",
+    "format_en": "Test ability to retrieve necessary information from original materials such as advertisements and brochures (approximately 600 characters)",
+    "format_vi": "Kiểm tra khả năng tìm kiếm thông tin cần thiết từ các tài liệu gốc như quảng cáo và tờ rơi (khoảng 600 ký tự).",
+    "question_parent": 1,
+    "question_child": 2
+  },
+  {
+    "level": "N4",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đoạn văn ngắn",
+    "format_en": "Test understanding of contents by reading easy original text of approximately 100-200 characters regarding topics and situations involving study, everyday life and work",
+    "format_vi": "Kiểm tra khả năng hiểu nội dung bằng cách đọc các văn bản gốc đơn giản khoảng 100-200 ký tự về các chủ đề và tình huống liên quan đến học tập, đời sống và công việc.",
+    "question_parent": 3,
+    "question_child": 1
+  },
+  {
+    "level": "N4",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đoạn văn vừa",
+    "format_en": "Test understanding of contents by reading easy original text of approximately 450 characters regarding topics and situations in everyday life",
+    "format_vi": "Kiểm tra khả năng hiểu nội dung bằng cách đọc các văn bản gốc đơn giản khoảng 450 ký tự về các chủ đề và tình huống trong đời sống hàng ngày.",
+    "question_parent": 1,
+    "question_child": 3
+  },
+  {
+    "level": "N4",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "tìm thông tin",
+    "format_en": "Test ability to retrieve necessary information from original materials such as notices (approximately 400 characters)",
+    "format_vi": "Kiểm tra khả năng tìm kiếm thông tin cần thiết từ các tài liệu gốc như thông báo (khoảng 400 ký tự).",
+    "question_parent": 1,
+    "question_child": 2
+  },
+  {
+    "level": "N5",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đoạn văn ngắn",
+    "format_en": "Test understanding of contents by reading easy original text of approximately 80 characters regarding topics and situations involving study, everyday life and work",
+    "format_vi": "Kiểm tra khả năng hiểu nội dung bằng cách đọc các văn bản gốc đơn giản khoảng 80 ký tự về các chủ đề và tình huống liên quan đến học tập, đời sống và công việc.",
+    "question_parent": 2,
+    "question_child": 1
+  },
+  {
+    "level": "N5",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "đoạn văn vừa",
+    "format_en": "Test understanding of contents by reading easy original text of approximately 250 characters regarding topics and situations in everyday life",
+    "format_vi": "Kiểm tra khả năng hiểu nội dung bằng cách đọc các văn bản gốc đơn giản khoảng 250 ký tự về các chủ đề và tình huống trong đời sống hàng ngày.",
+    "question_parent": 1,
+    "question_child": 2
+  },
+  {
+    "level": "N5",
+    "count": 2,
+    "important": "Các câu gen ra không được trùng nhau",
+    "kind": "tìm thông tin",
+    "format_en": "Test ability to retrieve necessary information from original materials such as notices (approximately 250 characters)",
+    "format_vi": "Kiểm tra khả năng tìm kiếm thông tin cần thiết từ các tài liệu gốc như thông báo (khoảng 250 ký tự).",
+    "question_parent": 1,
+    "question_child": 1
+  }
+]

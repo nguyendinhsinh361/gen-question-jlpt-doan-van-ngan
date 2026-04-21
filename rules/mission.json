@@ -1,0 +1,56 @@
+[
+  {
+    "mission": "Gắn nhãn cho chủ đề từ vựng, ví dụ như: kinh tế, văn hóa, y học - sức khỏe, trường học, nghiên cứu, xã hội, công nghệ, hội thoại hàng ngày, nhật ký, thư từ, ... AI có thể để xuất chia nhỏ hơn nếu hợp lý.",
+    "label": "question_fill_in_the_blank",
+    "description": "Nhãn này dùng cho các câu hỏi yêu cầu người học điền từ, cụm từ hoặc câu vào vị trí trống trong văn bản, giúp kiểm tra khả năng hiểu và sử dụng ngữ pháp, từ vựng trong ngữ cảnh cụ thể.",
+    "note": ""
+  },
+  {
+    "mission": "Gắn nhãn cho chủ đề từ vựng, ví dụ như: kinh tế, văn hóa, y học - sức khỏe, trường học, nghiên cứu, xã hội, công nghệ, hội thoại hàng ngày, nhật ký, thư từ, ... AI có thể để xuất chia nhỏ hơn nếu hợp lý.",
+    "label": "question_meaning_interpretation",
+    "description": "Nhãn này dùng để chỉ những câu hỏi yêu cầu bạn hiểu và giải thích nghĩa của một câu trong văn bản, đặc biệt là khi có nhiều cách giải thích khác nhau.",
+    "note": ""
+  },
+  {
+    "mission": "Gắn nhãn cho chủ đề từ vựng, ví dụ như: kinh tế, văn hóa, y học - sức khỏe, trường học, nghiên cứu, xã hội, công nghệ, hội thoại hàng ngày, nhật ký, thư từ, ... AI có thể để xuất chia nhỏ hơn nếu hợp lý.",
+    "label": "question_reference",
+    "description": "Câu hỏi về đại từ chỉ định. Câu hỏi này yêu cầu bạn xác định nghĩa của các đại từ chỉ định được sử dụng trong văn bản. Bạn cần phải hiểu rõ đại từ chỉ định đang ám chỉ điều gì trong văn bản. Các đại từ chỉ định như là \"それ\", \"これ\", \"その\", \"この\"...",
+    "note": ""
+  },
+  {
+    "mission": "Gắn nhãn cho chủ đề từ vựng, ví dụ như: kinh tế, văn hóa, y học - sức khỏe, trường học, nghiên cứu, xã hội, công nghệ, hội thoại hàng ngày, nhật ký, thư từ, ... AI có thể để xuất chia nhỏ hơn nếu hợp lý.",
+    "label": "question_reason_explanation",
+    "description": "Câu hỏi về lý do. Câu hỏi này yêu cầu bạn tìm ra lý do hoặc nguyên nhân dẫn đến một kết luận trong văn bản. Bạn cần xác định lý do được đưa ra trong bài viết. Thường xuất hiện các keyword như どうして, なぜ",
+    "note": ""
+  },
+  {
+    "mission": "Gắn nhãn cho chủ đề từ vựng, ví dụ như: kinh tế, văn hóa, y học - sức khỏe, trường học, nghiên cứu, xã hội, công nghệ, hội thoại hàng ngày, nhật ký, thư từ, ... AI có thể để xuất chia nhỏ hơn nếu hợp lý.",
+    "label": "question_content_match",
+    "description": "Câu hỏi về sự phù hợp của nội dung. Đây là câu hỏi yêu cầu bạn lựa chọn câu trả lời phù hợp nhất với nội dung trong văn bản. Câu trả lời sẽ có thể là một sự thay thế hoặc diễn đạt lại của thông tin trong văn bản. Thường xuất hiện các keyword như 最も合っているもの, 合っているもの",
+    "note": ""
+  },
+  {
+    "mission": "Gắn nhãn cho chủ đề từ vựng, ví dụ như: kinh tế, văn hóa, y học - sức khỏe, trường học, nghiên cứu, xã hội, công nghệ, hội thoại hàng ngày, nhật ký, thư từ, ... AI có thể để xuất chia nhỏ hơn nếu hợp lý.",
+    "label": "question_content_mismatch",
+    "description": "Câu hỏi mà yêu cầu bạn chọn lựa chọn không phù hợp với nội dung trong văn bản, tức là một lựa chọn sai hoặc không tương thích với thông tin đã cho.",
+    "note": ""
+  },
+  {
+    "mission": "Gắn nhãn cho chủ đề từ vựng, ví dụ như: kinh tế, văn hóa, y học - sức khỏe, trường học, nghiên cứu, xã hội, công nghệ, hội thoại hàng ngày, nhật ký, thư từ, ... AI có thể để xuất chia nhỏ hơn nếu hợp lý.",
+    "label": "question_author_opinion",
+    "description": "Câu hỏi này yêu cầu bạn nhận diện và hiểu quan điểm của tác giả thông qua việc tìm ra các từ khóa hoặc diễn đạt thay thế trong bài viết. Thường xuất hiện keyword như 筆者の考え, 筆者...について...思って",
+    "note": ""
+  },
+  {
+    "mission": "Gắn nhãn cho chủ đề từ vựng, ví dụ như: kinh tế, văn hóa, y học - sức khỏe, trường học, nghiên cứu, xã hội, công nghệ, hội thoại hàng ngày, nhật ký, thư từ, ... AI có thể để xuất chia nhỏ hơn nếu hợp lý.",
+    "label": "question_information_search",
+    "description": "Câu hỏi về tìm kiếm thông tin. Câu hỏi này yêu cầu bạn tìm kiếm thông tin cụ thể trong văn bản, ví dụ như thông báo hoặc hướng dẫn. Bạn cần xác định thông tin cần tìm và đọc kỹ các chi tiết trong văn bản.",
+    "note": "tìm thông tin"
+  },
+  {
+    "mission": "Gắn nhãn cho chủ đề từ vựng, ví dụ như: kinh tế, văn hóa, y học - sức khỏe, trường học, nghiên cứu, xã hội, công nghệ, hội thoại hàng ngày, nhật ký, thư từ, ... AI có thể để xuất chia nhỏ hơn nếu hợp lý.",
+    "label": "question_comprehensive_understanding",
+    "description": "Đây là loại câu hỏi yêu cầu bạn so sánh và tổng hợp các phần thông tin khác nhau trong văn bản để trả lời.",
+    "note": "đọc hiểu tổng hợp"
+  }
+]

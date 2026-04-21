@@ -1,0 +1,2368 @@
+[
+  {
+    "id": 11716,
+    "general_text_read": "<p><span>あなたは、「買いたい」と思ったら、すぐそれを買ってしまいますか。買い物をするときには、まず、</span><ruby><span>本当</span><rt>ほんとう</rt></ruby><span>にそれに使うかどうか考えましょう。とくに「安いから」と思って買ってしまうと、うちに同じなものがあったり、使わないものだったりすることがあります。また、うちに</span><ruby><span>置</span><rt>お</rt></ruby><span>く</span><ruby><span>場所</span><rt>ばしょ</rt></ruby><span>があるかどうかも大切です。よく考えて買わないと、使わないで</span><ruby><span>捨</span><rt>す</rt></ruby><span>ててしまうことになります。</span></p>",
+    "content": [
+      {
+        "question": "どんな買い方がよくないと言っていますか。",
+        "answers": [
+          "洋服の値段が安くなっているときに、その服を着る予定があるかどうか考えて買てれう",
+          "テレビを買うときに、同じものを安く売っている店をさがして買う。",
+          "トマトが１個必要なときに、10個買うと安くなるものを選んで買う。",
+          "安い本棚を見つけたときに、部屋に入る大きさかどうかよく調べてから買う。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 182,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 11717,
+    "general_text_read": "<p><ruby>最近<rt>さいきん</rt></ruby><span>、</span><ruby><span>動物園</span><rt>どうぶつえん</rt></ruby><span>では、お</span><ruby><span>客</span><rt>きゃく</rt></ruby><span>さんに動物が動いているところを見せるために、新しい見せ方が考えられています。たとえば、</span>A<ruby><span>動物園</span><rt>どうぶつえん</rt></ruby><span>では、動物たちは</span><ruby><span>自由</span><rt>じゆう</rt></ruby><span>に</span><ruby><span>泳</span><rt>およ</rt></ruby><span>いだり、動いたり、</span><ruby><span>飛</span><rt>と</rt></ruby><span>んだりできるようになっていて、わたしたちはそれを近くで見ることができます。また、昼は</span><ruby><span>寝</span><rt>ね</rt></ruby><span>て、夜起きて動く動物を見せるために、特別な日を</span><ruby><span>決</span><rt>き</rt></ruby><span>めて、夜にお</span><ruby><span>客</span><rt>きゃく</rt></ruby><span>さんが入れるようにした</span><ruby><span>動物園</span><rt>どうぶつえん</rt></ruby><span>もあります。<span>このように</span></span><span><ruby><span>動物園</span><rt>どうぶつえん</rt></ruby><span>はいろいろ</span><ruby><span>変</span><rt>か</rt></ruby><span>わってきています</span><span>。</span></span></p>",
+    "content": [
+      {
+        "question": "<p><u>このように<ruby>動物園<rt>どうぶつえん</rt></ruby>はいろいろ<ruby>変<rt>か</rt></ruby>わってきている</u>のはなぜですか。</p>",
+        "answers": [
+          "動物園に、いつでも入ることができるようになったから。",
+          "動物たちが、動物園に来た人を近くで見ることに慣れたから。",
+          "動物たちが、自由に泳いだり動いたりしたがったから。",
+          "動物園で働き人たちが、動いている動物を見せたいと考えようになったから。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 239,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 11718,
+    "general_text_read": "<p><span>日本で売られている</span><ruby><span>黄色</span><rt>きいろ</rt></ruby><span>いバナナはだいたい外国から来ています。バナナは</span><ruby><span>緑色</span><rt>みどりいろ</rt></ruby><span>のときに木から</span><ruby><span>取</span><rt>と</rt></ruby><span>られて、日本に運ばれているのです。</span><ruby><span>緑</span><rt>みどり</rt></ruby><span>のバナナはそのままでは食べられませんが、店に</span><ruby><span>並</span><rt>なら</rt></ruby><span>ぶときにはちょうど</span><ruby><span>黄色</span><rt>きいろ</rt></ruby><span>くなっています。店から買ってきて</span><ruby><span>置</span><rt>お</rt></ruby><span>いておく、</span><ruby><span>黄色</span><rt>きいろ</rt></ruby><span>いバナナに小さい黒い</span><ruby><span>点</span><rt>てん</rt></ruby><span>がたくさんできます。そのときには、もっと</span><ruby><span>甘</span><rt>あま</rt></ruby><span>く、おいしくなっています。</span><ruby><span>冷蔵庫</span><rt>れいぞうこ</rt></ruby><span>に入れておくと、黒くなりますが、</span><ruby><span>甘</span><rt>あま</rt></ruby><span>さは増えません。</span></p>",
+    "content": [
+      {
+        "question": "バナナはどのように食べたらおいしいと言っていますか",
+        "answers": [
+          "店から買ってきて、すぐ、黄色いときに食べる。",
+          "冷蔵庫に入れて、黒くなったら食べる。",
+          "木からとって、すぐ、新しいときに食べる。",
+          "黒い点が出てから食べる。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 225,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 11719,
+    "general_text_read": "<p><span>フォンさんの机の上に、メモが</span><ruby><span>置</span><rt>お</rt></ruby><span>いてありました。</span></p><table><tbody><tr><td><p><span>フォンさん</span></p><p>A<span>社の</span><ruby><span>上田</span><rt>うえだ</rt></ruby><span>さんから電話がありました。</span></p><p><span>今日午後</span>2<span>時にうかがうはずだったが、電車が止まって間に</span><ruby><span>合</span><rt>あ</rt></ruby><span>いそうにない。</span></p><p><span>いつ電車が動くかわからないので、何時に着けるかわからない。</span></p><p><span>ご</span><ruby><span>都合</span><rt>つごう</rt></ruby><span>をうかがいたいので、また電話する。</span></p><p><span>とのことでした。</span></p><p><span>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　山川</span></p></td></tr></tbody></table>",
+    "content": [
+      {
+        "question": "フォンさんはどうしたらいいですか。",
+        "answers": [
+          "山川さんにすぐ電話する。",
+          "上田さんからの電話を持つ。",
+          "上田さんにメールで返事を書く。",
+          "電車はいつ動くか調べて、山川さんに教えます。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 175,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 11722,
+    "general_text_read": "<table><tbody><tr><td><ruby><span>最近</span><rt>さいきん</rt></ruby><span>、ベトナムにはいろいろなスーパーやコンビニができました。</span><ruby><span>例</span><rt>たと</rt></ruby><span>えば、「</span>CIRCLE K<span>」や　「</span>FAMILY MART<span>」などの</span><ruby><span>外国</span><rt>がいこく</rt></ruby><span>のコンビニ、「</span>VINMART<span>」などのベトナムのスーパーです。</span><ruby><span>昔</span><rt>むかし</rt></ruby><span>は、　</span><ruby><span>市場</span><rt>いちば</rt></ruby><span>だけありましたが、</span><ruby><span>今</span><rt>いま</rt></ruby><span>はスーパーとコンビニの</span><ruby><span>方</span><rt>ほう</rt></ruby><span>が</span><ruby><span>人気</span><rt>にんき</rt></ruby><span>です。</span><ruby><span>商品</span><rt>しょうひん</rt></ruby><span>は、</span><ruby><span>安心</span><rt>あんしん</rt></ruby><span>できるし、</span><ruby><span>値段</span><rt>ねだん</rt></ruby><span>がちゃんと</span><ruby><span>決</span><rt>き</rt></ruby><span>まっているし。しかし、</span><ruby><span>市場</span><rt>いちば</rt></ruby><span>より</span><ruby><span>高</span><rt>たか</rt></ruby><span>いですから、</span><ruby><span>少</span><rt>すこ</rt></ruby><span>し</span><ruby><span>安</span><rt>やす</rt></ruby><span>ければいいです。</span></td></tr></tbody></table>",
+    "content": [
+      {
+        "question": "<p>どうして今、スーパーとコンビニの<ruby>方<rt>ほう</rt></ruby>が<ruby>人気<rt>にんき</rt></ruby>ですか。</p>",
+        "answers": [
+          "いろいろあるから。",
+          "市場がきじゃないから",
+          "心配しなくていいから。",
+          "安いから。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 199,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 11723,
+    "general_text_read": "<table><tbody><tr><td><p><span>この５</span><ruby><span>年</span><rt>ねん</rt></ruby><span>、ホーチミンやハノイなどベトナムの大きい</span><ruby><span>都市</span><rt>とし</rt></ruby><span>に、バイクと</span><ruby><span>車</span><rt>くるま</rt></ruby><span>がすごく</span><ruby><span>増</span><rt>ふ</rt></ruby><span>えた。</span></p><p><span>ベトナム人の</span><ruby><span>若者</span><rt>わかもの</rt></ruby><span>がこれから</span><ruby><span>大</span><rt>おお</rt></ruby><span>きい</span><ruby><span>都市</span><rt>とし</rt></ruby><span>に</span><ruby><span>住</span><rt>す</rt></ruby><span>むでしょう。</span><ruby><span>便利</span><rt>べんり</rt></ruby><span>だし、いろいろな</span><ruby><span>仕事</span><rt>しごと</rt></ruby><span>のチャンスがたくさんあるから。しかし、</span><ruby><span>大</span><rt>おお</rt></ruby><span>きい</span><ruby><span>都市</span><rt>とし</rt></ruby><span>は、</span><ruby><span>人口</span><rt>じんこう</rt></ruby><span>が</span><ruby><span>多</span><rt>おお</rt></ruby><span>くて、どこでもいつも</span><ruby><span>混</span><rt>こ</rt></ruby><span>んでいる。</span><ruby><span>特</span><rt>とく</rt></ruby><span>に、</span><ruby><span>道</span><rt>みち</rt></ruby><span>はせまくて、バイクと</span><span><ruby><span>車</span><rt>くるま</rt></ruby><span></span>が</span><ruby><span>一緒</span><rt>いっしょ</rt></ruby><span>に</span><ruby><span>走</span><rt>はし</rt></ruby><span>っているので、じゅうたいがすごい。バスは</span><ruby><span>不便</span><rt>ふべん</rt></ruby><span>だし、</span><ruby><span>電車</span><rt>でんしゃ</rt></ruby><span>はまだないから、</span><ruby><span>皆</span><rt>みんな</rt></ruby><span>は</span><ruby><span>自分</span><rt>じぶん</rt></ruby><span>のバイクや</span><ruby><span>車</span><rt>くるま</rt></ruby><span>に</span><ruby><span>乗</span><rt>の</rt></ruby><span>っているので、すごく</span><ruby><span>大変</span><rt>たいへん</rt></ruby><span>だ。</span></p></td></tr></tbody></table>",
+    "content": [
+      {
+        "question": "<p>どうして<ruby>大<rt>おお</rt></ruby>きい<ruby>都市<rt>とし</rt></ruby>の<ruby>人口<rt>じんこう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えたか?</p>",
+        "answers": [
+          "バイクと車が多いから。",
+          "広いから。",
+          "バスと電車が便利だから。",
+          "いい仕事があるから。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 274,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 11724,
+    "general_text_read": "<table><tbody><tr><td><p><ruby><span>最近</span><rt>さいきん</rt></ruby><span>、スマホ（スマートフォン）が</span><ruby><span>人気</span><rt>にんき</rt></ruby><span>になっている。とても</span><ruby><span>便利</span><rt>べんり</rt></ruby><span>で</span><ruby><span>役</span><rt>やく</rt></ruby><span>に</span><ruby><span>立</span><rt>た</rt></ruby><span>つからだ。</span></p><p><ruby><span>仕事</span><rt>しごと</rt></ruby><span>が</span><ruby><span>忙</span><rt>いそが</rt></ruby><span>しい</span><ruby><span>人</span><rt>ひと</rt></ruby><span>は、</span><ruby><span>会社</span><rt>かいしゃ</rt></ruby><span>にいなくても、メールで</span><ruby><span>仕事</span><rt>しごと</rt></ruby><span>ができる。</span><ruby><span>学生</span><rt>がくせい</rt></ruby><span>たちは、スマホで</span><ruby><span>勉強</span><rt>べんきょう</rt></ruby><span>することができる。</span><ruby><span>暇</span><rt>ひま</rt></ruby><span>な</span><ruby><span>時</span><rt>とき</rt></ruby><span>スマホで</span><ruby><span>映画</span><rt>えいが</rt></ruby><span>を</span><ruby><span>見</span><rt>み</rt></ruby><span>たり、</span><ruby><span>音楽</span><rt>おんがく</rt></ruby><span>を</span><ruby><span>聞</span><rt>き</rt></ruby><span>いたりすることができる。スマホの</span><ruby><span>種類</span><rt>しゅるい</rt></ruby><span>はいろいろあるし、</span><ruby><span>値段</span><rt>ねだん</rt></ruby><span>も</span><ruby><span>安</span><rt>やす</rt></ruby><span>くなったし、</span><ruby><span>多</span><rt>おお</rt></ruby><span>くの</span><ruby><span>人</span><rt>ひと</rt></ruby><span>が</span><ruby><span>買</span><rt>か</rt></ruby><span>えるようになった。しかし、</span><ruby><span>長</span><rt>なが</rt></ruby><span>い</span><ruby><span>時間</span><rt>じかん</rt></ruby><span>スマホを</span><ruby><span>使</span><rt>つか</rt></ruby><span>うのは</span><ruby><span>良</span><rt>よ</rt></ruby><span>くない。ときどき</span><ruby><span>本</span><rt>ほん</rt></ruby><span>を</span><ruby><span>読</span><rt>よ</rt></ruby><span>んだり、</span><ruby><span>外</span><rt>そと</rt></ruby><span>へ</span><ruby><span>友達</span><rt>ともだち</rt></ruby><span>と</span><ruby><span>遊</span><rt>あそ</rt></ruby><span>びに</span><ruby><span>行</span><rt>い</rt></ruby><span>ったりした</span><ruby><span>方</span><rt>ほう</rt></ruby><span>がいいでしょう。</span></p></td></tr></tbody></table>",
+    "content": [
+      {
+        "question": "<p>どうしてスマホが<ruby>人気<rt>にんき</rt></ruby>ですか?</p>",
+        "answers": [
+          "種類がいろいろあるから。",
+          "安やすいから。",
+          "役に立たつから。",
+          "仕事しごとができるから。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 300,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 11725,
+    "general_text_read": "<table><tbody><tr><td><span>ミラーさんは　アメリカじんで、今</span><ruby><span>日本</span><rt>にほん</rt></ruby><span>に</span><ruby><span>住</span><rt>す</rt></ruby><span>んでいます。</span><ruby><span>大学</span><rt>だいがく</rt></ruby><span>で</span><ruby><span>英語</span><rt>えいご</rt></ruby><span>を</span><ruby><span>教</span><rt>おし</rt></ruby><span>えています。</span><ruby><span>大学</span><rt>だいがく</rt></ruby><span>は、</span><ruby><span>毎年</span><rt>まいとし</rt></ruby><span>　</span><ruby>10<rt>１０</rt></ruby><ruby><span>月</span><rt>がつ</rt></ruby><span>に、サッカー</span><ruby><span>試合</span><rt>じあい</rt></ruby><span>を</span><ruby><span>行</span><rt>おこな</rt></ruby><span>っています。</span><ruby><span>先生</span><rt>せんせい</rt></ruby><span>のチームと</span><ruby><span>学生</span><rt>がくせい</rt></ruby><span>のチームで、</span><ruby><span>試合</span><rt>しあい</rt></ruby><span>をします。ミラーさんはサッカーが</span><ruby><span>好</span><rt>す</rt></ruby><span>きですから、</span><ruby><span>毎年</span><rt>まいとし</rt></ruby><ruby><span>参加</span><rt>さんか</rt></ruby><span>しています。</span><ruby><span>今年</span><rt>ことし</rt></ruby><span>も、</span><ruby><span>参加</span><rt>さんか</rt></ruby><span>するつもりでした。</span><ruby><span>試合</span><rt>しあい</rt></ruby><span>の</span><ruby><span>日</span><rt>ひ</rt></ruby><span>に、ミラーさんの</span><ruby><span>学生</span><rt>がくせい</rt></ruby><span>が</span><ruby><span>急</span><rt>きゅう</rt></ruby><span>に</span><ruby><span>病気</span><rt>びょうき</rt></ruby><span>になりました。ミラーさんはその</span><ruby><span>学生</span><rt>がくせい</rt></ruby><span>の</span><ruby><span>心配</span><rt>しんぱい</rt></ruby><span>をしましたから、</span><ruby><span>病院</span><rt>びょういん</rt></ruby><span>まで　</span><ruby><span>連</span><rt>つ</rt></ruby><span>れて</span><ruby><span>行</span><rt>い</rt></ruby><span>ってあげました。</span><ruby><span>病院</span><rt>びょういん</rt></ruby><span>から</span><ruby><span>帰</span><rt>かえ</rt></ruby><span>った</span><ruby><span>時</span><rt>とき</rt></ruby><span>、</span><ruby><span>試合</span><rt>しあい</rt></ruby><span>はもう</span><ruby><span>終</span><rt>お</rt></ruby><span>わりました。</span><ruby><span>先生</span><rt>せんせい</rt></ruby><span>のチームが</span><ruby><span>負</span><rt>ま</rt></ruby><span>けてしまいました。</span><ruby><span>病気</span><rt>びょうき</rt></ruby><span>の</span><ruby><span>学生</span><rt>がくせい</rt></ruby><span>がミラーさんに</span><ruby><span>電話</span><rt>でんわ</rt></ruby><span>して、「</span><ruby><span>先生</span><rt>せんせい</rt></ruby><span>、すみません。」と</span><ruby><span>言</span><rt>い</rt></ruby><span>いましたが、ミラーさんは「</span><ruby><span>大丈夫</span><rt>だいじょうぶ</rt></ruby><span>。</span><ruby><span>来年</span><rt>らいねん</rt></ruby><span>きっと</span><ruby><span>参加</span><rt>さんか</rt></ruby><span>して、</span><ruby><span>勝</span><rt>か</rt></ruby><span>ちます。」と</span><ruby><span>返事</span><rt>へんじ</rt></ruby><span>しました。</span></td></tr></tbody></table><p><ruby> </ruby></p>",
+    "content": [
+      {
+        "question": "どうしてミラーさんは試合に参加しませんでしたか",
+        "answers": [
+          "病気になりましたから。",
+          "好きじゃありませんから。",
+          "学生を病院に連れて行きましたから。",
+          "忘れましたから。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 438,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 11729,
+    "general_text_read": "<p><span>＜</span>TF <span>野球チームのみなさんへ＞</span></p><p><span><ruby>次<rt>つぎ</rt></ruby>の<ruby>練習<rt>れんしゅう</rt></ruby>は<ruby>南運動場<rt>みなみうんどうじょう</rt></ruby>で<ruby>行<rt>おこな</rt></ruby>います。<ruby>南運動場<rt>みなみうんどうじょう</rt></ruby>は<ruby>野田市<rt>のだし</rt></ruby>の<ruby>運動場<rt>うんどうじょう</rt></ruby>です。<ruby>規則<rt>きそく</rt></ruby>がある</span>ので、<ruby>注意<rt>ちゅうい</rt></ruby>してください</p><p><span>その日、<ruby>運動場入<rt>　うんどうじょう</rt></ruby>り口の<ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>は<ruby>使<rt>つか</rt></ruby>えません。もし車で来るときは、<ruby>近<rt>ちか</rt></ruby>くコインパーキング（１時間200円の<ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>）を<ruby>使<rt>つか</rt></ruby>ってください、<ruby>近<rt>ちか</rt></ruby>くの<ruby>道<rt>みち</rt></ruby>には<ruby>止<rt>と</rt></ruby>めないこと。<ruby>近所<rt>きんじょ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>困<rt>こま</rt></ruby>ります</span></p>",
+    "content": [
+      {
+        "question": "車でれんしゅうに行く人はどうしたらいいですか",
+        "answers": [
+          "近所の人におねがいして、近くの道に車をとめる",
+          "近くのコインパーキングに車をとめる",
+          "南運動場の使っていないところに車をとめる",
+          "お金をはらって、運動場入り口の駐車場に車をとめる"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 231,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 11730,
+    "general_text_read": "仕事のやり方はみんな違います。会社にはバリバリ型とコツコツ型のどちらのタイプの人が必要なのでしょうか。いつもわらって、いっしょうけんめい バリバリがんばる人がいると、会社が明るくなるから、バリバリ型の人はとても 大切です。でも、会社は面白いところで、同じタイプの人だけが 集まっても、いい会社できません。だから、何も言わないで一人で静かにコツコツ仕事をする人も大切にしなければなりません。",
+    "content": [
+      {
+        "question": "いい会社に作るには、どのような人が必要ですか",
+        "answers": [
+          "バリバリ型の人とコツコツ型の人",
+          "面白いタイプの人",
+          "バリバリ型の人だけ",
+          "同じタイプの人だけ"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 191,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 11731,
+    "general_text_read": "<p><span>日曜日はお菓子工場を見学します。９時１０分に </span><span><ruby><span>桜川駅西口</span><rt>さくらがわえきにしぐち</rt></ruby></span><span>に集まってください。遅れ</span><span>ないように来てください。見学の時は、写真をとってもかまいませんが、カメラを忘れたり</span><span>なくしたりする人が多いので、注意してください。質問をしたりメモをとったりしてもかま</span><span>いませんが、説明を聞くときは静かに聞きましょう。また、見学の後、お菓子を食べさせて</span><span>もらえますが、のこったお菓子やごみは、かならず持って帰るようにしてください</span></p>",
+    "content": [
+      {
+        "question": "工場見学で、してはいけないことは何ですか。",
+        "answers": [
+          "写真ととる",
+          "質問をする",
+          "大きな声で話す",
+          "お菓子を食べる"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 210,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 11732,
+    "general_text_read": "<p><span>山本さんへ</span></p><p><span>先週のお花見では大変ありがとうございました。初めては日本の桜を見ましたが、</span><span><ruby><span>上野公園</span><rt>うえのこうえん</rt></ruby></span><span>の桜は とてもきれいで、忘れることができません。写真もたくさんとったので、できたら</span><span>お送りします。また、山本さんが作ってくれたお弁当もとてもおいしかったです。特に卵焼</span><span>きがおいしかったので、今度、作り方を教えてくださいませんか。来月の山登りも楽しみで</span><span>すね。あした、図書館で山のガイドブックを借りるつもりです。おすすめの本があったら教</span><span>えてくださいね。</span></p><p><span><ruby>王<rt>おう</rt></ruby><ruby>レイ<rt></rt></ruby></span></p>",
+    "content": [
+      {
+        "question": "<p>王さんは明日、何をしますか</p>",
+        "answers": [
+          "山本さんに卵焼きの作り方を教える",
+          "山登りのガイドブックを借りる",
+          "上野公園で桜を見る",
+          "山登りに行く"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 229,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 11735,
+    "general_text_read": "<ruby><span>富士山</span><rt>ふじさん</rt></ruby><span>の</span><ruby><span>一番上</span><rt>いちばんうえ</rt></ruby><span>まで</span><ruby><span>登</span><rt>のぼ</rt></ruby><span>ったことがありますか。富士山は</span>3776<span>メートルですが、そこには</span><ruby><span>神社</span><rt>じんじゃ</rt></ruby><span>があります。</span><ruby><span>富士山</span><rt>　ふじさん</rt></ruby><span>に</span><ruby><span>登</span><rt>のぼ</rt></ruby><span>った人はまず</span><ruby><span>神社</span><rt>　じんじゃ</rt></ruby><span>へ行って、</span><ruby><span>神様</span><rt>かみさま</rt></ruby><span>にあいさつをします。</span><ruby><span>神社</span><rt>じんじゃ</rt></ruby><span>の</span><ruby><span>隣</span><rt>となり</rt></ruby><span>には</span><ruby><span>小</span><rt>ちい</rt></ruby><span>さな</span><ruby><span>建物</span><rt>たてもの</rt></ruby><span>があって、</span><ruby><span>富士山</span><rt>ふじさん</rt></ruby><span>に</span><ruby><span>登</span><rt>のぼ</rt></ruby><span>った人はそこに</span><ruby><span>泊</span><rt>と</rt></ruby><span>まることができます。お</span><ruby><span>風呂</span><rt>ふろ</rt></ruby><span>はありません。また</span><ruby><span>食堂</span><rt>しょくどう</rt></ruby><span>ではカレーやそばを食べることができます。小さな店もあって、お</span><ruby><span>土産</span><rt>みやげ</rt></ruby><span>を買うことができます。それから、</span><ruby><span>郵便局</span><rt>ゆうびんきょく</rt></ruby><span>もあって、</span><ruby><span>手紙</span><rt>てがみ</rt></ruby><span>を出すことができます</span>",
+    "content": [
+      {
+        "question": "<p><ruby>富士山<rt>ふじさん</rt></ruby>の一<ruby>番<rt>いちばん</rt></ruby>上で、できないことは何ですか</p>",
+        "answers": [
+          "買い物をすること",
+          "はがきを送ること",
+          "食事をすること",
+          "体を洗うこと"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 268,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 11736,
+    "general_text_read": "<span>パンダは</span><ruby><span>中国</span><rt>ちゅうごく</rt></ruby><span>の</span><ruby><span>高</span><rt>たか</rt></ruby><span>い</span><ruby><span>山</span><rt>やま</rt></ruby><span>の</span><ruby><span>中</span><rt>なか</rt></ruby><span>にいて、</span><ruby><span>毛</span><rt>け</rt></ruby><span>の</span><ruby><span>色</span><rt>いろ</rt></ruby><span>が</span><ruby><span>白</span><rt>しろ</rt></ruby><span>と</span><ruby><span>黒</span><rt>くろ</rt></ruby><span>にはっきりとわかれているめずらしい</span><ruby><span>動物</span><rt>どうぶつ</rt></ruby><span>として知られている。そのパンダが</span>2<ruby><span>頭</span><rt>とう</rt></ruby><span>、</span><ruby><span>去年</span><rt>きょねん</rt></ruby><span>の</span>4<span>月、この</span><ruby><span>動物園</span><rt>どうぶつえん</rt></ruby><span>にやってきた。パンダは</span><ruby><span>竹</span><rt>たけ</rt></ruby><span>しか食べないと<span>言われている</span>が、ここでは何を食べているのだろう。この</span><ruby><span>動物園</span><rt>どうぶつえん</rt></ruby><span>では</span>1<span>日に</span>20kg<span>から</span>30kg<span>の</span><ruby><span>竹</span><rt>たけ</rt></ruby><span>を食べさせていて、そのほかにニンジンやリンゴなども</span>3<ruby><span>回</span><rt>かい</rt></ruby><span>から</span>4<ruby><span>回</span><rt>かい</rt></ruby><span>食べさせるそうだ。</span>",
+    "content": [
+      {
+        "question": "<p>この<ruby>動物園<rt>どうぶつえん</rt></ruby>ではパンダは何を食べていますか。</p>",
+        "answers": [
+          "竹も食べるが、ニンジンやリンゴなど食べている。",
+          "竹は食べないが、ニンジンやリンゴなどを食べている。",
+          "ニンジンやリンゴなどもあげているが、竹しか食べない。",
+          "ニンジンやリンゴは食べないが、竹は20kgから30kg食べている。"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 212,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 11737,
+    "general_text_read": "<p><span>日本では今「ニート」とよばれるわかい人がふえている。ニートは学校にも</span><ruby><span>仕事</span><rt>しごと</rt></ruby><span>にも行かないで</span><ruby><span>家</span><rt>いえ</rt></ruby><span>にいる人のことだ。</span>2003<span>年にくにがわかい人についてしらべたとき、フリーターというアルバイトだけをしている人が</span>217<ruby><span>万人</span><rt>まんにん</rt></ruby><span>、１５さいから３４さいのニートが</span>52<span>万人いたそうだ。今まではフリーターがふえていることが</span><ruby><span>問題</span><rt>もんだい</rt></ruby><span>だと</span><ruby><span>言</span><rt>い</rt></ruby><span>われていたがフリーターは</span><ruby><span>働</span><rt>はたら</rt></ruby><span>いているので。今はニートのほうが　</span><ruby><span>問題</span><rt>もんだい</rt></ruby><span>だと言われている。</span></p><p><span>ニートがふえると<ruby>仕事<rt>しごと</rt></ruby>もお金もないひとがふえているので、けっこんする人がすくなくなる。けっこんする人がすくなくなれば<ruby>子<rt>こ</rt></ruby>どももすくなくなる。そうすると、けいざいがどんどんわるくなっているそうだ。どうすればニートがすくなくなるのだろうか。<ruby>今日本<rt>いまにほん</rt></ruby>のけいざいはあまりよくないので、これからもっとニートがふえれば、とてもこまるだろう。日本にはもっと<span>この</span><ruby><span>問題</span><rt>もんだい</rt></ruby>についてかんがえるべきだと<ruby>思<rt>おも</rt></ruby>う。</span></p>",
+    "content": [
+      {
+        "question": "ニートはどんな人ですか。",
+        "answers": [
+          "仕事もアルバイトもしていないし、学校にも行っていない人",
+          "学校に行っていないが、アルバイトはしている人",
+          "アルバイトはしているが、家によくいる人",
+          "仕事をしないで、学校に行っている人"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "<p><u>この<ruby>問題<rt>もんだい</rt></ruby></u>とは何ですか</p>",
+        "answers": [
+          "どうして日本のけいざいが悪くなったのか",
+          "どうすれば日本のけいざいがよくなるのか",
+          "どうすればニートが少なくなるのか",
+          "どうしてニートがふえたのか"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 409,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 12742,
+    "general_text_read": "<p><span>ナムさんの机の上に、このメモと小説が置いてあります。</span></p><table><tbody><tr><td><p><span>ナムさん</span></p><p><span>　ナムさんから借りた小説を置いておきます。ありがとうございました。</span></p><p><span>　ナムさんが借りたいと言っていた小説も、一緒に置きます。重いので、今日は</span>3<span>冊しか持ってきませんでした。来週、ほかの</span>4<span>冊を持ってきます。</span></p><p><span>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</span>      <span>西村</span></p></td></tr></tbody></table>",
+    "content": [
+      {
+        "question": "<p><span style=\"font-size: 11.0pt; line-height: 115%; font-family: 'MS Mincho';\">西村さんは、来週、何をすると言っていますか。</span></p>",
+        "answers": [
+          "ナムさんに小説を3冊返します。",
+          "ナムさんに小説を4冊返します。",
+          "ナムさんに小説を3冊貸します。",
+          "ナムさんに小説を4冊貸します。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 162,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 12743,
+    "general_text_read": "<p><span>公園の入りロに、このお知らせがあります。</span></p><table><tbody><tr><td><p><span>　　　　　　　　<strong>公園で遊ぶときの注意</strong></span></p><p><span>◆　公園が開いている時間は、午前</span>5<span>時から午後</span>8<span>時です。</span></p><p><span>　　これ以外の時間は入れません。</span></p><p><span>◆　自転車やバイクは、公園の入りロにとめてください。</span></p><p><span>　　中に入れてはいけません。</span></p><p><span>◆　公園の中で、次のことをしてはいけません。</span></p><p><span>　　　・ボールを使って遊ぶこと</span></p><p><span>　　　・たばこを吸うこと</span></p></td></tr></tbody></table>",
+    "content": [
+      {
+        "question": "<p><span style=\"font-size: 11.0pt; line-height: 115%; font-family: 'MS Mincho';\">このお知らせから、公園についてわかることは何ですか。</span></p>",
+        "answers": [
+          "午後9時に公園に入ってもいいです。",
+          "入りロにバイクをとめてはいけません。",
+          "バレーボールの練習をしてはいけません。",
+          "たばこを吸ってもいいです。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 165,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 12751,
+    "general_text_read": "<p><span>日本のいえは、まどや入り口が大きくつくられていました。日本の夏はあついので、すずしく生活できる家が必要だったからです。まどや入り口が大きいと、夏は風がたくさん入ってすずしいですが、冬は寒いので、たいへんです。</span></p><p><span>　しかし、新しくたてられる家は、だいぶ変わりました。まどが大きくてたくさんある家は少なくなりました。冷暖房を使って、夏はすずしく、冬はあたたかく生活することができるようになりました。</span></p>",
+    "content": [
+      {
+        "question": "<p><span style=\"font-size: 11.0pt; line-height: 115%; font-family: 'MS Mincho';\">日本の家は、どうかわりましたか。</span></p>",
+        "answers": [
+          "まどが大きくなりました。",
+          "まどが少なくなりました。",
+          "入り口が大きくなりました。",
+          "入り口が多くなりました。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 195,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 12752,
+    "general_text_read": "<p><span>これはロンさんが日本語クラスの先生に出した絵はがきです。</span></p><table><tbody><tr><td><p><span>永友先生</span></p><p> </p><p><span>　お元気ですか。わたしは今、旅行しています。この町には、大学で日本のれきしを勉強している友だちが住んでいます。友だちは大阪よりこの町がすきです。古いものが大切にされているからだそうです。わたしは大阪のほうがすきです。新しくて、おもしろいものがたくさんあるからです。先生に小さいプレゼントを買いました。たのしみにしていてください。</span></p><p>2012<span>年</span>6<span>月</span>5<span>日</span></p><p><span>　　　　　　　　　　　　　　　ロン</span></p><p> </p></td></tr></tbody></table>",
+    "content": [
+      {
+        "question": "<p><span style=\"font-size: 11.0pt; line-height: 115%; font-family: 'MS Mincho';\">ロンさんの友だちは、なぜこの町がすきだといっていますか。</span></p>",
+        "answers": [
+          "日本のれきしを、勉強しているから。",
+          "新しくておもしろいものが、あるから。",
+          "古いものが、大切にされているから。",
+          "プレゼントを買うのが、たのしみだから。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 216,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 12758,
+    "general_text_read": "<p><strong><span>バレンタインデー</span></strong></p><table><tbody><tr><td><p><span>　</span>2<span>月</span>14<span>日は、ベトナムではバレンタインデーです。キリスト教の特別な日ですが、ベトナムでは、男の人が好きな人にチョコレートなどのプレゼントをする日になりました。世界にも同じような日があります。ブラジルでは、</span>6<span>月</span>12<span>日が「恋人の日」と呼ばれる日です。その日は、男の人も女の人もプレゼントを用意して、恋人におくります。</span></p><p><span>　ブラジルでは、ベトナムのようにチョコレートではなく、写真立てに写真を入れて、プレゼントするそうです。</span></p><p> </p></td></tr></tbody></table>",
+    "content": [
+      {
+        "question": "<p><span style=\"font-size: 11.0pt; line-height: 115%; font-family: 'MS Mincho';\">ブラジルでは、だれがだれに何をおくりますか。</span></p>",
+        "answers": [
+          "女の人が好きな男の人にチョコレートをおくります。",
+          "男の人が好きな女の人にチョコレートをおくります。",
+          "恋人が恋人に写真立てをおくります。",
+          "恋人がみんなに写真立てをおくります。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 210,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 12759,
+    "general_text_read": "<p><strong><span>オーストラリアのお正月</span></strong></p><table><tbody><tr><td><p><span>　オーストラリアのお正月はとてもにぎやかです。</span>12<span>月</span>31<span>日は、家族みんなが集まって、</span>12<span>時になるのを待ちます。</span>12<span>時になったら、いろいろなどころで花火をします。たくさんの人が、大声で歌います。太鼓など楽器をならして、さわぐ人もいます。</span></p><p><span>　パーティーが大好きなオーストラリアの人たちは、</span>12<span>月のクリスマスから</span>1<span>月のお正月まで、毎日さわぎます。一年のはじめにパーティーをたくさんして、これから、一年がんばろうという気持ちになります。</span></p></td></tr></tbody></table>",
+    "content": [
+      {
+        "question": "<p><span style=\"font-size: 11.0pt; line-height: 115%; font-family: 'MS Mincho';\">オーストラリアでは</span><span style=\"font-size: 11.0pt; line-height: 115%; font-family: 'Calibri','sans-serif';\">12</span><span style=\"font-size: 11.0pt; line-height: 115%; font-family: 'MS Mincho';\">月</span><span style=\"font-size: 11.0pt; line-height: 115%; font-family: 'Calibri','sans-serif';\">31</span><span style=\"font-size: 11.0pt; line-height: 115%; font-family: 'MS Mincho';\">日の</span><span style=\"font-size: 11.0pt; line-height: 115%; font-family: 'Calibri','sans-serif';\">12</span><span style=\"font-size: 11.0pt; line-height: 115%; font-family: 'MS Mincho';\">時になったら、何をしますか。</span></p>",
+        "answers": [
+          "みんなが集まります。",
+          "太鼓の音を待ちます。",
+          "花火をしたり歌ったりします。",
+          "パーティーをします。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 213,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13351,
+    "general_text_read": "<p>みんなさんは、「買いたい」と思ったら、すぐそれを買ってしまいますか。買い物をするときには、まず、本当にそれを使うかどうか考えましょう。とくに 「安いから」と思って買ってしまうと、うちに同じようなものがあったり、使わないものだったりすることがあります。また、うちに置き場があるかどうか も大切です。よく考えて買わないと、使わないで捨ててしまうことになります。</p>",
+    "content": [
+      {
+        "question": "どんな買い方がよくないと言っていますか。",
+        "answers": [
+          "くつの値段が安くなっているときに、そのくつを履く予定があるかどうか考えて買う。",
+          "冷蔵庫を買うときに、同じものを安く売っている店をさがして買う。",
+          "ジャガイモが１個必要なときに、１０個買うと安くなるものを選んで買う。",
+          "安い本棚を見つけたときに、部屋に入る大きさかどうかよく調べてから買う。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 176,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13352,
+    "general_text_read": "<p>私は、ほとんど病院へ行ったことがありませんでした。けれども、入院した友だちが「１年前からずっとおなかが痛かったのに、病院に行かなかったのが悪かった。」と言っているのを聞いて、急に心配になりました。私もおなかが痛いときがあるからです。そして、毎日「私も同じ病院かもしれない。」と考えて いたら、またおなかが痛くなってきました。それで、きのう病院へ行ってみましたが、何も病気はないと言われました。</p>",
+    "content": [
+      {
+        "question": "この人について、正しいものはどれですか。",
+        "answers": [
+          "年前からおなかが痛くて、今は入院している。",
+          "今まで一回も病院へ行ったことがない。",
+          "病気を心配しすぎて、おなかが痛くなってしまった。",
+          "１年前からずっとおなかが痛かったが、病院へ行ったら病気が治った。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 195,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13353,
+    "general_text_read": "<p>これは、中田さんからのメールです。アンさんは金曜日の夕方はいつもひまです。また、魚は食べません。</p><p>アンさんへ</p><p>クラスの飲み会を来週の金曜日の夕方にやるつもりです。もし都合が悪かったら、私にメールで連絡してください。</p><p>それから、山川さんが食べ物を買っておいてくれるので、食べられないものがあったら教えてほしいそうです。よろしく。</p><p>中田</p>",
+    "content": [
+      {
+        "question": "アンさんはどうしたらいいですか。",
+        "answers": [
+          "中田さんにメールをして、飲み会に出席すると連絡する。",
+          "中田さんにメールをして、飲み会に行けないことを伝える。",
+          "パーティーのために、山川さんに食べ物を買っておいてあげる。",
+          "山川さんに、魚は食べられないことを伝える。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 162,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13354,
+    "general_text_read": "<p>紙に、市民センターの部屋を利用するときの注意が書かれています。</p><p>市民センターの部屋を利用される皆さんへ</p><p>●部屋の中で食べたり飲んだりしないでください。</p><p>●エアコンは、冷房は６月から９月、暖房は１１月から３月まで使うことができます。それ以外の月で使いたいときは、受付に言ってください。</p><p>●部屋のご利用が終わったら、いすや机を片づけてください。部屋を出るときには、ドアを開(あ)けておいてください。</p><p>●歌を歌ったり、ギターなどの楽器をひいたりする場合は、音楽室をご利用ください。</p>",
+    "content": [
+      {
+        "question": "この紙に書いてある注意からわかることは何ですか。",
+        "answers": [
+          "この部屋では１０月にエアコンをけっして使ってはいけない。",
+          "帰るときに、ドアを閉めなければならない。",
+          "この部屋では歌を歌うことはできない。",
+          "エアコンを使いたいときは、受付に言わなければならない。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 226,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13358,
+    "general_text_read": "<p>公園の入り口に、このお知らせがあります。</p><p>公園で遊ぶときの注意</p><p> ＊公園が開いている時間は、午前５時から午後９時です。これ以外の時間は入れません。</p><p>＊自転車やオートバイは、公園の入り口にとめてください。中に入れてはいけません。</p><p>＊公園の中で、次のことをしてはいけません。</p><p>・ボールを使って遊ぶこと</p><p>・タバコを吸うこと</p>",
+    "content": [
+      {
+        "question": "このお知らせから、公園についてわかることは何ですか。",
+        "answers": [
+          "午後10時に公園に入ってもいいです。",
+          "入り口にオートバイをとめてはいけません。",
+          "サッカーの練習をしてはいけません。",
+          "タバコを吸ってもいいです。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 151,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13362,
+    "general_text_read": "<p>日本の家は、まどや入り口ちが大きくつくられていました。日本の夏はあついので、すずしく生活できる家が必要だったからです。まどや入り口ちが大きいと、夏は風がたくさん入ってすずしいですが、冬は寒いので、たいへんです。</p><p>しかし、新しくたてられる家は、だいぶ変わりました。まどが大きくてたくさんある家は少なくなりました。電気製品を使って、夏はすずしく、冬はあたたかく生活することができるようになりました。</p>",
+    "content": [
+      {
+        "question": "日本の家は、どうかわりましたか。",
+        "answers": [
+          "まどが大きくなりました。",
+          "まどが少なくなりました。",
+          "入り口ちが大きくなりました。",
+          "入り口ちが多くなりました。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 196,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13363,
+    "general_text_read": "<p>これは　リンさんが　日本語クラスの　先生に　出した絵はがきです。</p><p>田中先生</p><p>お元気ですか。わたしは今、旅行して います。この町には、 大学で日本のれきしを勉強している友が住んでいます。友は東京よりこの町がすきです。古いものが大切にされているからだそうです。わたしは東京のほうがすきです。 新しくて、おもしろいものがたくさんあるからです。先生に小おみやげを買いました。たのしみにしていてください。</p><p>2011年5月4日</p><p>リン</p>",
+    "content": [
+      {
+        "question": "リンさんの友は、なぜこの町がすきだといっていますか。",
+        "answers": [
+          "日本のれきしを勉強しているから。",
+          "新しくておもしろいものがあるから。",
+          "古いものが大切にされているから。",
+          "おみやげを買かうのが、たのしみだから。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 197,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13368,
+    "general_text_read": "<p>日本人はお風呂が大好きで、毎日お湯に入る習慣を持っている人も多いようです。そこで問題になるのが、かぜをひいたときに、お風呂に入るのかどうかということです。もちろん高い熱があるときには体が弱くなっているので、お風呂はやめたほうがいいですが、熱がだいぶ下がったときはどうしたらいいでしょうか。昔は、少しでも熱があったら、入らないほうがよいという人が多かったようですが、私は、お風呂に入ったほうが気分もよくなってよいと考えています。</p>",
+    "content": [
+      {
+        "question": "かぜをひいているときにお風呂に入ることについて、この人は何と言っていますか。",
+        "answers": [
+          "昔から言われているように、かぜをひいたら、お風呂には入らないほうがいい。",
+          "高い熱があってもお風呂に入りたかったら、入ったほうがよい。",
+          "高い熱でなければ、少し熱があっても、お風呂に入ったほうがいい。",
+          "熱が少しあったら、熱が下がるまでお風呂に入らないほうがいい。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 213,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13369,
+    "general_text_read": "<p>私は小学校に入ったとき、教室でしずかに先生の話をきくことができませんでした。友だちのほとんどは、小学校に入る前に幼稚園にかよって、しずかに話を聞くことに慣れていました。しかし、私はちがいました。４歳のとき、幼稚園へ一回行ってみたら、みんなが同じ歌を歌ったり、同じ音楽を聞いておどったりしていました。私はみんなで同じことをするのに興味がなかったので、幼稚園には行かないと自分で決めたのです。</p>",
+    "content": [
+      {
+        "question": "この人は、どうして幼稚園に行かなかったのですか。",
+        "answers": [
+          "しずかに話を聞くことができなかったから",
+          "友だちが幼稚園に行かなかったから",
+          "音楽やダンスがきらいだったから",
+          "みんなで同じことをするのに興味がなかったから"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 194,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13370,
+    "general_text_read": "<p>〈さくらガーデンに住むみなさんへ〉</p><p>電気の安全チェックのご連絡</p><p>明日、電気の安全チェックをします。朝１０時半から１２時まで、電気の止まる場所があります。エレベーターは動きません。マンションの１階入口のドアにも電気が来ませんから、開けたり閉めたりできません。チェックのあいだ、ドアは開けておきます。</p><p>部屋の電気は止まりませんから、テレビやパソコンは使うことができます。部屋の電気は、別の日にチェックする予定です。</p>",
+    "content": [
+      {
+        "question": "さくらガーデンでは、明日の朝１０時半から１２時まで何ができませんか。",
+        "answers": [
+          "エレベーターに乗ること",
+          "テレビやパソコンを使うこと",
+          "マンションに出たり入ったりすること",
+          "部屋のドアを開けた閉めたりすること"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 202,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13372,
+    "general_text_read": "<p>「S市美術館の紹介」</p><p>S市美術館は大きいです。部屋がたくさんあって、子どもからおじいさん、おばあさんまで、いろいろな人のかいた絵をかざった部屋もあります。絵をかいたのはS市に住んでいる人で、たくさんの中から選ばれた、いい絵ばかりです。この部屋にはいすもあって、ゆっくり見ることができます。1階の広いところでは、ときどきコンサートも行われます。この美術館でお金が必要なのは、有名な絵のある部屋に入るときだけです。</p>",
+    "content": [
+      {
+        "question": "S市美術館の説明で、正しいものはどれですか。",
+        "answers": [
+          "お金をはらわなくても、いろいろ楽しむことができる。",
+          "S市の景色をかいた絵がかざられている部屋があって、有名だ。",
+          "どの部屋に行ってもいすがあるので、ゆっくり楽しめる。",
+          "ときどきコンサートがあるが、それを聞くにはおかねがかかる。"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 200,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13373,
+    "general_text_read": "<p>兄はよく「こんな田舎は、おもしろくない。」と言っていますが、私は、むかしからの友だちがたくさんいるこの町に、ずっと住みつづけたいです。駅や病院まではちょっと遠いですが、車があれば問題ありませんし、しずかなところを歩くのは気持ちがよくて、体にもいいです。車で行けるスーパーもあります。電車に2時間乗れば、デパートや映画館やコンサートホールなどに行けます。私にはとても住みやすい町です。</p>",
+    "content": [
+      {
+        "question": "この人は、どうしてこの町に住みつづけたいと思っているのですか。",
+        "answers": [
+          "田舎は空気がきれいで、体にいいから",
+          "友だちがおおぜいいいるし、生活で不便なこともないから",
+          "スーパーやデパートまで歩いて行けて、便利だから",
+          "交通が便利で、映画やコンサートに行きやすいから"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 190,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13378,
+    "general_text_read": "<p>さいきん「シェアハウス」が人気だ。「シェアハウス」というのは何人もの人がいっしょに生活する家だ。人があまり少ない家よリ多いほうが人気がある。自分の部屋に入ってしまえば好きなことができるし、だれかと話したいときは食堂やいまに行けばいい。人と人のかん けいがうすくもなくこくもなくちょうどいいようだ。いつもだれかがいるからさびしくないし安全だ。めったに会わないような人とも知り合いになれる。これも人気のりゆうだ。</p>",
+    "content": [
+      {
+        "question": "シェアハウスの人気のりゆうでないのはどれですか。",
+        "answers": [
+          "おおぜいの人と友だちになれるので楽しい。",
+          "人と話したくないときは自分の部屋にいればいい。",
+          "さびしいときは人のいるところに行けばいい。",
+          "人がいるから安全だ。"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 203,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13379,
+    "general_text_read": "<p>さいきんのわかい女の人はふつうのふくのままジョギングしているのかと思われるようなふくそうで走っている。しかし着ているのはまちがいなく運動用のふくなのだ。見た目がかわいらしいそれらのふくは運動するときにじゃまになるのではないかと思えるほどかざりがついていたりする。わかい女の人は運動するときもどう見られるかが気になるらしい。マラソン大会などで着ているふくで多くの人の目を集めている人もいるそうだ。</p>",
+    "content": [
+      {
+        "question": "どんなふくが人の注目を集めているのですか。",
+        "answers": [
+          "かわいらしいふつうのふく。",
+          "運動しにくいふく。",
+          "運動用のかわいらしいふく。",
+          "町の中でみんなが着ているふく。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 197,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13381,
+    "general_text_read": "<p>ボブさんは旅館にとまってみたいです。花旅館のふろとトイレがついている部屋は5000円てす。ふろがない部屋は1000円安く、トイレもないとさらに500円安くなります。 １人でとまると部屋代は10%多くはらわなければなりません。でも友だちのしょうかいなのではらわなくてもいいと言われました。 食事は朝は1000円、夜は3500円です。 部屋は一ばん安いのがいいです。 でも、夕食は日本料理を旅館で食べたいです。</p>",
+    "content": [
+      {
+        "question": "ぜんぶでいくらはらいますか。",
+        "answers": [
+          "7000円",
+          "7350円",
+          "7500円",
+          "7700円"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 177,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13382,
+    "general_text_read": "<p>メイさんの会社の年休は１年目は7日間もらえます。年休というのは休んでもきゅうりょうがへらない休みのことです。2年目から1日ずつふえていきますが、年休は20日以上にはなりません。毎年3 月31日までに使わなかった年休はつぎの年に使うことがてきます。メイさんは去年年休をぜんぶ使ってしまいました。今年12日もらいましたが、7日使いました。</p>",
+    "content": [
+      {
+        "question": "メイさんの来年の年休は何日ですか。",
+        "answers": [
+          "12日",
+          "13日",
+          "17日",
+          "18日"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 155,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13383,
+    "general_text_read": "<p>おじいさんのたんじょう日になべ料理や手まきずしなどを作りました。なべ料理は魚や肉ややさいを切ってなべに入れてにながら食べます。手まきずしはごはんと好きな＊さしみやたまごをのりでつつんで食べます。どちらもとてもおいしいし、じぶんの好きな物だけ食べることがてきます。それに準備に時間がかかりません。買ってきた料理はこまかく切ったりもう一どやわらかくにたりして出しました。</p><p>※さしみ 　生で食べるためにうすく切った魚</p>",
+    "content": [
+      {
+        "question": "なべ料理や手まきずしを作ったりゆうではないのはどれですか。",
+        "answers": [
+          "とてもおいしいから。",
+          "好きなものだけ食べられるから。",
+          "おじいさんが好きだから。",
+          "短い時間で準備できるから。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 202,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13384,
+    "general_text_read": "<p>東京のちかてつ、東京メトロは乗りかえるときに注意しなければならない。駅の中で乗りかえる場合は問題がないが、一ど駅から外へ出てつぎに乗る電車の駅に入る場合はオレンジ色の「のりつぎ」 と書かれた出口を通らなければならない。ほかの出口を通るときっぷはとられてしまう。また30分以内に駅の中に入らなければそのきっぷは使えなくなってしまう。</p>",
+    "content": [
+      {
+        "question": "どうして乗りかえのときに注意しなければならないのですか。",
+        "answers": [
+          "出口がたくさんありすぎるから。",
+          "一ど駅の外に出なければならないから。",
+          "いろいろな出口がたくさんあるから。",
+          "特別な出口を使わなければならないことがあるから。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 162,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13386,
+    "general_text_read": "<p>最近、日本ではコンビニを利用する人がふえました。コンビニには、せっけんなど毎日の生活で使うもの、野菜や牛乳やすぐに食べられるものがおいてあるから、べんりです。日本には、年をとった人や一人で住んでいる人、おっともつまもはたらいている家族が多くなりました。その人たちが、とおくのスーパーで安いものをたくさん買うより、ひつようなものだけをかんたんに買える店へ行ったほうがいいと考えるようになったのです。</p>",
+    "content": [
+      {
+        "question": "どうしてコンビニを利用する人がふえましたか。",
+        "answers": [
+          "安いものしか買いたくない人が多いから",
+          "スーパーよりコンビニのほうが安いから",
+          "使うものだけ買いたい人がふえたから",
+          "コンビニには食べ物がおいてあるから"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 198,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13388,
+    "general_text_read": "<p>東山市は４月から公共タクシーのサービスを始めた。いくつかの地域で、高齢者や運転免許を持たない人が多くいるにもかかわらず、利用できるバスがなく、以前から移動の不便が問題になっていたからだ。買い物や病院の受診などに出かけるとき、受付センターに電話すると、タクシーが自宅まで迎えに来て、希望する場所まで送ってくれる。登録さえしておけば、同市内のどこでも利用でき、どれだけ乗っても1回３００円という便利さと安さが人気だ。今後は市のホームページからも予約できるようになり、さらに便利になる。</p>",
+    "content": [
+      {
+        "question": "<p>このタクシーを利用するのに<strong><u>関係のない</u></strong>ものはどれか。</p>",
+        "answers": [
+          "受付センターに電話をすること",
+          "インターネットで予約をすること",
+          "利用者登録をすること",
+          "タクシー会社に連絡すること"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 239,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 13389,
+    "general_text_read": "<p><strong>「まんが」</strong></p><p>日本 では子どものためのまんがから大人も楽しめるまんがまで、いろいろなまんがが売られています。絵がじょうずだということもあり ますが、話がおもしろいのです。「この後どうなるのだろう。」と思うと、とちゅうで止めることができなくなるほどです。</p><p>人気があるまんがから映画やテレビのばんぐみが生まれることもあります。今では「まんが」は「ＭＡＮＧＡ」となって世界中で日本のまんがが読まれています。</p>",
+    "content": [
+      {
+        "question": "まんがはどのくらいおもしろいですか。",
+        "answers": [
+          "世界中で読まれているほどおもしろいです。",
+          "とちゅうで止めることができないほどおもしろいです。",
+          "この後どうなるのだろうと思うほどおもしろいです。",
+          "子どもだけでなく大人も読むほどおもしろいです。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 195,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16477,
+    "general_text_read": "<p>このくすりはかぜのくすりです。食事してから、30分のうちにお飲みください。大人（15歳以上）は一日2回、一回は3じょうです。６歳から14歳までの子供は一日に2回、大人の三分の一のりょうをお飲みください。また、５歳以下の子供は飲ませないでください。なお、この薬を飲むと、ねむくなることがありませんので、くるまのうんてんしてもよいでしょう。</p>",
+    "content": [
+      {
+        "question": "正しいのはどれですか。",
+        "answers": [
+          "13歳の子供は一日2じょう飲みます。",
+          "12歳の子供は1回3じょう飲みます。",
+          "11歳の子供は一日6じょう飲みます。",
+          "10歳の子供はこの薬を飲みません。"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 159,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16479,
+    "general_text_read": "<p>『桜市びじゅつかんーぜひ行ってみてください。』 桜市美術館は大きくないですが、子どもからおじいさん、おばあさんまで、いろいろな人がかいた絵をかざっています。絵をかいたのは桜市に住んでいる人たちです。かざっている絵は桜市の毎日の生活をかいたたくさんの絵からえらばれ、いい絵ばかりです。ここでは、コンサートも行われます。このびじゅつかんでお金が必要なのはコンサートの時だけです。</p>",
+    "content": [
+      {
+        "question": "マイさんはびじゅつかんに行きたいですが、お金が必要なのはいつですか。",
+        "answers": [
+          "毎日お金が必要です",
+          "毎日お金をはらわなくてもいいです。",
+          "コンサートの時だけはお金が必要です。",
+          "コンサートの時だけはお金をはわなくてもいいです。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 186,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16480,
+    "general_text_read": "<p>小林さんの机の上に、メモが置いてありました。</p><p>『小林さん</p><p>みどり会社の山田から電話がありました。</p><p>今日午後3時にうかがうはずだったが、じゅうたいなので、30分ぐらいおくれそうです。</p><p>それで、 うちあわせの時間を変えたいといいました。</p><p>ご都合をうかがいたいので、また電話するとのことでした。</p><p>　　　　　　　　　　　　　　　　　　　　　　　　　　佐藤』 </p>",
+    "content": [
+      {
+        "question": "小林さんはどうしたらいいですか。",
+        "answers": [
+          "山田さんにすぐ電話する",
+          "山田さんの電話を待つ",
+          "山田さんにメールを書く",
+          "山田さんを30分待つ"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 164,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16481,
+    "general_text_read": "<p>わたしのふるさとはいなかにあります。ともだちはよく『こんなしずかなところはおもしろうくない』と言っていましたが、私は家族がいるこのいなかにずっと住みたいです。スーパーがとおいし、電車もありませんし、少し不便ですが、自転車で行く時、気持ちがよくて、体にいいです。バイクで一時間行けば映画館やデパートなどに行けます。私にとって住みやすいところです。</p>",
+    "content": [
+      {
+        "question": "この人はどうしてこの田舎に住みたいと思っていますか。",
+        "answers": [
+          "自転車で行けるので、体にいいから",
+          "不便なことがないから",
+          "映画館へ行きやすいから",
+          "住みやすいから"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 172,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16482,
+    "general_text_read": "<p>これは田中さんからのメールです。アンさんは何も食べられます。また、毎週の木曜にアルバイトをします。 </p><p>『アンさんへ 野球(やきゅう)クラブの飲み会は今週の木曜日の午後にやるつもりです。もし都合(つごう)が悪かったら、私にメールで連絡(れんらく)してください。 また、食べ物はおすし、おさしみなどの生物(なまもの)なので、食べられないものがあったら、教えてください。よろしく。</p><p>田中(たなか)』</p>",
+    "content": [
+      {
+        "question": "アンさんはどうしたらいいですか。",
+        "answers": [
+          "田中(たなか)さんにメールを送(おく)って、参加(さんか)すると連絡(れんらく)する。",
+          "田中(たなか)さんにメールを送(おく)って、いけないことを伝(つた)える。",
+          "田中(たなか)さんに電話(でんわ)して、参加しないと連絡する。",
+          "田中(たなか)さんに、食べられないものがあることを伝(つた)える。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 181,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16483,
+    "general_text_read": "<p>さくら教室(きょうしつ)を利用(りよう)する時の注意(ちゅうい)</p><ul>    <li>教室(きょうしつ)の中で食べないでください。</li>    <li>ごみは教室(きょうしつ)の外のごみ箱(ばこ)に出してください。</li>    <li>エアコンは5月から9月まで使うことができます。教室を利用(りよう)しないとき、エアコンを消(け)してください。</li>    <li>教室(きょうしつ)を使ってから、いすやつくえを片付(かたづ)けてください。教室を出るとき、ドアを開けておいてください。</li></ul>",
+    "content": [
+      {
+        "question": "この紙に書いた注意からわかることは何ですか。",
+        "answers": [
+          "この教室では10月にエアコンを使ってもいい。",
+          "7月にこの教室を利用しなくてもエアコンをつけます。",
+          "帰るとき、ドアをしめなければならない",
+          "ごみは教室の中に出さない"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 177,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16484,
+    "general_text_read": "<p>ナムさんの 生活 は、今名古屋(なごや)で働(はたら)いています。毎日、仕事が終(お)わったら、すぐ寮(りょう)へ 帰(かえ)って、シャワーを 浴(あ)び て、ご飯を 作って 食べます。その後、 音楽(おんがく)を 聞いたり、家族(かぞく)に電話(でんわ)したりして います。それから、寝ます。休みの 日は、 よく近くの 喫茶店(きっさてん) へ 行って、コーヒーを 飲(の)みながら、雑誌(ざっし)を 読(よ)みます。この店は 静(しず)かだし、それ に、 店の 人も 親切(しんせつ)ですから、ナムさんは  ここがとても 好きです。</p>",
+    "content": [
+      {
+        "question": "<p><u>ここ</u>はどこですか。</p>",
+        "answers": [
+          "会社",
+          "寮",
+          "名古屋",
+          "近くの喫茶店"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 213,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16485,
+    "general_text_read": "<p>お母さんへ</p><p>お元気？私は元気だ。日本に来てから、もうすぐ3か月だね。だんだん日本の生活 せいかつ に慣 な れてた。今、バイクに乗るのをやめて、よく歩くし、 朝も早く起きるようになった。一人で生活しているから、ちょっと寂 しだけど、国にいた時より、体に気をつけるようになったよ。心配 しんぱい しないでね。今7月なので、熱 あつ くなったから、お母さんも体に気をつけてね。</p><p>マイ</p>",
+    "content": [
+      {
+        "question": "マイさんの前の生活はどうですか。",
+        "answers": [
+          "はやく起きていました",
+          "あまり歩きませんでした",
+          "バイクに乗りませんでした",
+          "体に気をつけました"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 175,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16486,
+    "general_text_read": "<p>さいきんしごと が  いそが しくて、ぜんぜん うんどう をしていません。ですから 2ヶ月で  たいじゅう が4㎏も ふ えて、体 からだ の調子 ちょうし も悪 わる くなってきました。来月から、仕事をしながら、 けいり を勉強する予定ですが、時々頭 ときどきあたま が痛 いた くて、なにもできません。 しんぱい ですから、 びょういん へ行ってきました。いしゃ はよく うんどう したほうがいいと言いました。これから、けんこう に気をつけて、よくジョギングや たいそう をすると思います。</p>",
+    "content": [
+      {
+        "question": "この人はいちばん言いたいことはなんですか。",
+        "answers": [
+          "仕事がいそがしくて、たいじゅうがふえる",
+          "仕事をしながら、経理を勉強する",
+          "病院によく行ったほうがいい",
+          "運動がたいせつだ"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 211,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16487,
+    "general_text_read": "<p>お知らせ</p><p>さくら学校のみなさん</p><p>来週の日本文化教室 にほんぶんかきょうしつ は、日本の茶道 さどう を体験 たいけん することになりました。はじめての人も、飲んだことがある人も、ぜひどうぞ。友だちと一緒に 行ってもいいです。日本のおかしもありますよ。 みんなで楽しい時間をす ごしましょう。</p><p>場所 ばしょ ：さくら学校ー308 教室 きょうしつ </p><p>時 間 ： 午後３時～ </p><p>行きたい人は、7月7日 までにじむしょ にあるもうしこみの紙になまえ をか いてください。</p><p>＊お金がかかりません。</p>",
+    "content": [
+      {
+        "question": "正しくないのはどれですか。",
+        "answers": [
+          "日本のお茶を知らない人はいけない。",
+          "桜学校の学生ではなくてもいける。",
+          "お金をはらわなくてもいける。",
+          "いきたい人はじむしょに申し込み用紙になまえを書く。"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 211,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16488,
+    "general_text_read": "<p>ミンさんはリンさんと9時に会うやくそくをしていたが、朝ねぼうして1時間 お くれてしまった。きのう、ミンさんはおそくまでゲームをしていたからだ。リンさん はおこっていた。ミンさんはリンさんに『ごめんね』と言ってから、一緒においしいレストランに 行った。でも、お金をはらうとき、財布 さいふ  がない。急 いそ  いで来たので、家にさいふをわすれてしまったようだ。またリンさんをおこらせてしまった。</p>",
+    "content": [
+      {
+        "question": "どうしてリンさんはまた怒(おこ)りましたか。",
+        "answers": [
+          "ミンさんは寝坊(ねぼう)して、遅れてしまったから。",
+          "ミンさんはリンさんに謝(あやま)らないから。",
+          "ミンさんは家で財布(さいふ)を忘(わす)れてしまったんだから。",
+          "ミンさんはゲームをしていたから。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 186,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16491,
+    "general_text_read": "<p>プラスチックのごみの４４％は、ペットボトルや食べ物のトレーなどの入れ物です。プラスチックのごみを少なくするためには、ペットボトルなどを減らすことも必要です。このため、自分の水筒などを持っていくと、無料で水をもらうことができる店が少しずつ増えています。それらの店では、誰でも無料で水をもらうことができる機械を置きました。機械から出る水はフィルターを通していて、冷たい水もあります。</p>",
+    "content": [
+      {
+        "question": "その機械について正しいいのはどれですか。",
+        "answers": [
+          "お店で買い物をするお客さんだけは無料で水をもらえる。",
+          "冷たい水しかない。",
+          "自分のすいとうなどをもっていくと、だれでも無料で水をもらえる。",
+          "その機械を置く店が少なくなる。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 189,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16492,
+    "general_text_read": "<p>西から台風 (たいふう)がちかづいているために、福岡(ふくおか) 、広島 (ひろしま)は一日中雨がふるでしょう。大阪(おおさか)は台風(たいふう)のために、午前中はくもりですが、午後から雨がふってくるでしょう。名古屋(なごや)は、朝ははれ、午後から雨になるでしょう。東京(とうきょう)とにがたは一日中いい天気がつづいていくでしょう。北海道(ほっかいどう)はきのうと同じ、すずしいでしょう。</p>",
+    "content": [
+      {
+        "question": "きょうはどんな天気になると言っていますか。",
+        "answers": [
+          "台風のため、日本　ぜんぶの天気がよくない。",
+          "大阪は名古屋ほど雨がふらない。",
+          "午前中は全国でまだ雨がふらない。",
+          "時間がたつほど、天気が悪くなるところがふえる。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 175,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16493,
+    "general_text_read": "<p>いつでもどこでもおすしを食べられる！</p><p>『すもうすし』は来月からインターネットでおすしをかうこどができます。</p><p>おすしをおくるのは普通(ふつう)300円かかりますが、1万円以上注文するとむりょうになります。</p><p>そして、1万円以上買う時、30％割引券（30％やすくなる）のプレゼントをおくります。割引券(わりびきけん)は次回(じかい)に使えることになります。仕事が忙(いそがしい)時など、ぜひ利用(りよう)してみてください！</p>",
+    "content": [
+      {
+        "question": "アンさんは来月の13日にインターネットで12000円のおすしを買います。そして、一週間あと、またインターネットで15000円のおしをかいます。今回は、いくらはらいますか。",
+        "answers": [
+          "15000円",
+          "18000円",
+          "10500円",
+          "12600円"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 186,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16494,
+    "general_text_read": "<p>山川<rp>(</rp> </p><p>やまかわさん、お元気ですか。わたしはこの間、会社の近くにひっこしをしました。前はアパートから会社まで電車(でんしゃ)で2時間ぐらいかかりました。でも、今のアパートは会社まで自転車(じてんしゃ)で１０分ぐらいです。それで、ここにひっこすことにしました。あまりひろくないですが、きれいだし、ちかくにコンビニもあるし、生活(せいかつ)がとても便利(べんり)になりました。  それに、アパートでペットがかえます。だから、ひっこしをして本当によかったと思っています。この近くに行ったら、ぜひ通ってください。それでは、また。</p><p>たなか</p>",
+    "content": [
+      {
+        "question": "どうしてここにひっこしをしましたか。いちばんおおきいりゆうはなんですか。",
+        "answers": [
+          "会社からちかいですから。",
+          "へやがおおきくて、きれいですから。",
+          "アパートでペットがかえますから。",
+          "コンビニがありますから。"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 250,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16495,
+    "general_text_read": "<p>ミラーさん</p><p>来週の月曜日に一緒に飲みにいくとやくそく しましたが、きゅうにしゅっちょうに行かなければならなくなりました。それですみませんが、約束(やくそく)を変えられませんか。来週の木曜日に、しゅっちょうからかえりますから、そのあといつでもいいです。ミラーさんのご都合(つごう)がいい日をききたいです。それで、このメールを読んだら、へんじをください。</p><p>山田</p>",
+    "content": [
+      {
+        "question": "このメールの目的は何ですか。",
+        "answers": [
+          "約束にいかない。",
+          "約束の日をかえたい。",
+          "来週の木曜日に出張からかえることをつたえる。",
+          "『すみません』という。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 171,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16496,
+    "general_text_read": "<p>みどりとしょかんをつかうときのちゅうい</p><p>・としょかん が開あ いている時間は、午前8時から午後8時までです。これ以外いがい) の時間は入れません。</p><p>・グループのへやをつかいたいとき、うけつけでもうしこんでください。</p><p>・としょかん の中で、次のことをしてはいけません。</p><p>　　ーおおきいこえではなす。</p><p>　　ー食べたり、飲んだりする。（水いがい）</p>",
+    "content": [
+      {
+        "question": "正しくないのはどれですか。",
+        "answers": [
+          "としょかんの中で、おおきいこえではなさない。",
+          "グループのへやをつかいたいとき、うけつけにいく。",
+          "としょかんに午後8時からはいれない。",
+          "としょかんのなかでのんではいけない。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 158,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16497,
+    "general_text_read": "<p>今年ははじめて日本の正月に日本へ来ました。12月31日は朝10時にともだちの山川さんと一緒にスーパーへ行きました。スーパーに人がおおくて、たくさん買い物していることを見ました。正月に特別な料理を作るためだそうです。そして、1月1日には会社の人と神社へ出かけました。神社の前に人がたくさんいて、ずっとならんでいました。それはびっくりしました。１時間まってから、やっと神社に入れて『よいおとしになるように』とおいのりしました。</p>",
+    "content": [
+      {
+        "question": "その人は何におどろきましたか。",
+        "answers": [
+          "スーパーで人がおおくて、たくさん買い物した。",
+          "神社に人がたくさん来た",
+          "日本人は正月に特別な料理をつくる",
+          "日本人は1月1日に神社に行く"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 203,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16498,
+    "general_text_read": "<p>私は昔運動がすきじゃなかった。でも、日本に来てから、りょうは学校から近いですから、毎日あるいている。あるきながら、まわりのことをみて、いろいろなおもしろいことがみえた。たとえば、はるのさくらやあきのもみじなどでした。気持ちがよくなった。それに、けんこうにもいいですから、休みの日にこうえんをはしることにした。そして、来月マラソン大会に出る。</p>",
+    "content": [
+      {
+        "question": "この人についてただしいのはどれですか。",
+        "answers": [
+          "むかしから運動が好きだ。",
+          "マラソン大会ではしったことがある。",
+          "こうえんに行って、はしるようになった。",
+          "あるきながら、まわりのことがみえない。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 170,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16499,
+    "general_text_read": "<p>宇宙(うちゅう)のせいかつはどうですか。</p><p>宇宙(うちゅう)であるくことができない。そして、水は ボールになるから、おふろに入ることもできない。三日に一回 体をふきますが、においを全部とることができない。ですから、シャトルにのる前に、食べ物に気をつける。においがい食べ物は食べない。また、シャトルに特別なトイレがあるが使い方がむずか しい。宇宙(うちゅう)へ行くと、4.8 ~ 7.4センチ高くなる。でも、地球(ちきゅう)へ 帰ったら、前と同じになる。</p>",
+    "content": [
+      {
+        "question": "うちゅうでできることはどれですか。",
+        "answers": [
+          "あるく。",
+          "おふろに入る。",
+          "においが強い食べ物を食べる。",
+          "トイレにいく。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 203,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16500,
+    "general_text_read": "<p>日本のあきは9月から11月までです。てんきがすずしくて、はれている日がおおいです。そして、あきはもみじがゆうめいです。にほんのどこでももみじがみえます。また、あきにおいしい食べ物がたくさんあります。たとえば、さかなやくだものなどです。それに、あきには、いろいろなばしょでおもしろいイベントがあります。それで、あきは日本にりょこうにちょうどいいです。</p>",
+    "content": [
+      {
+        "question": "正しくないのはどれですか。",
+        "answers": [
+          "日本のあきは3か月間です。",
+          "もみじは日本でゆうめいです。",
+          "あきはさかなとくだものだけがおいしいです。",
+          "あきにおもしろいイベントがあります。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 171,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16501,
+    "general_text_read": "<p>日本の冬は12月から、つぎの年の2月までです。さむくて、雪がふります。でも、日本のどこでも、雪がふることじゃありません 。とうきょうやおおさか、ふくおかなどの大きい都市で、雪があまりふりません。ほっかいどうはいちばんさいしょに雪がふります。だいたい10月のおわりです。それから、日本の南まで雪がふります。雪が白くて、とてもきれいです。あまり雪がふらないところでも、山のちかくで、雪をみることができます。</p><p></p>",
+    "content": [
+      {
+        "question": "正しくないのはどれですか。",
+        "answers": [
+          "日本の冬は3か月間です。",
+          "日本のどこでも雪がふります。",
+          "いちばんさいしょに雪がふるのはほっかいどうです。",
+          "あまり雪がふらいないところで、雪のけしきをみることができます。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 195,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16502,
+    "general_text_read": "<p>わたしは日本のきせつの中で、春がいちばん好きです。春になると、さくらの花がありますから。<u>それ</u>をみると、うれしくなります。わたしのしゅみはきものをきて、さくらとしゃしんをとることです。そして、休みの日、花見をしながら、ともだちとはなすのはとてもたのしいです。また、春はあまり寒くないし、そしてあつくないですから、好きなふくがきられるし、出かけることにいいです。</p>",
+    "content": [
+      {
+        "question": "<p><u>それ</u>はなんですか。</p>",
+        "answers": [
+          "日本",
+          "春",
+          "さくら",
+          "きせつ"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 179,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16503,
+    "general_text_read": "<p>日本は7月から10月ぐらいにたいふうがおおいです。たいふうで悪いことがたくさんあります。</p><p>・でんしゃやひこうきがおくれたり、止まったりします。</p><p>・つなみがあったり、川の水が多くなったりします。</p><p>・でんんきがなくなります。</p><p>・かんばんがとんでいきます。</p><p>・がっこうやスーパーやデパートなどが早くしまります。</p><p>それで、たいふうができた時、よくちゅういしてください。</p>",
+    "content": [
+      {
+        "question": "このぶんしょうで、たいふうができた時、ないことはどれですか。",
+        "answers": [
+          "川の水がすくなくなる。",
+          "でんしゃがとまる。",
+          "つなみがある。",
+          "みせがはやくしまる。"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 171,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16504,
+    "general_text_read": "<p>日本人はよくでんしゃを使います。おとしよりや小さいこどもも毎日使います。ここでは、日本の電車の中に、注意しなければならないことについて紹介します。まず、にもつはいすにおきません。いすの上のたなにおきます。つぎ、タバコをすうことができません。そして、たべたりのんだりしません。また、ごみをでてることができません。いらないごみはうちにもってかえってすてます。さいご、けいたいでんわではなしないほうがいいです。</p>",
+    "content": [
+      {
+        "question": "日本人はでんしゃの中でよくしないことはなんですか。",
+        "answers": [
+          "にもつはいすの上のたなにおく。",
+          "でんわではなす。",
+          "タバコをすわない",
+          "ごみをすてない。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 202,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16505,
+    "general_text_read": "<p>東京から大阪まで、いろいろな行きかたがあります。しんかんせん、バス、ひこうき、でんしゃで行くことができます。しんかんせんで2時間30分かかります。きっぷのお金は15,000円ぐらいですが、ほかの行きかたよりじかんがみじかいです。そして、バスでいったら、８～9時間かかりますが、やすいです。また、でんしゃで行く時、ながいじかんがかかりますが、ゆっくり日本のけしきをみることができます。</p>",
+    "content": [
+      {
+        "question": "正しくないのはどれですか。",
+        "answers": [
+          "しんかんせんはバスよりおかねがたくさんかかります。",
+          "しんかんせんはいちばんはやいです。",
+          "バスはいちばんじかんがかかります。",
+          "でんしゃではゆっくりまわりのけしきをみることができます。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 181,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16506,
+    "general_text_read": "<p>日本には夜行バスがあります。夜行バスはよる、はしるバスです。とおくへいきます。だいたい、よるに行って、つぎのあさにつきます。夜行バスのいすはよこに４つならんでいますが、高いバスは３つだけで、ひろいです。いすでねることができます。そして、バスの中にトイレもあります。また、充電（じゅうでん）することもできます。じかんはしんかんせんよりかかりますが、やすいです。それに 、よるねているうちに、はしりますから、じかんを上手につかうことができます。</p>",
+    "content": [
+      {
+        "question": "夜行バスについてただしいのはどれですか。",
+        "answers": [
+          "いつもはしるバスです。",
+          "ちかいところへもいきます。",
+          "じかんがかかりますから、じかんを上手につかうことができます。",
+          "ねるうちにはしりますから、じかんを上手につかうことができます。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 219,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16508,
+    "general_text_read": "<p>ミンさん</p><p>今週の日曜日には、20歳になります。ちょうどさくらの季節（きせつ）ですから、大阪城（おおさかじょう）で花見を見ながら、たんじょうびパーティーをします。ミンもぜひいっしょに行ってくださいね。日曜日の9時に奈良駅（ならえき）でまちます。また、ミンはカメラがありますね。写真（しゃしん）をたくさんとりたいですから、カメラをかりてもいいですか。あさってまでにメールでへんじしてください。</p><p>山田</p>",
+    "content": [
+      {
+        "question": "ミンさんはこの後、なにをしますか。",
+        "answers": [
+          "大阪城へ行きます。",
+          "奈良駅で山田さんをまちます。",
+          "日曜日、カメラをもって行きます。",
+          "メールを送ります。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 192,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16509,
+    "general_text_read": "<p>日本のお父さん、お母さん</p><p>お元気ですか。ベトナムに帰ってもう１週間が　たちました。</p><p>２週間のホームステイは、とても楽しかったです。わたしはホームステイをするまで、日本りょうりを食べたことがありません。はじめて食べた日本りょうおりは、とてもおいしかったです。とくにお母さんがつくった「すきやき」のあじはわすれられません。</p><p>もし時間があったら、ぜひわたしの家にも来てくださいね。わたしの国のりょうりをつくってあげます。</p><p>それでは、また。お元気で。</p><p>アン</p>",
+    "content": [
+      {
+        "question": "ただしいのはどれですか。",
+        "answers": [
+          "アンさんは今日本にいます。",
+          "あの人は日本に来る前に、日本りょうりを食べたことがありません。",
+          "あの人はおかさんがつくったすきやきのあじをわすれました。",
+          "あの人は日本のお母さんとお父さんに自分の国のりょうりをつくってあげました。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 219,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16512,
+    "general_text_read": "<p>日本の夏が暑いですが、夏に日本に来たら、いろいろなおもしろいことができます。夏に日本のいろいろな場所で夏まつりやはなびたいかいがああります。ゆかたを着てまつりやはなびたいかいへ行く人もいます。ゆかたはきものよりかんたんに着ることができます。そして、きれいな川があるところで、ホタルをみることができます。くらい中で、ひかりのホタルはとてもきれいです。また、けしきをみながら冷たいビールを飲むのはたのしいです。</p>",
+    "content": [
+      {
+        "question": "このぶんしょうでは、夏にできないことはどれですか。",
+        "answers": [
+          "まつりやはなびたいかいに行く。",
+          "きものを着て、まつりに行く人を見る。",
+          "ホタルをみる。",
+          "けしきをみながら、冷たいビールを飲む。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 203,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16513,
+    "general_text_read": "<p>七夕は日本の夏まつりでゆうめいです。このまつりは中国からはじまりしたが、今日本のとくべつなイベントになりました。七夕は7月7日にあります。この日に、みんな紙にいろいろなおねがいを書きます。そして、家で竹にその紙をつけたり、かざったりします。それから、ほしを見ながら、おねがいします。また、そのごろ、日本のいろいろなところできれいな七夕まつりを見ることができます。</p>",
+    "content": [
+      {
+        "question": "七夕について正しくないのはどれですか。",
+        "answers": [
+          "中国からはじまりました。",
+          "みんな紙におねがいを書いて、竹につけます。",
+          "家で竹をうえます。",
+          "日本のいろいろなとことできれいな七夕を見ることができます。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 179,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16514,
+    "general_text_read": "<p>コロナウイルスについてアンケートがあります。子どもにききました。けっかはおどろきました。こどもの75％がコロナウイルス（COVID)でストレスがありますから。そして、31％のこどもは1日に4時間ぐらいゲームやテレビなどを見ました。また、61％のこどもは朝起きる時間がいつもとかわりました。コロナウイルスでストレスがまだつづくかもしれません。それで、こどもに気をつけたほうがいいです。</p>",
+    "content": [
+      {
+        "question": "どうしておどろきましたか。",
+        "answers": [
+          "こどもの75％がコロナウイルス（COVID)でストレスがありますから",
+          "31％のこどもは1日に4時間ぐらいゲームやテレビなどを見ましたから。",
+          "61％のこどもは朝起きる時間がいつもとかわりましたから。",
+          "コロナウイルスでストレスがまだつづくかもしれません"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 177,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16515,
+    "general_text_read": "<p>夏休みのかぞく旅行について、子どもがいる人に聞きました。40％の人は子どもと一緒にホテルにとまって、りょこうに行きたいです。それから、りょこうに行きたい人に聞きました。60％の人はちかくにりょこうしたいです。外国へ旅行したい人がいちばんすくないです。そして、りょこう時間はきょねんよりみじかいです。また、コロナウイルス（COVID)でりょこうの時、あんぜんに気をつけるホテルをえらぶひとがたくさんいます。</p>",
+    "content": [
+      {
+        "question": "正しくないのはどれですか。",
+        "answers": [
+          "40％の人はりょこうに行きたい。",
+          "60％の人は外国へりょこうしたい。",
+          "りょこう時間はきょねんよりみじかい。",
+          "あんぜんに気をつけるホテルをえらぶひとがたくさんいる。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 192,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16516,
+    "general_text_read": "<p>くまもと県で3日から雨がたくさんふっていました。雨で川の水が高くなったり、山がくずれたりしました。それに、65人がなくなりました。また、雨でたてものがたくさんこわれましたから、みんなのせいかつはたいへんになりました。また、大きい雨でしたから、6日からぜんぶの学校が休みになりました。雨が10日間ぐらいずっとふっていましたが、やっと13日に子どもががっこうに行くことができました。子どもはみんなうれしかったです。</p>",
+    "content": [
+      {
+        "question": "正しくないのはどれですか。",
+        "answers": [
+          "くまもと県で10日間ぐらい雨がふりました",
+          "雨で65人がなくなりました。",
+          "6日に学校のいちぶが休みになりました。",
+          "13日に学生は学校に行くことができました。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 197,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16597,
+    "general_text_read": "<p>日本人はお風呂(ふろ)が大好きで、毎日お湯(ゆ)に入る習慣を持っている人も多いようです。そこで問題になるのが、かぜをひいたときに、お風呂(ふろ)に入るのかどうかということです。もちろん高い熱(ねつ)があるときには体が弱(よわ)くなっているので、お風呂(ふろ)はやめたほうがいいですが、熱(ねつ)がだいぶ下がったときはどうしたらいいでしょうか。昔(むかし)は、少しでも熱(ねつ)があったら、入らないほうがよいという人が多かったようですが、私は、お風呂(ふろ)に入ったほうが気分もよくなってようと考えています。</p>",
+    "content": [
+      {
+        "question": "<p>かぜをひいているときにお風呂に入ることについて、この人は何と言っていますか。</p>",
+        "answers": [
+          "昔(むかし)から言われているように、かぜをひいたら、お風呂(ふろ)に入らないほうがいい",
+          "高い熱(ねつ)があってもお風呂(ふろ)に入りたかったら、入ったほうがいい",
+          "高い熱(ねつ)でなければ、少し熱(ねつ)があっても、お風呂(ふろ)に入ったほうがいい",
+          "熱(ねつ)が少しあったら、熱(ねつ)が下がるまでお風呂(ふろ)に入らないほうがいい。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 233,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16598,
+    "general_text_read": "<p>山田さん、<br>山田さんに、あやまらなければならないことがあります。</p><p>実は、今日、山田さんに借りた映画（えいが）のプログラムが入った袋（ふくろ）を、電車の中に置き忘れてしまったんです。降りてから、気が付いて、駅事務所（えきじむしょ）に聞いてきたんだけど、どこにも届いていなくて...。大事なものなのに、本当にごめんなさい。</p><p>新しいものが手に入るかどうか、これからインターネットで調べてみます。</p><p>とり急ぎ、おわびまで。</p><p>太郎</p>",
+    "content": [
+      {
+        "question": "<p>正しいものはどれですか。</p>",
+        "answers": [
+          "&nbsp;山田さんに貸してもらったビデオテープ<div>をなくした。</div>",
+          "山田さんは駅事務所に聞いてきたんだけど、見つからなかった。",
+          "新しい映画のプログラムはインターネットで手に入れた。",
+          "太郎さんは山田さんに「ごめんなさい」とお礼をいった。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 201,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16599,
+    "general_text_read": "<p>4月から大学4年になる。卒業後（そつぎょうご）の仕事をきめなければならない。今までインターネットや本などで、自分のやりたい仕事は何なのかを考えてきた。自分の給料（きゅうりょう）のために働く人よりも、どちらかというと、人のために働いている人に感心（かんしん）した。</p><p>また、最近（さいきん）起（お）こった悲（かな）しい事件（じけん）、たとえば小さい子どもをいじめたり、少年（しょうねん）の自殺（じさつ）だったりの多さが思い出された。だから、人のために働くという気持ちを持って、児童（じどう）や少年少女（しょうねんしょうじょ）のための相談所（そうだんじょ）などで働けるようになりたい。</p>",
+    "content": [
+      {
+        "question": "<p>「人のために働く」とはどいうことですか。</p>",
+        "answers": [
+          "自分の給料（きゅうりょう）の一部（いちぶ）を人にあげること。",
+          "悲（かな）しい事件（じけん）の原因（げんいん）を調（しら）べること。",
+          "世（よ）の中（なか）の人の世話（せわ）をすること。",
+          "弱（よわ）い人を助けてあげること。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 286,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16600,
+    "general_text_read": "<p>日本の経済（けいざい）はまだまだ厳（きび）しい。しかし、日本では、外食（がいしょく）、つまり、外で食事をする家庭（かてい）が増（ふ）えている。外食に使われているお金が家庭の食費（しょくひ）の中で、1984年には15%だったのが、2009年に20%に増えたという。</p><p>日本の家庭の中で外食が増えた理由をいえば、会社や店などの週休二日制（しゅうきゅうふつかせい）が進（すす）んで自由（じゆう）な時間が増えたので、遊びに出かけることが多くなったこと、若（わか）い家庭がよく外で食事するようになったこと、働（はたら）く女性（じょせいが増えて　家の中の仕事を軽（かる）くしたいと思っていること、などが考（かんが）えられるだろう。</p><p>＊注意：週休二日制（しゅうきゅうふつかせい）： 週2日休める制度</p>",
+    "content": [
+      {
+        "question": "<p>外食が増えた主な理由は何ですか。</p>",
+        "answers": [
+          "以前より遊びに使えるお金が増えたから。",
+          "会社や店などは定休日が多くなったから。",
+          "外で食事をする若い人が増えたから。",
+          "自由に遊ぶ時間が多くなったから。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 323,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16601,
+    "general_text_read": "私は猫があまり好きではなかった。だから母と妹が、猫を飼（か）うと、言い出した時、私はすごく反対（はんたい）した。今から10年ほど前のことである。猫の世話（せわ）はたいへんだということを知っていたし、汚（きたな）い感（かん）じがするので、いやだった。でも、何日（なんにち）か経（た）って、私の留守（るす）のあいだに、母が近所（きんじょ）の人から子猫をもらってきてしまった。私は、猫の世話はしないからと、少し不満（ふまん）を言っても、いやいや合意（ごうい）しました。父はひとりで遠いところで働いていたので、電話で事後（じご）報告（ほうこく）しただけだった。",
+    "content": [
+      {
+        "question": "<p>「いやいや承知しました」とありますが、筆者の気持ちを正しく説明したのはどれですか。</p>",
+        "answers": [
+          "どうしてもその事実（じじつ）が信（しん）じられなかった。",
+          "母と妹が自分の都合ばかり考えていることをいやがった。",
+          "不満があった。そしてたいへん怒（おこ）った。",
+          "いやだが、しかたがなく認（みと）めてあげた。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 274,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16602,
+    "general_text_read": "<p>私の家は母、祖母、兄弟2人の計4人家族。母が仕事に行き、祖母が家事をしています。私は家事の手伝いをたまにしかしないので、母に「もう大人なんだから、しっかりしなさい」と言われました。でも、遊びなどで遅くなると、「まだ子どもなのだから、早く帰って来なさい」と言われます。</p><p>大人でもあり、子どもである私。頼（たよ）りない存在（そんざい）だから、母のいうことはわかります。最近（さいきん）、やさしくかわいがってくれている母の気持ちが分かるようになってきました。</p>",
+    "content": [
+      {
+        "question": "<p>母は子どもにどんな気持ちを持っていますか。</p>",
+        "answers": [
+          "りっぱな大人になれるかと心配しています。",
+          "かわいがっていると同時に、心配しています。",
+          "親の気持ちを理解しているかと心配しています。",
+          "遊ばせたいが、遅く帰ることを心配しています。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 223,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16603,
+    "general_text_read": "<p>今、私が山に登（のぼ）るいちばん大きな理由は、自分に勝つためです。私は子供のころ、体が弱（よわ）かったので、体を強くしようと思って山登（やまのぼ）りを始めました。だんだん登れる山が高くなりました。そして「もっと高く、もっとはやく」と大きいおもいがでてきました。</p><p>何のためにこんなに登っているのかと自分にきいたことがあり、また何度（なんど）止（と）めようと思ったこと￥があるかもしれません。しかし、途中（とちゅう）で止（と）めずに、山のいちばん上に登って、そこで見る青空（あおそら）や山の景色（けしき）は気持ちよくて最高（さいこう）です。もちろん、山登（やまのぼ）り することで、体力（たいりょく）も付き、病気になりやすかった体もすっかり大丈になり、、医者（いしゃ）にらずの生活をしています。</p>",
+    "content": [
+      {
+        "question": "<p>「私」の山登（やまのぼ）り を正しく説明しているのはどれですか。</p>",
+        "answers": [
+          "毎日かならず山頂（さんちょう）に登るまではやめないと決（き）めた。",
+          "はじめから終わりまで少しも心が揺（ゆ）れなかった。",
+          "たいへんだと思って、これで終わろうと思ったことがない。",
+          "低（ひく）い山に登るより、高い山に登ることにした。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 343,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16604,
+    "general_text_read": "<p>「T市美術館（びじゅつかん） の紹介（しょうかい）」</p><p>T市美術館 （びじゅつかん）は大きいです。部屋（へや）がたくさんあって、子供からおじいさん、おばあさんまで、いろいろな人のかいた絵（え）をかざった部屋（へや）もあります。絵（え）をかいたのはT市 に住んでる人で、たくさんの中から選ばれた、いい絵（え）ばかりです。この部屋（へや）にはいすもあって、ゆっくり見ることができます。１階の広いところでは、ときどきコンサートも行われます。この美術館（びじゅつかん）でお金が必要（ひつよう）なのは、有名な絵のある部屋に入るときだけです。</p>",
+    "content": [
+      {
+        "question": "<p>T市美術館 （びじゅつかん） の説明（せつめい）で、正しいものはどれですか。</p>",
+        "answers": [
+          "お金をはらわなくても、いろいろ楽しむことができる。",
+          "T市 の景色をかいた絵（え）がかざられている部屋（へや）があって、有名だ。",
+          "どの部屋（へや）に行ってもいすがあるので、ゆっくり楽しめる。",
+          "ときどきコンサートがあるが、それを聞くにはお金がかかる。"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 257,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16605,
+    "general_text_read": "<p>私は小学校（しょうがっこう）に入ったとき、教室（きょうしつ）でしずかに先生の話を聞くことができませんでした。友だちのほとんどは、小学校に入る前に幼稚園（ようちえん）にかよって、しずかに話を聞くことに慣れていました。しかし、私はちがいました。4歳（さい）のとき、幼稚園（ようちえん） へ一回行ってみたら、みんなが同じ歌を歌ったり、同じ音楽を聞いておどったりしていました。私はみんなで同じことをするのに興味（きょうみ）がなかったので、幼稚園（ようちえん） には行かないと自分で決めたのです。</p>",
+    "content": [
+      {
+        "question": "<p>この人は、どうして幼稚園（ようちえん） に行かなかったですか。</p>",
+        "answers": [
+          "しずかに話を聞くことができなかったから",
+          "友だちが幼稚園（ようちえん） に行かなかったから",
+          "音楽やダンスがきらいだったから",
+          "みんなで同じことをするのに興味がなかったから"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 240,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16606,
+    "general_text_read": "<table>    <tbody>        <tr>            <td>＜おおはらビルに住むみなさんへ＞<p><br></p>                <p><strong>電気の安全（あんぜん）チェックのご連絡（れんらく）</strong></p>                <p><br></p>                <p>あさって、電気の安全（あんぜん）チェックをします。朝９時から12時まで、電気を切る場所があります。エレベーターは動きません。マンションの１階入口のドアにも電気が来ませんから、開けたり閉めたりできません。チェックのあいだ、ドアはあけております。</p>                <p>部屋（へや）の電気は止（と）まりませんから、テレビやエアコンは使うことができます。部屋（へや）の電気は、別の日にチェックする予定です。</p>            </td>        </tr>    </tbody></table>",
+    "content": [
+      {
+        "question": "<p>おおはらビルでは、あさっての朝９時から12時まで何ができませんか。</p>",
+        "answers": [
+          "エレベーターに乗（の）ること",
+          "テレビやエアコンを使うこと",
+          "マンションに出たり入ったりすること",
+          "部屋（へや）のドアを開けたり閉（し）めたりすること"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 227,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16609,
+    "general_text_read": "日本で売られている黄色（きいろ）いバナナはだいたい外国から来ています。バナナは緑色（みどりいろ）のときに木から取（と）られて、日本に運ばれているので。緑（みどり）のバナナはそのままでは食べられませんが、店に並（なら）ぶときにはちょうど黄色くなっています。店から買ってきて置いておくと、黄色いバナナに小さい黒い点（てん）がたくさんできます。そのときには、もっと甘（あま）く、おいしくなっています。冷蔵庫（れいぞうこ）に入れておくと、黒くなりますが、甘（あま）さはふえません。",
+    "content": [
+      {
+        "question": "<p>バナナはどのように食べたらおいしいと言っていますか。</p>",
+        "answers": [
+          "店から買ってきて、すぐ、黄色いときに食べる。",
+          "冷蔵庫（れいぞうこ）に入れて、黒くなったら食べる。",
+          "木からとって、すぐ、新しいときに食べる。",
+          "黒い点（てん）が出てから食べる。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 236,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16611,
+    "general_text_read": "<p>あなたは、「買いたい」と思ったら、すぐそれを買ってしまいますか。買い物をするときには、まず、本当（ほんとう）にそれを使うかどうか教えましょう。とくに「安いから」と思って買ってしまうと、うちに同じようなものがあったり、使わないものだったりすることがあります。また、うちに置（お）く場所（ばしょ）があるかどうかも大切です。よく考えて買わないと、使わないで捨ててしまうことになります。</p>",
+    "content": [
+      {
+        "question": "<p>どんな買い方が<u>よくない</u>と言っていますか。</p>",
+        "answers": [
+          "洋服の値段（ねだん）が安くなっているときに、その服を着る予定（よてい）があるかどうか考えて買う。",
+          "テレビを買うときに、同じものを安く売っている店をさがして買う。",
+          "トマトが1個（こ）必要（ひつよう）なときに、10個（こ）買うと安くなるものを選（えら）んで買う。",
+          "安い本棚（ほんだな）を見つけたときに、部屋（へや）に入る大きさかどうかよく調べてから買う。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 189,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16612,
+    "general_text_read": "<p>私は、ほとんど病院へ行ったことがありませんでした。けれども、入院した友だちが「1年前からずっとおなかが痛（いた）かったのに、病院に行かなかったのが悪かった。」と言っているのを聞いて、急に心配（しんぱい）になりました。私もおなかが痛（いた）いときがあるからです。そして、毎日「私も同じ病院かもしれない」と考えていたら、またおなかが痛（いた）くなってきました。それで、きのう病院へ行ってみましたが、何も病気はないと言われました。</p>",
+    "content": [
+      {
+        "question": "<p>この人について、正しいものはどれですか。</p>",
+        "answers": [
+          "1年前からおなかが痛くて、今は入院している。",
+          "今まで一回も病院へ行ったことがない。",
+          "病気を心配しすぎて、おなかが痛くなってしまった。",
+          "1年前からずっとおなかが痛かったが、病院へ行ったら病気が治った。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 211,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16613,
+    "general_text_read": "<p>これは、山田さんからのメールです。フォンさんは土曜日の夕方はいつもひまです。また、エビはたべません。</p><table>    <tbody>        <tr>            <td>フォンさんへ<br><br>連絡（れんらく）があります。クラスの飲み会（パーテイー）を来週の土曜日の夕方にやるつもりです。もし都合（つごう）が悪かったら、私にメールで連絡（れんらく）してください。<br>それから、中田さんが食べ物を買っておいてくれるので、食べられないものがあったら教えてほしいそうです。よろしく。<p>山田</p>            </td>        </tr>    </tbody></table>",
+    "content": [
+      {
+        "question": "<p>フォンさんはどうしたらいいですか。</p>",
+        "answers": [
+          "<p>山田さんにメールをして、飲み会に出席すると連絡（れんらく）する。</p>",
+          "<p>山田さんにメールをして、飲み会に行けないことを伝（つた）える。</p>",
+          "<p>パーテイーのために、中田さんに食べ物を買っておいてあげる。</p>",
+          "<p>中田さんに、エビは食べられないことを伝（つた）える。</p>"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 197,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16614,
+    "general_text_read": "<p>紙に、富士山（ふじさん）センターの部屋（へや）を利用（りよう）するときの注意が書かれています。</p><table>    <tbody>        <tr>            <td>                <p><strong>富士山（ふじさん）センターの部屋（へや）を利用（りよう）される皆さんへ</strong></p>                <ul>                    <li>                        <p>部屋（へや）の中で食べたり飲んだりしないでください。</p>                    </li>                    <li>                        <p>エアコンは、冷房（れいぼう）は6月から9月、暖房（だんぼう）は11月から3月まで使うことができます。それ以外の月で使いたいときは、受付に言ってください。</p>                    </li>                    <li>                        <p>部屋（へや）のご利用（りよう）が終わったら、いすや机（つくえ）を片付けてください。部屋（へや）を出るときには、ドアを開けておいてください。</p>                    </li>                    <li>                        <p>歌を歌ったり、ギターなどの楽器（がっき）をひいたりする場合は、音楽室をご利用ください。</p>                    </li>                </ul>            </td>        </tr>    </tbody></table>",
+    "content": [
+      {
+        "question": "<p>この紙に書いてある注意からわかることは何ですか。</p>",
+        "answers": [
+          "この部屋（へや）では10月にエアコンをけっして使ってはいけない。",
+          "帰るときに、ドアを閉めなければならない。",
+          "この部屋（へや）では歌を歌うことはできない。",
+          "エアコンを使いたいときは、受付に言わなければならない。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 291,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16615,
+    "general_text_read": "<p>愛子（あいこ）さん（３０）は今仕事を探（さが）している。高校卒業後（こうこうそつぎょうご）、地方（ちほう）の建設会社（けんせつかいしゃ）の事務員（じむいん）になり、そこで知（し）り合（あ）った男性（だんせい）と結婚（けっこん）、同時（どうじ）に会社をやめた。3年ほど幸（しあわ）せな生活が続（つづ）いたが、今年になって建設会社（けんせつかいしゃ） が倒（たお）れ、夫（おっと）は失業（しつぎょう）した。愛子（あいこ）さん パートでなく、正社員になり、安定（あんてい）した収入（しゅうにゅう）をもらいたいと考えている。「朝早いのはかまわないが、夜遅いのは困る。もちろん収入（しゅうにゅう）は多（おお）いほうがいい。そのためには、土・日出勤（しゅっきん）もしかたがない。夫（おっと）の仕事が見つかるまでがんばろう」と考えている。</p>",
+    "content": [
+      {
+        "question": "<p>愛子（あいこ）さん はどうして外に出て働きたいですか。</p>",
+        "answers": [
+          "夫が仕事をなくして、生活が厳（きび）しくなったから。",
+          "家の仕事がたいへんで、いやになったから。",
+          "夫（おっと）と同じように会社の正社員になりたいから。",
+          "毎日家にいるのはつまらないと思っているから。"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 359,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16616,
+    "general_text_read": "<table>    <tbody>        <tr>            <td>                <p>2011年11月11日</p>                <p>大阪（おおさか）桜の花日本語学校</p>                <p>留学生部（りゅうがくせいぶ）　木村（きむら）　拓哉（たくや）</p>                <p>国際言語出版社（こくさいしゅっぱんしゃ）　営業部（えいぎょうぶ）</p>                <p>中田（なかた）　敦彦（あつひこ）</p>                <p>いつもお世話（せわ）になっております。</p>                <p>さて、桜の花日本語学校では、「新日本語能力試験模擬試験N4」という新しい本を開発（かいはつ）しました。今月の30日（火曜）に図書館の会議室で、この本の内容や使い方についてのご紹介（しょうかい）を行いますので、ぜひご参加（さんか）ください。</p>                <p>また、新書の見本を郵便（ゆうびん）で送りますので、お受け取りいただけますようお願いいたします。</p></td></tr></tbody></table><link>",
+    "content": [
+      {
+        "question": "<p>何についてのメールですか。</p>",
+        "answers": [
+          "日本語学校へのあいさつ",
+          "新書開発会（しんしょかいはつかい）への誘（さそ）い",
+          "日本語学校からの返事（へんじ）",
+          "新書（しんしょ）を郵便（ゆうびん）する知（し）らせ"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 278,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16617,
+    "general_text_read": "<p>今日は中山（なかやま）さん、木村（きむら）さんといっしょに6時ごろ会社を出ました。夕方（ゆうがた）だったのに、気温（きおん）はまだ30度もあって、とても暑（あつ）かったです。</p><p>そこで、中山さんが、つめたいビールでも飲みに行かないかと言いました。私はすぐ賛成（さんせい）しましたが、木村さんは用事（ようじ）があると言って、先に帰りました。ちょっと残念（ざんねん）でした。</p><p>店は、中山さんと相談（そうだん）して決（き）めました。最初は私は国際（こくさい）ビルの裏（うら）のとおりにある店はすずしいところで、あそこに行ったらどうかと聞いてみましたが、中山さんは賛成（さんせい）しませんでした。すずしいところですが、おおぜいで、とてもうるさいという理由（りゆう）です。</p><p>そのあと、二人で近くのビルの屋上（おくじょう）ビアガーデンに行きました。ちょっと高かったですが、雰囲気（ふんいき）がよくてたのしかったです。</p>",
+    "content": [
+      {
+        "question": "<p>ビアガーデンはどんなところですか。</p>",
+        "answers": [
+          "ビルの屋上（おくじょう）にある西洋料理店（せいようりょうりてん）",
+          "ビルの屋上（おくじょう）にある 高級（こうきゅう）レストラン。",
+          "屋外（おくがい）ですずしい風をうけるところ。",
+          "屋外でビールを飲むところ。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 395,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16618,
+    "general_text_read": "<p>中学3年生（ねんせい）のぼくはもうすぐ卒業です。1，2年生のときに学校に行かずに休んでばかりいました。でも、たくさんの友だちが心配（しんぱい）して家に来てくれました。その助（たす）けもあり、3年になってからはあまり休まずに毎日学校に通（かよ）うようになりました。</p><p>1，2年生の勉強が分からなかったときに、「いっしょに勉強しよう」といってくれた友だちもいました。おかげで、これからの仕事のことも決まりました。もう卒業まで残（のこ）りがすくないですが、最後（さいご）まで中学校の生活を楽しみたいと思います。</p>",
+    "content": [
+      {
+        "question": "<p>この人はこれからどうしますか。&nbsp;</p>",
+        "answers": [
+          "卒業してから働きます。",
+          "&nbsp;卒業して高校に入ります。",
+          "学校をやめて仕事にがんばります。",
+          "会社に行かず、勉強を続けます。"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 244,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16619,
+    "general_text_read": "<p>ただいま、お年寄（としよ）りの食事（しょくじ）やふろのお世話（せわ）をしてくださるボランティアをさがしているのですが、ご希望（きぼう）の方（かた）は市役所までおはがきでお申（もう）し込（こ）みください。はがきには、お名前ご住所（じゅうしょ）とともに、ご都合（つごう）のいい曜日と時間を書き込んでいただき、今月末（こんげつまつ）までにお申（もう）し込（こ）みください 。</p>",
+    "content": [
+      {
+        "question": "<p>この文章（ぶんしょう）の内容（ないよう）と合っているものはどれですか。</p>",
+        "answers": [
+          "今お年寄（としよ）り の料理（りょうり）を作ってくださる人をさがしている。",
+          "市役所にてがみで申（もう）し込（こ）むことになっている。",
+          "はがきには、名前と住所（じゅうしょ） だけ書けばいい。",
+          "今月末（こんげつまつ）まで申（もう）し込（こ）みをだせばいい。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 183,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16620,
+    "general_text_read": "<p>人々の生活（せいかつ）は「天気（てんき）がいい日（ひ）は働（はたらき）き、雨（あめ）の日（ひ）はうちで本（ほん）を読（よ）む」という意味（いみ）です。人々は朝早（あさはや）く起（お）きて仕事（しごと）に行（い）き、昼（ひる）ごはんはうちに帰（かえ）って食べたり、店（みせ）で食べたりしていました。働（はたら）く時間（じかん）はあまり長（なが）くなくて、夜（よる）は暗（くら）くなる前にうちに帰（かえ）っていました。江戸時代（えどじだい）の人々は私たちよりずっとゆっくり生活（せいかつ）をしていたようです。</p>",
+    "content": [
+      {
+        "question": "<p>江戸時代（えどじだい）の人々の生活（せいかつ） と合わないものはどれですか。</p>",
+        "answers": [
+          "雨（あめ）が降（ふ）ったら、家（いえ）で本（ほん）を読（よ）む。",
+          "朝早（あさはや）く起（お）きて仕事（しごと）に行（い）くので、働（はたら）く時間（じかん）が長（なが）い。",
+          "昼（ひる）ごはんはうちで食べることもある。",
+          "夜遅（よるおそ）く残業（ざんぎょう）をしないので、早（はや）く帰宅（きたく）できる。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 252,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16621,
+    "general_text_read": "<p>もし、打（う）ち合（あ）わせの途中（とちゅう）でお茶を出せたら、「ありがとうございます」と一言（ひとこと）お礼（れい）を言い、「どうぞ」と勧（すす）められてから、相手側（あいてがわ）の担当者（たんとうしゃ）や上司（じょうし）が飲みはじめてから飲みます。勧められないうちにほかの人を差（さ）し置（お）いて（注）グイグイ飲んでしまうのは、マナー違反（いはん）です。飲んだ後（あと）、茶碗（ちゃわん）やカップに口紅（くちべに）が付（つ）いてしまったら、指先（ゆびさき）やハンカチで軽（かる）くそっとふき取（と）っておきましょう。</p><p><strong>注：差（さ）し置（お）い て：他人がいないようにする、冷たい態度。</strong></p>",
+    "content": [
+      {
+        "question": "<p>打ち合わせ中にお茶を出されたら、してはいけないことは何ですか。</p>",
+        "answers": [
+          "まず「ありがとうございます」と一言（ひとこと）お礼（れい）を言う。",
+          "「どうぞ」と勧（すす）められてからすぐグイグイ飲（の）む。",
+          "相手側（あいてがわ）の担当者や上司（じょうし）が飲みはじめてから飲（の）む。",
+          "指先（ゆびさき）やハンカチで口紅（くちべに）のあと軽（かる）くそっと取（と）る。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 293,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16622,
+    "general_text_read": "<table>    <tbody>        <tr>            <td>                <p>2013年11月13日</p>                <p>半沢（はんざわ）　直樹（なおき）　先生</p>                <p>WZ・リュウ</p>                <p>だんだん寒くなりますが、お元気でいらっしゃいますか。</p>                <p>今年の春には日立（ひたち）公園（こうえん）へ花見（はなみ）にお誘（さそ）いいただいて、ありがとうございました。おかげさまで、日本にいる間は、ほんとうに楽（たの）しい毎日（まいにち）を過（す）ごすことができます。</p>                <p>さて、わたしの日本語学校では12月20日（火）に、現地（げんち）の方（かた）と留学生（りゅうがくせい）の交流会（こうりゅうかい）を行うことになりました。日本人と各国（かっこく）から来た留学生がいっしょに自分の国の料理を作ったり、自分の国の踊（おど）りを踊（おど）ったりします。</p>                <p>もし、お時間がありましたら、奥様といっしょにぜひいらっしゃってください。</p>                <p>これからもっと寒くなりますから、どうぞお体を大切にしてください。</p>                <p>\"</p><br>            </td>        </tr>    </tbody></table>",
+    "content": [
+      {
+        "question": "<p style=\"text-align: left;\">何のために直樹（なおき）先生と奥様を誘うのですか。</p>",
+        "answers": [
+          "日本料理を作ってほしいです。",
+          "日本の踊りを踊ってほしいです。",
+          "留学生との交流会に参加してほしいです。",
+          "留学生たちと楽しい毎日を過ごしてほしいです。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 359,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16623,
+    "general_text_read": "<p>外国人からよく聞かれることの中に、「日本人は大学に入っても、そして仕事をしてからでも、どうしていつまでも親（おや）といっしょに暮（く）らしているのですか｝という質問（しつもん）がある。ヨーロッパやアメリカでは、大学に入ったら一人で生活（せいかつ）をはじめるらしい。</p><p><u>これには色々な理由が考えられる</u>。親（おや）の家で生活したほうが経済的だ、という子どもの側（かわ）からの考えもある。しかし、親の側（かわ）からの理由も大きいようだ。昔（むかし）と違（ちが）って、今は子どもの数（かず）が1人か2人である。だから子どものことが心配（しんぱい）で、いつまでもそばにいさせたいと思うのだ。</p>",
+    "content": [
+      {
+        "question": "<p>「これには色々な理由が考えられる」の「これ」は何を指していますか。</p>",
+        "answers": [
+          "日本人が外国人に色々なことをよく聞かれるということ。",
+          "日本の子どもがいつまでも親と一緒に暮らしているということ。",
+          "外国では大学に入ったら一人で生活をするのが自由（じゆう）だということ。",
+          "一人で暮らしたら、なんでも自分でやらなければならなくなること。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 286,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16624,
+    "general_text_read": "<p>私の家の６歳と3歳の娘たちは、互（たが）いに「ちゃん」などを付けず、名前だけで呼（よ）び合（あ）います。特（とく）に私たち親がそうさせたのではありませんが、親が娘たちを名前で呼んでいるのを聞いて、自然（しぜん）に身につけたのだと思います。</p><p>しかし、私は母から「妹は、お姉ちゃんと呼んだほうがいいのではないか」と言われてから、兄弟（きょうだい）の呼び方について考えてしまいました。</p><p>日本では、弟や妹は「お兄さん（ちゃん）」、「お姉さん（ちゃん）」と呼ぶ「文化（ぶんか）」が続けられてきたように思います。しかし、兄弟を名前で呼び合う国もあるのではないでしょうか。「お兄さん」、お姉さん」の呼び方に反対（はんたい）するつもりはありませんが、私は名前で呼び合う兄弟も悪くないと思います。</p>",
+    "content": [
+      {
+        "question": "<p>筆者は兄弟のあいだでの呼び方についてはどう思っていますか。</p>",
+        "answers": [
+          "名前で呼び合うのは日本の習慣（しゅうかん）に合わないから、よくない。",
+          "名前で呼び合うのは日本の古くからの文化だからいい。",
+          "「ちゃん」を付けても、名前で呼んでもかまわない。",
+          "兄弟なんだから、そんなに親しくよぶ必要（ひつよう）がない。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 336,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16625,
+    "general_text_read": "<p>タイワンから日本に来て驚（おどろ）いたことは、どこでもタバコを吸う人がいることだ。それにタバコを吸う女性も多い。タバコの煙（けむり）はとても臭（くさ）いし、病気（びょうき）の原因（げんいん）にもなる。なぜ吸いたがるのか。日本の会社は忙しいし、競争（きょうそう）も激（はげ）しい。みんなが疲（つか）れを感じているから、その疲れを取りたがるのだろう。ほかにも、若者（わかもの）がタバコを吸うことをりっぱで、大人（おとな）らしいと思っていることもあるし、タバコ店や自動販売機などの数（かず）が多く、買いやすいこともある。もし、買いにくいすれば吸う人が少しは減（へ）るのではないか。</p>",
+    "content": [
+      {
+        "question": "<p>筆者はタバコを吸うことについて、どう思っていますか。</p>",
+        "answers": [
+          "これからもタバコを吸う人がだんだん増えていくだろう。",
+          "これからはタバコを吸う人が少しずつ減っていくだろう。",
+          "タバコを買う時間を少ないしてほしい。",
+          "タバコを売る自販機（じはんき）をなくしてほしい。"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 287,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16626,
+    "general_text_read": "<p>私は空（そら）の写真をとることが好きです。空はとてもきれいで、朝日（あさひ）や夕日（ゆうひ）や夜空（よぞら）など、いろいろな景色（けしき）を頼（たの）むことができます。</p><p>お昼（ひる）ごろの空がいちばん好きです。さまざまな空の模様（もよう）ができているからです。1時間</p><p>ごとに違った空を見ることができ。飽きません（注）。いちばんすごいと思った空は、細（こま）かく長い雲（くも）が横（よこ）に何本も並んでいたときです。見ることがとても少ない風景で、とても心に残（のこ）りました。まったく同（おな）じ空はありません。空って素晴（すば）らしいだなと思いながら、今日も<u>見上げています</u>。</p><p>（注）飽（あ）きる：いやになる</p>",
+    "content": [
+      {
+        "question": "<p>「<u>見上げています</u>」とありますが、どんなことですか？</p>",
+        "answers": [
+          "空の写真をとること",
+          "空の景色を楽しむこと",
+          "空の夢を見ること",
+          "空の雲を思い出すこと"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 299,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16665,
+    "general_text_read": "<p>新しいコロナウイルスが広がって、家で仕事ができるようにした会社がふえました。家で仕事をすることについての調査（ちょうさ）をして、1万4000会社の答えをもらえました。４２％の会社は、「家で仕事ができるようにしなかった」と答えました。２６％の会社は、「ウイルスが広がないように家で仕事ができるようにしたが、もうやめた」と答えました。家で仕事をする場合、会社の情報（じょうほう）を守ることが難しいとか、家で仕事をするシステムの使い方がわからないからそうです。また、家で仕事に集中できないと言った人もいました。</p>",
+    "content": [
+      {
+        "question": "家で仕事をできるようにしなかった理由でないものはどれですか？",
+        "answers": [
+          "会社の情報が守れないこと。",
+          "同僚（どうりょう）と会ったほうがいいと思うこと",
+          "家はうるさいから集中できないこと",
+          "家で仕事をするシステムが使えないこと"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 247,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16666,
+    "general_text_read": "<p>今日、果物を買いに行きました。いろいろおいしそうな果物を売っていました。母も姉もリンゴが好きだから、リンゴを買います。父はブドウが食べたいと言っていたからブドウを買おうと思いました。リンゴは1つ130円ですが、２つ買うと260円になります。ブドウは1キロ800円で高いから500グラムを買うことにした。家族は4人です。一人でリンゴを半分食べることにしました。</p>",
+    "content": [
+      {
+        "question": "全部でいくらになりますか？",
+        "answers": [
+          "760円",
+          "560円",
+          "660円",
+          "860円"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 164,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16668,
+    "general_text_read": "<p>キムさん</p><p>今週の土曜日の約束（やくそく）ですが、進学のことで先生と会わなければならなくなりました。</p><p>先生の約束は日曜日でしたが、先生が用事があって約束を土曜日にしました。先生は来週中忙しそうですから今週の土曜日しか私と会えません。</p><p>それで、すみませんが、キムさんの都合がよければ、私たちの約束を日曜日の午前10時に変えられませんか。</p><p>キムさんのお返事を待っています。</p><p>木村</p>",
+    "content": [
+      {
+        "question": "木村さんはキムさんに何を聞いていますか?",
+        "answers": [
+          "約束を日曜日に変えられるかどうか",
+          "約束を土曜日に変えられるかどうか",
+          "キムさんの日曜日の午前の都合",
+          "キムさんの土曜日の午前の都合"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 179,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16670,
+    "general_text_read": "<p>日本で地震（じしん）が多いです。たてものの中にいるとき地震が起こったらどうしますか。そのときあがらないでテーブルの下などに入って、揺れ（ゆれ）が止まるまで待ちましょう。上から物が落ちてきたり、本棚などの家具がたおれたりしてきけんだからです。ストーブやガスの火は、揺れが止まってから消してください。揺れているときに火を消そうとすると、やけどをすることがあります。地下はかなり安全だといわれますから、そこにいると壁に身を寄せ、揺れがおさまったら出るほうがいいです。</p>",
+    "content": [
+      {
+        "question": "建物の中にいるとき地震が起きたらどうすればいいですか？",
+        "answers": [
+          "物が落ちるのでかいだんで早く外ににげます",
+          "火事につながるのでストーブやガスの火をすぐ消します",
+          "おちついてベッドや机の下で待ちます",
+          "本棚をテーブルの下に入れます。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 230,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16671,
+    "general_text_read": "<p>皆さんのアパートには、エアコンやれいぞうこなどがありますね。電話、テレビ、せんたくき、そうじきはみんなで使います。げんかんの横の「スマイル・ルーム」にあります。そこは、台所があります。簡単な料理を作ることができます。みなさんで使ってください。おふろは、毎日夕方4時から10時まで使えます。皆さん一人一人が気持ちよく使えるように、いつもきれいにしておきましょう。</p>",
+    "content": [
+      {
+        "question": "電話やテレビは、どのように使いますか？",
+        "answers": [
+          "みんなで使います",
+          "一人で使います",
+          "5時から使います",
+          "スマイル・ルームで使います"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "jp_char_count": 177,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16674,
+    "general_text_read": "<p>赤いリンゴはおいしいそうですが、それは自然の赤さではなくて、人が作った赤さです。リンゴのまわりに葉があると、日があたらないので、みどり色になります。ですから、リンゴを良く売れるため、リンゴの周りの葉を全部とっていました。しかし、ほんとうは葉がついているほうが、リンゴは甘くなるのです。わたしたちは4年にわたって、葉をとらないで、それでも赤いところが多いリンゴを育てることができました。</p>",
+    "content": [
+      {
+        "question": "この店はどんなリンゴを売っていますか？",
+        "answers": [
+          "赤いところが少なくて甘いリンゴです",
+          "みどり色のところが少なくて、甘いリンゴです。",
+          "赤くて、甘くないリンゴです",
+          "みどり色で、甘くないリンゴです"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 191,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16675,
+    "general_text_read": "<p>日本では、5月から7月まで梅雨（つゆ）があります。梅雨は、くもりや雨の日が多いです。梅雨が一番早くおとずれるのは、日本で一番みなみにあるおきなわ県です。美しいビーチですが、5月から6月にかけて雨の日が多いので、いつでも雨具（あまぐ）を持ちましょう。旅行の前にいっしょうけんめい計画をしても、天気だけはわかりません。「どうしても晴れの日に行きたい」と思う方は、梅雨以外のときにおきなわのビーチに訪れ（おとずれ）ましょう。</p>",
+    "content": [
+      {
+        "question": "この文章の内容にあったものはどれですか？",
+        "answers": [
+          "晴れの日に旅行したい人は5月28日におきなわに行ったほうがいいです",
+          "梅雨のときはいつでもかさを準備したほうがいいです",
+          "梅雨が一番遅く来るのはおきなわです",
+          "旅行する前に、いっしょうけんめい計画したほうがいいです"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 205,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16676,
+    "general_text_read": "<p>森様、</p><p>お元気ですか？わたしも元気で学校に通っています。</p><p>私の専門は経済学なのですが、コンピューターがどうしても必要になりました。コンピューターを買うためにアルバイトをしたいと考えています。</p><p>しかし、アルバイトがなかなか見つかりません。もし、どこか知っているところがあったら教えてくださいませんか。どうぞ、よろしくお願いします。</p><p>近いうちにお会いしたいと思います。それでは、また。</p><p>キム</p>",
+    "content": [
+      {
+        "question": "キムさんはどうして森さんに手紙を書きましたか？",
+        "answers": [
+          "森さんに自分の専門は何か教えたいから",
+          "森さんの古いコンピューターをもらいたいから",
+          "森さんにアルバイトのところを紹介してもらいたいから",
+          "森さんに会いたいから"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 188,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16677,
+    "general_text_read": "<p>土曜日はインスタントラーメンの工場に見学に行きます。8時に学校に集まってください。遅れないでください。工場の中では、写真をとってもかまいませんが、カメラや携帯電話を忘れたりなくしたりしないように注意ください。ガイドさんが説明しているとき、質問があれば手を<span>あ</span>げてから静かに聞きましょう。工場はうるさいから大きい声で聞いてもいいです。また、見学後、インスタントラーメンを食べさせてもらいますが、工場の中でゴミを捨てないで外のゴミ箱に捨てましょう。</p>",
+    "content": [
+      {
+        "question": "してはいけないことはどれですか？",
+        "answers": [
+          "写真を撮ること",
+          "8時15分に学校に着くこと",
+          "大きい声で聞くこと",
+          "工場のそとのゴミ箱にゴミを捨てること"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 220,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16678,
+    "general_text_read": "<p>日本語では、年の始めは「お正月」と呼ばれます。そして、年の最初の日は「元旦」と呼ばれます。お正月は日本人にとって、とても大切な日です。お正月を祝うための慣習がたくさんあります。掃除したり家をかざったりします。大人は特別なふうとうにお金を入れて子どもたちに渡します。これは「お年玉」と呼ばれていて、たいていの子どもはこれをとても心待ちにしています。お正月に、人々は新年の「年賀状」というはがきを送り合います。また、お寺や神社に行く人も多いです。</p>",
+    "content": [
+      {
+        "question": "この文章によると、お正月に人々はどんなことをしませんか？",
+        "answers": [
+          "年賀状を友達に送ります",
+          "大人は子供にお年玉を渡します",
+          "家をきれいにします",
+          "海に遊びに行きます"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 221,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16679,
+    "general_text_read": "<p>BBOY野球チームの皆さんへ</p><p>次の練習はマイヤミー運動場でおこないます。マイヤミー運動場は町田市の運動場です。規則があるので注意してください。</p><p>その日、運動場の入り口の駐車場は使えません。車で来るときは、近くのみどり公園の駐車場を使ってください。そこは有料なので、現金を準備したほうがいいです。近くの道には止めないこと。近所の人がこまります。</p>",
+    "content": [
+      {
+        "question": "車で練習に行く人はどうすればいいですか？",
+        "answers": [
+          "近所の人におねがいして、近くの道に車を止めます",
+          "みどり公園の中に車を止めます",
+          "お金をはらって、運動場の入り口の駐車場に車を止めます",
+          "みどり公園の駐車場に車を止めます"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 165,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16680,
+    "general_text_read": "<p>大きな地震（じしん）や台風（たいふう）のとき、日本を旅行している外国人にメールを送るサービスがあります。このサービスは７月から始まって、困っている外国人に、どうやって情報（じょうほう）を調べたらいいかを伝えるためのサービスです。メールには、大きな地震などのときはお金がかからないＷｉ－Ｆｉについて書いてあります。外国語でニュースを出しているウェブサイトも紹介しています。</p>",
+    "content": [
+      {
+        "question": "このサービスについて、正しくないものはどれですか？",
+        "answers": [
+          "日本を旅行している外国人のためのサービスです",
+          "7月から始まったサービスです",
+          "外国人がもっと簡単に情報を調べます",
+          "日本語がわからなかったら、このサービスが使えない"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 185,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16681,
+    "general_text_read": "<p>新型コロナウイルスの問題で、子どもが学校に行けなくなりました。調査の結果では、8700人の子どもの75％がストレスがあることがわかりました。「コロナのことを考えて、いやな気持ちになる」とか「朝起きる時間がいつもと変わった」と答えました。また、1日に4時間以上、ゲームやテレビを見るようになったこともストレスの原因の一つだそうです。</p>",
+    "content": [
+      {
+        "question": "この文章によると、子どもがストレスがある原因ではないものはどれですか？",
+        "answers": [
+          "新型コロナウイルス",
+          "朝起きる時間が変わったから",
+          "ゲームやテレビなどを見すぎるから",
+          "家にずっといるから両親にしかられたことが多い"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 157,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16683,
+    "general_text_read": "<p>木や草や花などが病気をなおすことを知っていますか？ガンになったもう病気は治らないと医者に言われた人が都市をはなれて、森の中に住んで、ガンがなおったということもあるそうです。病気がなおったほんとうの理由はわかりませんが、花を見ただけであるいは花のいいにおいで気持ちがよくなることはたしかです。</p><p>わらうと病気がよくなったり、いやなことがつづくと病気になったりします。病気と心の間にふかいかんけいがあることがわかってきました。</p>",
+    "content": [
+      {
+        "question": "この文章は何について書いていますか",
+        "answers": [
+          "ガンはなおる理由がわかりません",
+          "悪い病気になったら、森で生活したほうがいいです",
+          "病気と気持ちはふかいかんけいがあります",
+          "すべとの病気の原因はこころにあります"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 209,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 16684,
+    "general_text_read": "<p>なぜ女性に「何歳ですか？」と聞くことはしつれいですか？また、なぜ女性は年齢を知られたくないですか？男性も女性も、わかいころもあるし、年を重ねていけば年齢は上がります。たしかに29歳の女性に「おばさん」って呼ぶことはひどいですが、女性が自分の年齢を恥ずかしがることなんてないと思います。私は20代の女性でも40代の女性でも楽しい生き方があると考えています。何歳の女性でも、自分のことを愛して、大切にしなければならないと思います。</p>",
+    "content": [
+      {
+        "question": "この文章の内容に合わないものはどれですか？",
+        "answers": [
+          "男性も女性も時間がたつと年齢が上がります",
+          "40歳の女性は生活を楽しめることができます",
+          "20代の女性だけはわかいから生活をもっと楽しめます",
+          "年をとったことは恥ずかしいことではありません"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 207,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 54696,
+    "general_text_read": "<p><span>（３）</span></p><p><span></span><span>日曜日はお菓子工場を見学します。９時１０分に </span><span><ruby><span>桜川駅西口</span><rp>(</rp><rt>さくらがわえきにしぐち</rt><rp>)</rp></ruby></span><span>に集まってください。遅れ</span><span>ないように来てください。見学の時は、写真をとってもかまいませんが、カメラを忘れたり</span><span>なくしたりする人が多いので、注意してください。質問をしたりメモをとったりしてもかま</span><span>いませんが、説明を聞くときは静かに聞きましょう。また、見学の後、お菓子を食べさせて</span><span>もらえますが、のこったお菓子やごみは、かならず持って帰るようにしてください。</span></p><p></p><p><span> [?]: </span><span>工場</span><span>見</span><span>学で</span><span>、</span><span>し</span><span>てはい</span><span>け</span><span>ない</span><span>こ</span><span>とは</span><span>何</span><span>で</span><span>すか。</span></p>",
+    "content": [
+      {
+        "question": "<p><span lang=\"JA\">（３）</span></p><p><span lang=\"RU\"></span><span lang=\"JA\">日曜日はお菓子工場を見学します。９時１０分に </span><span lang=\"RU\"><ruby><span lang=\"JA\">桜川駅西口</span><rp></rp><rt>さくらがわえきにしぐち</rt><rp></rp></ruby></span><span lang=\"JA\">に集まってください。遅れ</span><span lang=\"JA\">ないように来てください。見学の時は、写真をとってもかまいませんが、カメラを忘れたり</span><span lang=\"JA\">なくしたりする人が多いので、注意してください。質問をしたりメモをとったりしてもかま</span><span lang=\"JA\">いませんが、説明を聞くときは静かに聞きましょう。また、見学の後、お菓子を食べさせて</span><span lang=\"JA\">もらえますが、のこったお菓子やごみは、かならず持って帰るようにしてください。</span></p><p></p><p><span lang=\"RU\"> [?]: </span><span style=\"font-family: 'MS Mincho'; font-size: 11pt;\">工場</span><span style=\"font-family: 'MS Mincho'; font-size: 11pt; letter-spacing: -0.1pt;\">見</span><span style=\"font-family: 'MS Mincho'; font-size: 11pt;\">学で</span><span style=\"font-family: 'MS Mincho'; font-size: 11pt; letter-spacing: -0.15pt;\">、</span><span style=\"font-family: 'MS Mincho'; font-size: 11pt; letter-spacing: -0.1pt;\">し</span><span style=\"font-family: 'MS Mincho'; font-size: 11pt;\">てはい</span><span style=\"font-family: 'MS Mincho'; font-size: 11pt; letter-spacing: -0.15pt;\">け</span><span style=\"font-family: 'MS Mincho'; font-size: 11pt;\">ない</span><span style=\"font-family: 'MS Mincho'; font-size: 11pt; letter-spacing: -0.1pt;\">こ</span><span style=\"font-family: 'MS Mincho'; font-size: 11pt;\">とは</span><span style=\"font-family: 'MS Mincho'; font-size: 11pt; letter-spacing: -0.15pt;\">何</span><span style=\"font-family: 'MS Mincho'; font-size: 11pt; letter-spacing: -0.1pt;\">で</span><span style=\"font-family: 'MS Mincho'; font-size: 11pt;\">すか。</span></p>",
+        "answers": [
+          "写真ととる",
+          "質問をする",
+          "大きな声で話す",
+          "お菓子を食べる"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 235,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 54697,
+    "general_text_read": "<p><span>（４）</span></p><p><span>山本さんへ</span><span>先週のお花見では大変ありがとうございました。初めては日本の桜を見ましたが、</span><span><ruby><span>上野公園</span><rp>(</rp><rt>うえのこうえん</rt><rp>)</rp></ruby></span><span>の桜は とてもきれいで、忘れることができません。写真もたくさんとったので、できたら</span><span>お送りします。また、山本さんが作ってくれたお弁当もとてもおいしかったです。特に卵焼</span><span>きがおいしかったので、今度、作り方を教えてくださいませんか。来月の山登りも楽しみで</span><span>すね。あした、図書館で山のガイドブックを借りるつもりです。おすすめの本があったら教</span><span>えてくださいね。</span></p><p></p><p><span><ruby><span> 王</span><rp>(</rp><rt>おう</rt><rp>)</rp></ruby><ruby><span>レイ</span><rp>(</rp><rt>れい</rt><rp>)</rp></ruby></span></p><p><span> [?]: </span>王さんは明日、何をしますか。</p><p></p><p><span></span></p>",
+    "content": [
+      {
+        "question": "<p><span lang=\"JA\">（４）</span></p><p><span lang=\"JA\">山本さんへ</span><span lang=\"JA\">先週のお花見では大変ありがとうございました。初めては日本の桜を見ましたが、</span><span lang=\"RU\"><ruby><span lang=\"JA\">上野公園</span><rp></rp><rt>うえのこうえん</rt><rp></rp></ruby></span><span lang=\"JA\">の桜は とてもきれいで、忘れることができません。写真もたくさんとったので、できたら</span><span lang=\"JA\">お送りします。また、山本さんが作ってくれたお弁当もとてもおいしかったです。特に卵焼</span><span lang=\"JA\">きがおいしかったので、今度、作り方を教えてくださいませんか。来月の山登りも楽しみで</span><span lang=\"JA\">すね。あした、図書館で山のガイドブックを借りるつもりです。おすすめの本があったら教</span><span lang=\"JA\">えてくださいね。</span></p><p></p><p><span lang=\"RU\"><ruby><span lang=\"JA\"> 王</span><rp></rp><rt>おう</rt><rp></rp></ruby><ruby><span lang=\"JA\">レイ</span><rp></rp><rt>れい</rt><rp></rp></ruby></span></p><p><span lang=\"RU\"> [?]: </span>王さんは明日、何をしますか。</p><p></p><p><span lang=\"RU\"></span></p>",
+        "answers": [
+          "山本さんに卵焼きの作り方を教える",
+          "山登りのガイドブックを借りる",
+          "<上野公園(うえのこうえん)>で<桜(さくら)>を<見(み)>る",
+          "<山登(やまのぼ)>りに行く"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 248,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 54973,
+    "general_text_read": "<p><strong>もんだい４ つぎのぶんしょうを よんで、しつもんに こたえて ください。こたえは、１・２・３・４から いちばん いい ものを ひとつ えらんで ください。</strong></p><p>（１）</p><p>この紙が日本語学校にはってあります。</p><p><strong>バスケットボールをしませんか</strong></p><p> １０月１４日（日）の夜７時から９時まで、市の体育館でバスケットボールをしませんか。利用料金は２時間１，０００円なので、１０人集まれば、一人１００円でできます。一緒にやりたい人は、今週中に私（ユン）のところに来て、クラスと名前を教えてください。</p><p>１０月１日（月）</p><p>ユン・ジホン（Aクラス）</p>",
+    "content": [
+      {
+        "question": "ユンさんと一緒にバスケットボールをしたい人は、まずどうしなければなりませんか。",
+        "answers": [
+          "今週中に、バスケットボールをしたい人を１０人集めます。",
+          "今週中に、ユンさんのところに行ってクラスと名前を言います。",
+          "１０月１４日（日）までに、ユンさんに１００円を払います。",
+          "１０月１４日（日）の夜７時までに、体育館に行きます。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 242,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 55050,
+    "general_text_read": "<p><strong>問題4 次の(1)から(3)の文章を読んで、質問に答えてください。答えは、1・2・3・4から、いちばんいいものを一つ選んでください。</strong></p><p>(1)</p><p>(洋服の店で)<br>リナさんがアルバイトに来た時、このメモとシャツが置いてありました。</p><p><br> リナさん<br> 6日の午前中に、お客様の上田様が店に来ます。上田様が持ってくるシャツをこの新しいシャツと取り替えてください。買ったシャツのそでが汚れていたそうです。<br> チェックしましたが、新しいシャツは大丈夫です。<br> よろしくお願いします。<br>                     9 月 5 日 19:00<br>                       山野</p>",
+    "content": [
+      {
+        "question": "リナさんは、このメモを読んで、上田さんが来たら何をしなければなりませんか。",
+        "answers": [
+          "上田さんが持ってきたシャツのそでをきれいにします。",
+          "上田さんが持ってきたシャツを新しいシャツと取り替えます。",
+          "上田さんが持ってきたシャツをもらって、お金を返します。",
+          "上田さんが持ってきたシャツをチェックします。"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "jp_char_count": 207,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 55129,
+    "general_text_read": "<p><strong>もんだい4 次の(1)から(3)の文章を読んで、質問に答えなさい。答えは、1・2・ 3 ・4から、いちばんよいものを一つえらびなさい</strong></p><p>(1)<br>嫌なことがあったら、私の友達は日記に書くそうです。嫌な気持ちを外に出せるから忘れられると言っています。でも、私はカラオケに行って、好きな歌を歌います。書いているときに嫌なことを思い出してしまうので。日記には書きません。</p>",
+    "content": [
+      {
+        "question": "「私」の友達は、嫌なことがあったとき、どうしますか。",
+        "answers": [
+          "忘れるために、友達に話します。",
+          "忘れるために、カラオケで歌います。",
+          "忘れるために 、日記に書きます。",
+          "覚えておくために、日記に書きます。"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "jp_char_count": 161,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  },
+  {
+    "id": 55131,
+    "general_text_read": "<p>（3）</p><p>（会社で）石田さんの机の上に、このメモが置いております。</p><p>石田 さん</p><p> 青木部長によばれして、今から部長会議に出ることになりました。</p><p> 部長会議の弁当は、私が11時半に「こま屋」に取りに行く予定でしたが、 行けなくなったので、行ってきてください。お金は払ってあります。</p><p> 弁当は、私の肌に置いておいてください。 </p><p> すみませんが、よろしくお願いします。</p><p>10月4日 10:30 </p><p>                                                                          ロン</p>",
+    "content": [
+      {
+        "question": "ロンさんは石田さんに何を頼みましたか。",
+        "answers": [
+          "ロンさんと一緒に、部長会議に出ること。",
+          "11時半に、弁当を部長会議に持 って行くこと。",
+          "「こま屋」が弁当を持ってきたら、弁当代を払うこと。",
+          "弁当を「こま屋」に取りに行って、ロンさんの机に置くこと"
+        ],
+        "correctAnswer": 3
+      }
+    ],
+    "jp_char_count": 168,
+    "kind": "đoạn văn ngắn",
+    "level": 4
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "kind": "đoạn văn ngắn",
+    "required_question_label": null,
+    "char_length_by_level": {
+      "N1": 200,
+      "N2": 200,
+      "N3": 200,
+      "N4": 150,
+      "N5": 80
+    },
+    "note": null
+  },
+  {
+    "kind": "đoạn văn vừa",
+    "required_question_label": null,
+    "char_length_by_level": {
+      "N1": 500,
+      "N2": 500,
+      "N3": 350,
+      "N4": 450,
+      "N5": 250
+    },
+    "note": null
+  },
+  {
+    "kind": "đoạn văn dài",
+    "required_question_label": null,
+    "char_length_by_level": {
+      "N1": 1000,
+      "N3": 550
+    },
+    "note": null
+  },
+  {
+    "kind": "đọc hiểu tổng hợp",
+    "required_question_label": "question_comprehensive_understanding",
+    "char_length_by_level": {
+      "N1": 600,
+      "N2": 600
+    },
+    "note": "Gồm 2 đoạn văn riêng biệt (A, B), tổng độ dài cộng lại"
+  },
+  {
+    "kind": "đọc hiểu chủ đề",
+    "required_question_label": null,
+    "char_length_by_level": {
+      "N1": 1000,
+      "N2": 900
+    },
+    "note": null
+  },
+  {
+    "kind": "tìm thông tin",
+    "required_question_label": "question_information_search",
+    "char_length_by_level": {
+      "N1": 700,
+      "N2": 700,
+      "N3": 600,
+      "N4": 400,
+      "N5": 250
+    },
+    "note": null
+  }
+]
