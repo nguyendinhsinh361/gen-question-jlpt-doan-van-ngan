@@ -415,7 +415,7 @@ Option A text\nOption B text\nOption C text\nOption D text
 
 ## CSV Schema
 
-Dùng schema 45 cột chuẩn từ `rules/question_sheet.csv`. Các cột quan trọng:
+Dùng schema 45 cột chuẩn từ `rules/question_sheet.csv` (chỉ đọc schema, **TUYỆT ĐỐI KHÔNG ghi dữ liệu vào file rules/**). Dữ liệu gen phải ghi vào `sheets/samples_v1.csv`. Các cột quan trọng:
 
 | Column | Value for this skill |
 |--------|----------------------|
@@ -473,6 +473,8 @@ def gen_id(level: str) -> str:
 11. **Điền CSV** — 45 cột, `kind`=`đoạn văn ngắn`, `general_image`="", `question_2-5` empty
 12. **Append vào `sheets/` CSV** và verify bằng `process_html.py --validate`
 
+> **🚫 KHÔNG ĐƯỢC GHI VÀO THƯ MỤC `rules/`** — `rules/question_sheet.csv` và `rules/topic.json` là file tham chiếu, chỉ đọc. Mọi dữ liệu gen phải ghi vào `sheets/samples_v1.csv`.
+>
 > **🚨 QUY TẮC CSV BẮT BUỘC — KHÔNG ĐƯỢC BỎ QUA**
 >
 > Sau khi gen **MỖI BÀI**, PHẢI ngay lập tức:
