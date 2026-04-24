@@ -2,7 +2,7 @@
 """
 process_html.py — Pipeline for JLPT "đoạn văn ngắn" (short-passage) HTML files.
 
-Does three things — NO screenshot (khác với tìm thông tin):
+Does three things — NO screenshot PNG (đoạn văn ngắn chỉ xuất HTML + CSV):
   1. Count visible body characters (JLPT standard)
   2. Extract clean HTML (no attributes / no <rt> text / collapsed whitespace)
   3. Append / update rows in the 45-column question_sheet.csv
