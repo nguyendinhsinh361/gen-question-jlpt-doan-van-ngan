@@ -73,7 +73,11 @@ Mỗi `<ruby>...</ruby>` BẮT BUỘC phải có `<rt>` chứa furigana **không
 - `<ruby>諦<rt>あきら</rt></ruby>める` (kanji + okurigana)
 - `<ruby>構築<rt>こうちく</rt></ruby>` (compound word)
 
-Pipeline auto-detect: `process_html.py --validate` sẽ FAIL nếu phát hiện ruby thiếu `<rt>` hoặc `<rt>` rỗng. Phải fix ngay trước khi QC qua. Khi gen, agent PHẢI điền furigana hiragana vào `<rt>` mỗi lần dùng `<ruby>`.
+Pipeline auto-detect: `process_html.py --validate --html-dir <dir> --csv sheets/samples_v1.csv` quét **CẢ HTML lẫn CSV** (cột `text_read`). Sẽ FAIL nếu phát hiện ruby thiếu `<rt>` hoặc `<rt>` rỗng. Phải fix ngay trước khi QC qua. Khi gen, agent PHẢI điền furigana hiragana vào `<rt>` mỗi lần dùng `<ruby>`.
+
+> **🚨 LƯU Ý CỰC KỲ QUAN TRỌNG: `<ruby>` BẮT BUỘC ĐI KÈM `<rt>` KHÔNG RỖNG**
+> Nếu sửa ruby trong HTML đã gen mà QUÊN chạy `--refresh` thì cột `text_read` trong CSV vẫn giữ ruby hỏng cũ → data huấn luyện AI **BỊ HỎNG**.
+> Workflow đúng: **sửa HTML → `--refresh` → `--validate --csv` để verify cả HTML và CSV đều không còn broken ruby**.
 
 ### ⛔ Dữ liệu tham chiếu — BẮT BUỘC dùng
 

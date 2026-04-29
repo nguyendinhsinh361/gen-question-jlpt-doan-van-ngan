@@ -206,6 +206,12 @@ Agent đọc câu hỏi + 4 đáp án từ CSV và đánh giá:
 
 > **⛔ Khi sửa HTML, CẬP NHẬT CSV — chạy lại `process_html.py --refresh` để cập nhật `text_read`, `jp_char_count` trong CSV.**
 >
+> **🚨 ĐẶC BIỆT khi sửa `<ruby>` thiếu/rỗng `<rt>`:** Đây là lỗi PHỔ BIẾN — agent hay chỉ sửa HTML mà QUÊN refresh CSV → CSV cột `text_read` vẫn chứa ruby hỏng → AI fine-tuning data BỊ HỎNG.
+> Workflow BẮT BUỘC khi sửa ruby:
+> 1. Sửa HTML: thay `<ruby>諦</ruby>` → `<ruby>諦<rt>あきら</rt></ruby>`
+> 2. **BẮT BUỘC** chạy: `python3 .claude/skills/jlpt-reading-short-passage/scripts/process_html.py --refresh --html-dir assets/html/doan_van_ngan --csv sheets/samples_v1.csv`
+> 3. Verify: `python3 .claude/skills/jlpt-reading-short-passage/scripts/process_html.py --validate --html-dir assets/html/doan_van_ngan --csv sheets/samples_v1.csv` — output PHẢI có dòng `✅ CSV ...: 0 row với broken ruby`. Nếu vẫn báo `🚫 CSV ... có N row với broken ruby` → CSV chưa sync, chạy lại `--refresh`.
+>
 > Không có screenshot nên KHÔNG cần chạy lại screenshot script.
 
 | Nếu FAIL | Hành động | Sau đó |
