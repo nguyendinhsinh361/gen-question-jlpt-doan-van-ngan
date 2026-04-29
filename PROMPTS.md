@@ -24,7 +24,7 @@ Làm đúng theo SKILL.md — từng bài một, đọc rules/ trước khi gen.
 1. Đọc rules/rule_doc_hieu.md (rule giáo viên — section 3-5 áp dụng trực tiếp) + rules/content.md (chủ đề per level + char range) + rules/questions.md (label distribution).
 2. Scan sheets/samples_v1.csv xem topic + question_label đã dùng.
 3. Trong cùng level: KHÔNG trùng topic, dùng ≥ 2 question_label khác nhau (nếu N ≥ 2 bài).
-4. Tag (cột `tag`) viết tiếng Anh slug (vd: family, economics, culture).
+4. Tag **tiếng Anh** từ cột `en` của `rules/topic.json` (vd: family, economics, culture). TUYỆT ĐỐI không tiếng Việt/Nhật.
 
 ⛔ CHAR RANGE — Hard Reject phải gen lại:
 N1 220–260 (HR<200) | N2 240–290 (HR<200) | N3 220–290 (HR<200) | N4 180–240 (HR<150) | N5 100–160 (HR<80)
@@ -59,7 +59,7 @@ Trước khi gen:
 ⛔ ĐA DẠNG CHỦ ĐỀ + LABEL — BẮT BUỘC:
 - Trong cùng level: KHÔNG trùng topic; dùng ≥ 2 question_label khác nhau (nếu N ≥ 2)
 - Cross-level: ưu tiên topic chưa xuất hiện
-- Tag tiếng Anh slug (vd: family, economics, culture)
+- Tag **tiếng Anh** từ cột `en` của `rules/topic.json` (vd: family, economics, culture). TUYỆT ĐỐI không tiếng Việt/Nhật.
 
 ⛔ FURIGANA ZERO-TOLERANCE:
 - Mọi kanji vượt level PHẢI có <ruby><rt>
