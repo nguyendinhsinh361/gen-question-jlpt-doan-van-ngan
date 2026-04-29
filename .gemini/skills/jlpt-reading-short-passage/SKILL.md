@@ -158,7 +158,7 @@ Agent đọc lại file HTML và kiểm tra:
 | 5 | **`.passage` div** | Xem HTML structure | Có `<div class="passage">` bọc nội dung |
 | 6 | **White background** | Xem CSS | `.passage` có `background: white`, body `#f9fafb` |
 | 7 | **Furigana format** | Tìm ngoặc `漢字(かんじ)` hoặc `漢字【かんじ】` | Không có — tất cả furigana dùng `<ruby><rt>` |
-| 8 | **Ruby có `<rt>`** | Xem mọi `<ruby>...</ruby>` | Tất cả đều có `<rt>` bên trong (chạy `process_html.py --validate` để auto-check) |
+| 8 | **Ruby có `<rt>` không rỗng** | Xem mọi `<ruby>...</ruby>` | Tất cả đều có `<rt>` chứa furigana **không rỗng** (vd `<ruby>諦<rt>あきら</rt></ruby>`). CẤM `<ruby>諦</ruby>` (thiếu rt) hoặc `<ruby>諦<rt></rt></ruby>` (rt rỗng). Auto-check: `process_html.py --validate` |
 | 9 | **Ruby count** | Đếm số `<ruby>` | Trong ngưỡng: N5 0-2, N4 0-4, N3 0-6, N2 0-4, N1 0-2 |
 | 10 | **Marker/annotation/source đúng level** | Xem có `<u>`, marker ①, `注`, source line không | Phù hợp level (N4/N5 KHÔNG source, N5 KHÔNG annotation — xem R8) |
 

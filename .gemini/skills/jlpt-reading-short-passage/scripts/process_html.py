@@ -207,12 +207,26 @@ def classify_char_count(level: str | None, chars: int) -> str:
     return "OK"
 
 
-RUBY_WITHOUT_RT = re.compile(r"<ruby>(?:(?!<rt>).)*?</ruby>", re.DOTALL)
+RUBY_BLOCK = re.compile(r"<ruby[^>]*>(.*?)</ruby>", re.DOTALL)
+RT_INNER = re.compile(r"<rt[^>]*>([^<]*)</rt>")
 
 
 def check_ruby_rt(html: str) -> list[str]:
-    """Find <ruby>...</ruby> tags that are missing <rt>. Returns list of broken snippets."""
-    return RUBY_WITHOUT_RT.findall(html)
+    """Find <ruby>...</ruby> tags missing <rt> OR with empty/whitespace-only <rt>.
+    Returns list of broken snippets (e.g. '<ruby>諦</ruby>' or '<ruby>諦<rt></rt></ruby>').
+    Without non-empty <rt>, browser CANNOT render furigana."""
+    broken = []
+    for m in RUBY_BLOCK.finditer(html):
+        full = m.group(0)
+        inner = m.group(1)
+        rt_contents = RT_INNER.findall(inner)
+        if not rt_contents:
+            # No <rt> tag at all
+            broken.append(full)
+        elif not any(rt.strip() for rt in rt_contents):
+            # Has <rt> but all empty/whitespace — no furigana to render
+            broken.append(full)
+    return broken
 
 
 def validate_file(html_path: str) -> dict:

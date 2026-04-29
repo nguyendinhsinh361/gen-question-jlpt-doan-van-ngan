@@ -60,6 +60,21 @@ Các kanji 当, 届, 締, 割, 欄 là N3+ → KHÔNG xuất hiện trong bài N
 
 ## R4. Furigana
 
+### ⛔ Ruby phải có `<rt>` không rỗng — ZERO TOLERANCE
+
+Mỗi `<ruby>...</ruby>` BẮT BUỘC phải có `<rt>` chứa furigana **không rỗng**. Nếu thiếu hoặc rỗng, browser KHÔNG render được furigana → bài SAI chuẩn JLPT.
+
+**❌ SAI (browser không hiển thị furigana — cùng vẻ ngoài như chưa có furigana):**
+- `<ruby>諦</ruby>` — thiếu `<rt>` hoàn toàn
+- `<ruby>諦<rt></rt></ruby>` — `<rt>` rỗng
+- `<ruby>諦<rt>  </rt></ruby>` — `<rt>` chỉ whitespace
+
+**✅ ĐÚNG:**
+- `<ruby>諦<rt>あきら</rt></ruby>める` (kanji + okurigana)
+- `<ruby>構築<rt>こうちく</rt></ruby>` (compound word)
+
+Pipeline auto-detect: `process_html.py --validate` sẽ FAIL nếu phát hiện ruby thiếu `<rt>` hoặc `<rt>` rỗng. Phải fix ngay trước khi QC qua. Khi gen, agent PHẢI điền furigana hiragana vào `<rt>` mỗi lần dùng `<ruby>`.
+
 ### ⛔ Dữ liệu tham chiếu — BẮT BUỘC dùng
 
 > **File `rules/jlpt_kanji.csv`** chứa 2150 kanji với level JLPT (N5→N1).
