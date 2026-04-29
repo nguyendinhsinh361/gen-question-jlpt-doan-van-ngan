@@ -16,7 +16,7 @@
 
 ### Topic tag (tiếng Anh) — BẮT BUỘC
 
-Tag PHẢI bằng **tiếng Anh**, chọn từ `rules/topic.json`. Các category chính:
+Tag PHẢI bằng **tiếng Anh**. Catalog category dưới đây (tham khảo `rules/rule_doc_hieu.md` từ giáo viên cho tinh thần ra đề):
 
 | Category | Ví dụ tag |
 |----------|----------|
@@ -33,7 +33,7 @@ Tag PHẢI bằng **tiếng Anh**, chọn từ `rules/topic.json`. Các category
 | Infrastructure & Media | `transportation`, `city`, `media`, `journalism` |
 
 > **⚠️ KHÔNG dùng tag tiếng Việt** (ví dụ: ❌ `nhật ký`, `kinh tế`, `văn hóa`).
-> Phải dùng tiếng Anh theo đúng `rules/topic.json` (ví dụ: ✅ `daily life`, `economics`, `culture`).
+> Phải dùng tiếng Anh slug (ví dụ: ✅ `daily life`, `economics`, `culture`).
 
 Trong batch > 5 bài, chọn topic từ ≥ 3 category khác nhau để đa dạng.
 

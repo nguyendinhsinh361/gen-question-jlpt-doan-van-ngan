@@ -53,15 +53,15 @@ description: >
 
 ## BƯỚC 0: CHUẨN BỊ (1 lần cho batch)
 
-1. **Đọc rules**: `rules/content.md` + `rules/vocabulary.md` + `rules/technical.md` + `rules/questions.md`
-2. **Đọc `rules/jlpt_kanji.csv`** — dùng để tra level từng kanji khi quyết định furigana
-3. **Scan `sheets/samples_v1.csv` và `data/doan_van_ngan_n*_clean.json`** — xem format, topic đã dùng → chọn format chưa/ít dùng
-4. **Load 2-3 sample calibrate style**:
+1. **Đọc `rules/rule_doc_hieu.md`** — **rule giáo viên tiếng Nhật** (source-of-truth cho từ vựng/ngữ pháp theo level, kỹ thuật ra câu hỏi, distractor traps). Section 3-5 áp dụng trực tiếp. Section 1-2 (chủ đề + form) là cho dạng "tìm thông tin" — tham khảo tinh thần, áp dụng linh hoạt cho prose reading.
+2. **Đọc rules skill**: `rules/content.md` + `rules/vocabulary.md` + `rules/technical.md` + `rules/questions.md`
+3. **Đọc `rules/jlpt_kanji.csv`** — dùng để tra level từng kanji khi quyết định furigana
+4. **Scan `sheets/samples_v1.csv` và `data/doan_van_ngan_n*_clean.json`** — xem format, topic đã dùng → chọn format chưa/ít dùng
+5. **Load 2-3 sample calibrate style**:
    ```bash
    python3 .claude/skills/jlpt-reading-short-passage/scripts/load_references.py --level N3 --count 3
    ```
-5. **Đọc `rules/topic.json`** — chọn tag tiếng Anh (đa dạng ≥ 3 category trong batch > 5 bài)
-6. **Lập kế hoạch batch**: mỗi bài gán format + topic + question_label khác nhau
+6. **Lập kế hoạch batch**: mỗi bài gán format + topic + question_label khác nhau. Topic chọn từ catalog trong `rules/content.md` (đa dạng ≥ 3 category trong batch > 5 bài).
 
 ---
 
@@ -74,7 +74,7 @@ description: >
 
 1. **Gen `_id`** = `{LEVEL}_{uuid.uuid4().hex}` (full 32-char hex)
 2. **Chọn format** từ R7 (`rules/content.md`) — 6 formats: essay/anecdote/advice/news brief/letter/diary. Scan `sheets/` + `data/` để chọn format chưa/ít dùng.
-3. **Chọn `tag`** (topic) từ `rules/topic.json` — tiếng Anh, đa dạng trong batch
+3. **Chọn `tag`** (topic) — tiếng Anh, từ catalog trong `rules/content.md` R1, đa dạng trong batch
 4. **Chọn `question_label`** từ R5 — 7 labels, tuân theo distribution per level
 5. **Gen HTML** theo rules → save `assets/html/doan_van_ngan/{LEVEL}_{uuid}.html`
    - Container `max-width: 640px; margin: 0 auto`
@@ -328,4 +328,4 @@ Chi tiết phân tích từng level xem `references/sample-analysis.md`.
 
 ## Cảnh báo bảo mật dữ liệu
 
-> **🚫 KHÔNG ĐƯỢC GHI VÀO THƯ MỤC `rules/`** — `rules/question_sheet.csv`, `rules/topic.json`, `rules/jlpt_kanji.csv` là file tham chiếu, chỉ đọc. Mọi dữ liệu gen phải ghi vào `sheets/samples_v1.csv`.
+> **🚫 KHÔNG ĐƯỢC GHI VÀO THƯ MỤC `rules/`** — `rules/question_sheet.csv`, `rules/jlpt_kanji.csv`, `rules/rule_doc_hieu.md` là file tham chiếu, chỉ đọc. Mọi dữ liệu gen phải ghi vào `sheets/samples_v1.csv`.

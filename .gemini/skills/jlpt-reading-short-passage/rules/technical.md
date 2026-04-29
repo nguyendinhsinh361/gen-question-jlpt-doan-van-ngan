@@ -194,7 +194,7 @@ Rules:
 |--------|-------------------------|
 | `_id` | `{LEVEL}_{uuid.uuid4().hex}` — 32-char hex |
 | `level` | `N1`, `N2`, `N3`, `N4`, `N5` |
-| `tag` | Topic tiếng Anh từ `rules/topic.json` (VD: `daily life`, `economics`, `culture`) |
+| `tag` | Topic tiếng Anh slug từ catalog trong `rules/content.md` R1 (VD: `daily life`, `economics`, `culture`) |
 | `jp_char_count` | Result of `count_body_chars()` |
 | `kind` | **Always `đoạn văn ngắn`** |
 | `general_audio` | `""` (empty) |
