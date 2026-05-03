@@ -30,7 +30,7 @@ Làm đúng theo SKILL.md — từng bài một, đọc rules/ trước khi gen.
 N1 220–260 (HR<200) | N2 240–290 (HR<200) | N3 220–290 (HR<200) | N4 180–240 (HR<150) | N5 100–160 (HR<80)
 
 ⛔ FURIGANA — chỉ cho từ VƯỢT level. Cấm dạng "Ab" (nửa kanji nửa hiragana).
-Tra rules/jlpt_kanji.csv. Ưu tiên thay từ đơn giản hơn thay vì rắc furigana.
+Tra rules/kanji_simplified.csv. Ưu tiên thay từ đơn giản hơn thay vì rắc furigana.
 
 ⛔ ANNOTATION (注) — chỉ N1/N2/N3 khi có thuật ngữ. Giải thích bằng TIẾNG NHẬT đơn giản (やさしい日本語), KHÔNG tiếng Anh/Việt. N4/N5 KHÔNG annotation.
 
@@ -52,7 +52,7 @@ Lưu CSV vào sheets/samples_v1.csv. HTML lưu vào assets/html/doan_van_ngan/{L
 Trước khi gen:
 1. Đọc rules/rule_doc_hieu.md (rule giáo viên — source-of-truth cho vocab/grammar/distractor)
 2. Đọc rules/content.md + rules/vocabulary.md + rules/technical.md + rules/questions.md
-3. Đọc rules/jlpt_kanji.csv để tra level kanji khi quyết định furigana
+3. Đọc rules/kanji_simplified.csv để tra level kanji khi quyết định furigana
 4. Đọc 1-2 sample qua scripts/load_references.py --level {LEVEL} --count 2
 5. Scan sheets/samples_v1.csv xem chủ đề + question_label nào đã dùng
 

@@ -55,7 +55,7 @@ description: >
 
 1. **Đọc `rules/rule_doc_hieu.md`** — **rule chung của giáo viên tiếng Nhật cho TOÀN BỘ phần đọc hiểu** (source-of-truth cho từ vựng/ngữ pháp theo level, kỹ thuật ra câu hỏi, distractor traps). Section 3-5 áp dụng trực tiếp. Section 1-2 (chủ đề + form) chủ yếu cho "tìm thông tin" — tham khảo tinh thần, áp dụng linh hoạt cho prose reading.
 2. **Đọc rules skill**: `rules/content.md` + `rules/vocabulary.md` + `rules/technical.md` + `rules/questions.md`
-3. **Đọc `rules/jlpt_kanji.csv`** — dùng để tra level từng kanji khi quyết định furigana
+3. **Đọc `rules/kanji_simplified.csv`** — dùng để tra level từng kanji khi quyết định furigana
 4. **Scan `sheets/samples_v1.csv` và `data/doan_van_ngan_n*_clean.json`** — xem format, topic đã dùng → chọn format chưa/ít dùng
 5. **Load 2-3 sample calibrate style**:
    ```bash
@@ -81,7 +81,7 @@ description: >
    - `word-break: keep-all` (đảm bảo xuống dòng sạch ở ranh giới từ)
    - `<p>` thuần, không `<br>` giữa câu (trừ N5 letter)
    - Marker khớp với question_label (nếu reference/fill_in_blank)
-   - Furigana chỉ cho từ vượt level (tra `rules/jlpt_kanji.csv`)
+   - Furigana chỉ cho từ vượt level (tra `rules/kanji_simplified.csv`)
 6. **Gen câu hỏi + 4 đáp án** theo `rules/questions.md`
    - 4 options ngăn cách `\n`, KHÔNG số thứ tự
    - `correct_answer_1` = integer 1-4
@@ -173,7 +173,7 @@ Agent đọc nội dung bài viết và đánh giá:
 | 13 | **Nội dung logic** | Đọc toàn bài | Ý nhất quán, không mâu thuẫn, lập luận rõ |
 | 14 | **Không mơ hồ (test 2 cách hiểu)** | Đọc từng câu, thử hiểu theo cách 2 | Chỉ có DUY NHẤT 1 cách hiểu hợp lý |
 | 15 | **Từ vựng đúng level** | Đọc từng từ, đối chiếu `rules/vocabulary.md` R3 | Key terms ≤ level, không dùng ngữ pháp vượt level |
-| 16 | **Furigana đúng từ (tra CSV)** | Tra từng kanji trong `rules/jlpt_kanji.csv`: có kanji > level → phải có furigana; tất cả kanji ≤ level → không furigana | Mọi từ có kanji vượt level đều có `<ruby><rt>`. Không thừa furigana cho từ đúng level. Không dạng "Ab" (週かん) |
+| 16 | **Furigana đúng từ (tra CSV)** | Tra từng kanji trong `rules/kanji_simplified.csv`: có kanji > level → phải có furigana; tất cả kanji ≤ level → không furigana | Mọi từ có kanji vượt level đều có `<ruby><rt>`. Không thừa furigana cho từ đúng level. Không dạng "Ab" (週かん) |
 
 #### PHẦN C: CÂU HỎI & ĐÁP ÁN (8 checks)
 
@@ -222,7 +222,7 @@ Agent đọc câu hỏi + 4 đáp án từ CSV và đánh giá:
 | #7, #8, #9 (ruby) | Sửa ruby tags | Chạy `--refresh` → QC lại |
 | #10 (visual level) | Thêm/bớt annotation/source/marker theo R8 | Chạy `--refresh` → QC lại |
 | #11, #12, #13, #14, #15 | Gen lại nội dung (giữ _id) | Chạy `--refresh` → QC lại |
-| #16 (furigana tra CSV) | Sửa ruby tags (tra lại `rules/jlpt_kanji.csv`) | Chạy `--refresh` → QC lại |
+| #16 (furigana tra CSV) | Sửa ruby tags (tra lại `rules/kanji_simplified.csv`) | Chạy `--refresh` → QC lại |
 | #17, #18, #19 (câu hỏi) | Sửa câu hỏi bằng `fill_qa.py` | QC lại (không cần refresh HTML) |
 | #20, #21, #22 (đáp án) | Sửa đáp án bằng `fill_qa.py` | QC lại |
 | #23 (distractor bịa) | Viết lại distractor dùng info thật từ bài | QC lại |
@@ -334,4 +334,4 @@ Chi tiết phân tích từng level xem `references/sample-analysis.md`.
 
 ## Cảnh báo bảo mật dữ liệu
 
-> **🚫 KHÔNG ĐƯỢC GHI VÀO THƯ MỤC `rules/`** — `rules/question_sheet.csv`, `rules/topic.json`, `rules/jlpt_kanji.csv`, `rules/rule_doc_hieu.md` là file tham chiếu, chỉ đọc. Mọi dữ liệu gen phải ghi vào `sheets/samples_v1.csv`.
+> **🚫 KHÔNG ĐƯỢC GHI VÀO THƯ MỤC `rules/`** — `rules/question_sheet.csv`, `rules/topic.json`, `rules/kanji_simplified.csv`, `rules/rule_doc_hieu.md` là file tham chiếu, chỉ đọc. Mọi dữ liệu gen phải ghi vào `sheets/samples_v1.csv`.
