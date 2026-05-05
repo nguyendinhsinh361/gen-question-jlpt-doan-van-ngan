@@ -18,11 +18,16 @@ description: >
 
 # JLPT 短文 / Đoạn Văn Ngắn — Workflow
 
-> **Nguyên tắc cốt lõi:**
+> **🔒 NGUYÊN TẮC CỐT LÕI — ZERO-TOLERANCE (BẮT BUỘC):**
 > 1. **Gen từng bài một** — không batch rồi QC sau
 > 2. **Agent tự QC** — đọc lại bài + câu hỏi, tự đánh giá từng mục, log PASS/FAIL
-> 3. **1 FAIL = chưa xong** — sửa → QC lại → lặp đến khi ALL PASS
-> 4. **KHÔNG có screenshot** — đoạn văn ngắn không cần PNG
+> 3. **🚨 1 FAIL = CHƯA XONG** — sửa → QC lại TỪ ĐẦU → lặp đến khi ALL PASS. **TUYỆT ĐỐI CẤM:**
+>    - Skip mục FAIL hoặc mark "tạm thời để đó"
+>    - Tự ý sang bài tiếp khi còn ≥ 1 FAIL ở bài hiện tại
+>    - Ghi PASS mà không thực sự đọc lại nội dung và verify
+>    - "Hợp lý hoá" lỗi (vd "char count chỉ vượt 5 ký tự thì OK") — nếu rule nói FAIL thì là FAIL
+> 4. **🔒 5 GATE bắt buộc** giữa các BƯỚC (0→1, 1→2, 2→3, 3→4, 4→5) — KHÔNG qua gate = KHÔNG được sang bước tiếp. Mỗi gate phải log explicit "GATE X→Y PASSED" trước khi tiếp tục.
+> 5. **KHÔNG có screenshot** — đoạn văn ngắn không cần PNG
 
 ## Cấu trúc file
 
@@ -71,6 +76,20 @@ description: >
    python3 .claude/skills/jlpt-reading-short-passage/scripts/load_references.py --level N3 --count 3
    ```
 6. **Lập kế hoạch batch**: mỗi bài gán format + topic + question_label khác nhau. Topic chọn **tiếng Anh** từ cột `en` của `rules/topic.json` (đa dạng ≥ 3 category trong batch > 5 bài).
+
+### 🔒 GATE 0→1 — KHÔNG QUA = KHÔNG ĐƯỢC GEN
+
+Trước khi bắt đầu BƯỚC 1, agent PHẢI confirm bằng cách tick từng item:
+
+- [ ] Đã đọc `rules/rule_doc_hieu.md` (đặc biệt Phần 1, 2, **2.4 thể chia**, 3, 4, 5, 6.1–10.1, 11)
+- [ ] Đã đọc đủ 4 file: `rules/content.md` + `rules/vocabulary.md` + `rules/technical.md` + `rules/questions.md`
+- [ ] Đã đọc `rules/kanji_jlpt_sensei.csv` (sẵn sàng tra furigana)
+- [ ] Đã chạy `load_references.py --level {LEVEL} --count 2-3` và đọc samples
+- [ ] Đã scan `sheets/samples_v1.csv` để biết topic + label đã dùng
+- [ ] Đã có kế hoạch batch (format + topic + label per bài)
+
+❌ **Bất kỳ item nào CHƯA tick → quay lại BƯỚC 0**, KHÔNG được gen.
+✅ Khi 6/6 tick → log `GATE 0→1 PASSED — ready to gen` rồi sang BƯỚC 1.
 
 ---
 
@@ -124,6 +143,19 @@ description: >
      --evn1 "..." \
      --een1 "..."
    ```
+
+### 🔒 GATE 1→2 — KHÔNG QUA = KHÔNG ĐƯỢC QC
+
+Trước khi sang BƯỚC 2 (QC), agent PHẢI confirm:
+
+- [ ] File HTML đã save vào `assets/html/doan_van_ngan/{LEVEL}_{uuid}.html` (verify file tồn tại)
+- [ ] CSV row đã tạo bằng `process_html.py` (KHÔNG sửa CSV tay)
+- [ ] `_id` đúng format `{LEVEL}_{uuid32}` (không tạm thời, không placeholder)
+- [ ] Q1 + 4 đáp án + correct_answer_1 + explain_vn_1 + explain_en_1 đều đã fill (không "TODO", không empty)
+- [ ] Đã đọc lại file HTML vừa gen (mở file, đọc content) — KHÔNG dựa vào "tôi nhớ tôi đã gen"
+
+❌ Bất kỳ item nào CHƯA confirm → quay lại BƯỚC 1 fix, KHÔNG được QC.
+✅ Khi 5/5 tick → log `GATE 1→2 PASSED — ready to QC` rồi sang BƯỚC 2.
 
 ---
 
@@ -246,18 +278,38 @@ python3 .claude/skills/jlpt-reading-short-passage/scripts/process_html.py \
   --csv sheets/samples_v1.csv
 ```
 
-> **Vòng lặp: sửa → refresh CSV (nếu sửa HTML) → quay lại BƯỚC 2 (QC lại TẤT CẢ) → nếu còn FAIL thì lặp lại.**
-> **Tối đa 5 vòng. Sau 5 vòng vẫn FAIL → báo lỗi cho user, KHÔNG bỏ qua.**
+> **Vòng lặp BẮT BUỘC: sửa → refresh CSV (nếu sửa HTML) → quay lại BƯỚC 2 (QC lại TẤT CẢ 26 mục TỪ ĐẦU, KHÔNG chỉ check mục đã FAIL) → nếu còn FAIL thì lặp lại.**
+> **Tối đa 5 vòng. Sau 5 vòng vẫn FAIL → báo lỗi cho user, KHÔNG bỏ qua, KHÔNG sang bài tiếp.**
+>
+> **🚨 CẤM TUYỆT ĐỐI:**
+> - Mark "đủ tốt rồi" khi còn ≥ 1 FAIL
+> - Bỏ qua mục FAIL với lý do "minor"
+> - Sang bài tiếp khi bài hiện tại chưa ALL PASS
+> - QC lại chỉ mục đã sửa mà không check lại 26 mục (vì sửa 1 chỗ có thể làm vỡ chỗ khác)
+
+### 🔒 GATE 4→5 — KHÔNG QUA = KHÔNG ĐƯỢC HOÀN THÀNH
+
+Trước khi log "ALL PASSED", agent PHẢI confirm:
+
+- [ ] Đã chạy QC checklist 26 mục TRỌN VẸN ở vòng cuối (không skip)
+- [ ] **TẤT CẢ 26/26 mục đều PASS** (không có FAIL nào, không có "skip", không có "n/a")
+- [ ] Nếu có sửa HTML trong loop → đã chạy `process_html.py --refresh` để sync CSV
+- [ ] Đã chạy `process_html.py --validate` cho file hiện tại — KHÔNG có broken ruby trong cả HTML lẫn CSV
+- [ ] Self-solve (mục #25) thực sự thực hiện: agent tự giải bài + chọn đáp án mà không nhìn correct_answer_1 → KHỚP
+
+❌ Bất kỳ item nào CHƯA tick → quay lại BƯỚC 4 sửa tiếp.
+✅ Khi 5/5 tick → cho phép sang BƯỚC 5.
 
 ---
 
 ### BƯỚC 5: ✅ HOÀN THÀNH → BÀI TIẾP THEO
 
-Chỉ khi **TẤT CẢ 26 checks PASS** → log:
+Chỉ khi **TẤT CẢ 26 checks PASS + GATE 4→5 PASSED** → log:
 ```
 🎉 ALL PASSED (26/26) — {_id} hoàn thành
+GATE 4→5 PASSED — bài này hoàn tất, sang bài tiếp.
 ```
-→ Chuyển sang bài tiếp theo (quay lại BƯỚC 1).
+→ Chuyển sang bài tiếp theo (quay lại GATE 0→1 nếu là bài đầu batch, hoặc BƯỚC 1 nếu cùng batch).
 
 ---
 
