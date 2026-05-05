@@ -3,88 +3,49 @@
 ## Cách dùng
 
 Copy prompt bên dưới, thay `{số}` rồi paste vào Claude hoặc Gemini.
-SKILL.md chứa workflow + checklist QC. rules/ chứa chi tiết (chủ đề, char range, format question, distractor traps...). Prompt chỉ cần nói **cái gì** và **bao nhiêu**.
+
+> **🚨 ZERO-TOLERANCE QC**: Chỉ cần **1 tiêu chí FAIL** trong checklist QC của SKILL.md → **fix ngay hoặc gen lại** trước khi sang bài tiếp. Không được skip, không được "tạm thời để đó".
 
 ---
 
-## Prompt ngắn (khuyên dùng)
-
-```
-Đọc .claude/skills/jlpt-reading-short-passage/SKILL.md rồi gen bài đọc hiểu đoạn văn ngắn:
-- N5: {số} bài
-- N4: {số} bài
-- N3: {số} bài
-- N2: {số} bài
-- N1: {số} bài
-
-Lưu CSV vào sheets/samples_v1.csv. HTML lưu vào assets/html/doan_van_ngan/{LEVEL}_{uuid}.html.
-Làm đúng theo SKILL.md — từng bài một, đọc rules/ trước khi gen.
-
-⛔ ĐA DẠNG CHỦ ĐỀ + LABEL — BẮT BUỘC:
-1. Đọc rules/rule_doc_hieu.md (rule giáo viên — section 3-5 áp dụng trực tiếp) + rules/content.md (chủ đề per level + char range) + rules/questions.md (label distribution).
-2. Scan sheets/samples_v1.csv xem topic + question_label đã dùng.
-3. Trong cùng level: KHÔNG trùng topic, dùng ≥ 2 question_label khác nhau (nếu N ≥ 2 bài).
-4. Tag **tiếng Anh** từ cột `en` của `rules/topic.json` (vd: family, economics, culture). TUYỆT ĐỐI không tiếng Việt/Nhật.
-
-⛔ CHAR RANGE — Hard Reject phải gen lại:
-N1 220–260 (HR<200) | N2 240–290 (HR<200) | N3 220–290 (HR<200) | N4 180–240 (HR<150) | N5 100–160 (HR<80)
-
-⛔ FURIGANA — chỉ cho từ VƯỢT level. Cấm dạng "Ab" (nửa kanji nửa hiragana).
-Tra rules/kanji_jlpt_sensei.csv. Ưu tiên thay từ đơn giản hơn thay vì rắc furigana.
-
-⛔ ANNOTATION (注) — chỉ N1/N2/N3 khi có thuật ngữ. Giải thích bằng TIẾNG NHẬT đơn giản (やさしい日本語), KHÔNG tiếng Anh/Việt. N4/N5 KHÔNG annotation.
-
-Sau khi gen xong mỗi bài, tự QC checklist trong SKILL.md (HTML + CSV → log PASS/FAIL từng mục). 1 FAIL = sửa → QC lại. Tất cả PASS mới sang bài tiếp.
-Điền Q&A vào CSV bằng scripts/fill_qa.py (KHÔNG sửa CSV bằng tay — commas vỡ cột).
-Sửa HTML = chạy lại process_html.py --refresh để update text_read + jp_char_count.
-Verify cuối: python3 .claude/skills/jlpt-reading-short-passage/scripts/process_html.py --validate --html-dir assets/html/doan_van_ngan
-```
-
----
-
-## Prompt có thêm ràng buộc (khi cần kiểm soát chất lượng)
+## Prompt
 
 ```
 Đọc .claude/skills/jlpt-reading-short-passage/SKILL.md rồi gen bài đọc hiểu đoạn văn ngắn:
 - N5: {số} bài | N4: {số} bài | N3: {số} bài | N2: {số} bài | N1: {số} bài
 
-Lưu CSV vào sheets/samples_v1.csv. HTML lưu vào assets/html/doan_van_ngan/{LEVEL}_{uuid}.html.
-Trước khi gen:
-1. Đọc rules/rule_doc_hieu.md (rule giáo viên — source-of-truth cho vocab/grammar/distractor)
-2. Đọc rules/content.md + rules/vocabulary.md + rules/technical.md + rules/questions.md
-3. Đọc rules/kanji_jlpt_sensei.csv để tra level kanji khi quyết định furigana
-4. Đọc 1-2 sample qua scripts/load_references.py --level {LEVEL} --count 2
-5. Scan sheets/samples_v1.csv xem chủ đề + question_label nào đã dùng
+Lưu CSV: sheets/samples_v1.csv. HTML: assets/html/doan_van_ngan/{LEVEL}_{uuid}.html.
 
-⛔ ĐA DẠNG CHỦ ĐỀ + LABEL — BẮT BUỘC:
-- Trong cùng level: KHÔNG trùng topic; dùng ≥ 2 question_label khác nhau (nếu N ≥ 2)
-- Cross-level: ưu tiên topic chưa xuất hiện
-- Tag **tiếng Anh** từ cột `en` của `rules/topic.json` (vd: family, economics, culture). TUYỆT ĐỐI không tiếng Việt/Nhật.
+═══ BƯỚC 0 — CHUẨN BỊ (1 lần) ═══
+1. Đọc rules/rule_doc_hieu.md (rule giáo viên — source-of-truth, 11 phần). Áp dụng đặc biệt:
+   - Phần 2.4 (Thể chia 文体の統一): N1/N2/N3 → 普通形 (だ・である); N4/N5 → ます形. Văn bản + câu hỏi + 4 đáp án thống nhất 1 thể. N5 thêm わかち書き (khoảng trắng giữa cụm).
+   - Phần 3 (Furigana per level), Phần 4 (8 loại Q), Phần 5 (5 loại bẫy chuẩn).
+2. Đọc rules/content.md + vocabulary.md + technical.md + questions.md.
+3. Đọc rules/kanji_jlpt_sensei.csv (2495 kanji) để tra level kanji khi quyết định furigana.
+4. Load 2-3 sample: scripts/load_references.py --level {LEVEL} --count 2-3.
+5. Scan sheets/samples_v1.csv xem topic + question_label đã dùng.
 
-⛔ FURIGANA ZERO-TOLERANCE:
-- Mọi kanji vượt level PHẢI có <ruby><rt>
-- Cấm dạng "Ab" (媒たい). Chỉ chọn 1 trong 2: full kanji + furigana, HOẶC full hiragana
-- Density per level: N5 0–3 | N4 0–4 | N3 0–5 | N2 0–6 | N1 0–7 ruby tags
+═══ BƯỚC 1→5 — LẶP CHO TỪNG BÀI ═══
+1. Gen _id = {LEVEL}_{uuid32}; chọn format chưa/ít dùng + topic + question_label.
+2. Tag = **tiếng Anh** từ cột `en` của rules/topic.json (vd: family, economics). TUYỆT ĐỐI không tiếng Việt/Nhật.
+3. Gen HTML: container 640px, word-break keep-all, <p> thuần (không <br> trừ N5 letter), furigana chỉ cho từ vượt level (cấm "Ab" — nửa kanji nửa hiragana), thể chia đúng level (Phần 2.4).
+4. Gen Q + 4 đáp án (newline \n, KHÔNG prefix "1." "①"); distractor đa dạng ≥ 3 loại bẫy, dùng info THẬT từ bài. Câu hỏi và 4 đáp án cùng thể chia với bài đọc.
+5. Tạo CSV row bằng scripts/process_html.py (KHÔNG sửa CSV tay — commas vỡ cột). Hoặc fill Q&A sau bằng scripts/fill_qa.py.
 
-⛔ ĐÁP ÁN — 4 options ngăn cách \n, KHÔNG prefix "1.", "①", "1)":
-✅ "選択肢A\n選択肢B\n選択肢C\n選択肢D"
-❌ "1. 選択肢A\n2. 選択肢B\n..."
+═══ BƯỚC 2 — QC ZERO-TOLERANCE (BẮT BUỘC) ═══
+Tự đánh giá checklist trong SKILL.md, log PASS/FAIL từng mục:
+- HTML (CSS, char count, ruby <rt> không rỗng, paragraph) + Content (chủ đề, từ vựng đúng level, **thể chia nhất quán**)
+- CSV (label, format đáp án, correct_answer, explain VN+EN 3 phần) + Self-solve verify
+- **1 FAIL = fix ngay hoặc gen lại → refresh CSV (nếu sửa HTML) → QC lại từ đầu**. CẤM bỏ qua.
 
-Yêu cầu chất lượng câu hỏi:
-- Question_label dùng prefix `question_` (vd `question_reference`, `question_content_match`)
-- Distractor đa dạng ≥ 3 loại bẫy (Detail swap / Scope / Misinterpretation / Part of truth / Mixing). Mỗi distractor PHẢI dùng info thật từ bài, KHÔNG bịa
-- Paraphrase: đáp án đúng KHÔNG copy nguyên văn ≥ 4 từ liên tiếp (N1) / 5 từ (N2-N5)
-- Câu hỏi answer được TRONG bài (không kiến thức nền)
-- Self-solve: tự giải lại từng câu, đáp án phải KHỚP correct_answer_i
-- Explanation 3 phần: đáp án đúng (trích bài) + đáp án sai (nêu loại bẫy) + tóm tắt. VN + EN
+═══ HARD REJECT (gen lại ngay, không thương lượng) ═══
+- Char range ngoài: N1 220–260 (HR<200) | N2 240–290 (HR<200) | N3 220–290 (HR<200) | N4 180–240 (HR<150) | N5 100–160 (HR<80)
+- <ruby> thiếu <rt> hoặc <rt> rỗng
+- Thể chia trộn lẫn (vd N3 vừa だ vừa です trong cùng bài)
+- Tag tiếng Việt/Nhật thay vì English
+- Trong cùng level: trùng topic, hoặc <2 question_label khác nhau (khi N≥2 bài)
+- Annotation 注 dùng tiếng Anh/Việt (phải tiếng Nhật やさしい), hoặc N4/N5 có 注
 
-Sau khi gen xong mỗi bài, BẮT BUỘC tự QC theo checklist trong SKILL.md:
-- HTML check (CSS, char count, ruby format, paragraph) + Content (chủ đề, từ vựng level)
-- CSV check (label, format đáp án, correct, explain) + Self-solve verify
-- 1 FAIL = sửa → refresh CSV (nếu sửa HTML) → QC lại
-
-Lưu ý kỹ thuật:
-- Điền Q&A bằng scripts/fill_qa.py (KHÔNG edit CSV tay)
-- Refresh CSV sau khi sửa HTML: process_html.py --refresh --file ... --csv ...
-- Verify cuối batch: process_html.py --validate --html-dir assets/html/doan_van_ngan
+═══ CUỐI BATCH ═══
+python3 .claude/skills/jlpt-reading-short-passage/scripts/process_html.py --validate --html-dir assets/html/doan_van_ngan --csv sheets/samples_v1.csv
 ```

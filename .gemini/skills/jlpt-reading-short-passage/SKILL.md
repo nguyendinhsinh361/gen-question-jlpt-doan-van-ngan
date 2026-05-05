@@ -53,13 +53,14 @@ description: >
 
 ## BƯỚC 0: CHUẨN BỊ (1 lần cho batch)
 
-1. **Đọc `rules/rule_doc_hieu.md`** — **Bộ Tiêu Chí Đánh Giá Đọc Hiểu JLPT toàn diện** từ giáo viên (source-of-truth, 11 phần: 4 tiêu chí, 程度 ±, 書き下ろし/による, ①② 下線 空欄 注 ※, furigana per level, 8 loại câu hỏi, 6 loại bẫy, tiêu chí chi tiết per level).
+1. **Đọc `rules/rule_doc_hieu.md`** — **Bộ Tiêu Chí Đánh Giá Đọc Hiểu JLPT toàn diện** từ giáo viên (source-of-truth, 11 phần: 4 tiêu chí, 程度 ±, 書き下ろし/による, ①② 下線 空欄 注 ※, **文体の統一 (thể chia)**, furigana per level, 8 loại câu hỏi, 5 loại bẫy chuẩn (+ Single-side cho 統合理解), tiêu chí chi tiết per level).
    **Phần áp dụng trực tiếp cho dạng đoạn văn ngắn (短文)**:
    - Phần 1 (Tổng quan & Nguyên tắc 程度) — biên ± per level
    - Phần 2 (Hình thức) — phân bổ ①② 下線 注 theo dạng bài
+   - **Phần 2.4 (Thể chia nhất quán 文体の統一)** — N1/N2/N3 dùng **普通形** (だ・である); N4/N5 dùng **ます形** (です・ます). Văn bản + câu hỏi + 4 đáp án phải **thống nhất thể chia**. N5 thêm **わかち書き** (khoảng trắng giữa các cụm từ).
    - Phần 3 (Furigana) — bảng quy tắc per level
    - Phần 4 (8 loại câu hỏi) — yêu cầu chất lượng từng loại
-   - Phần 5 (6 loại bẫy đáp án)
+   - Phần 5 (5 loại bẫy chuẩn)
    - **Phần 6.1 (N5 短文)**, **Phần 7.1 (N4 短文)**, **Phần 8.1 (N3 短文)**, **Phần 9.1 (N2 短文)**, **Phần 10.1 (N1 短文)** — tiêu chí chi tiết 4 chiều (chủ đề/hình thức/ngôn ngữ/Q&A) cho từng level
    - Phần 11 (Bảng so sánh tổng hợp) — tra cứu nhanh.
 2. **Đọc rules skill**: `rules/content.md` + `rules/vocabulary.md` + `rules/technical.md` + `rules/questions.md`
