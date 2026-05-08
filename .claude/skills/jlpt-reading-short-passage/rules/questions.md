@@ -162,14 +162,28 @@ Mỗi distractor phải dùng concept hoặc chi tiết CÓ trong bài nhưng sa
 | **N2** | Sai ở 1 giải thích (chọn lý do không chính xác, kết luận quá rộng/hẹp) |
 | **N1** | Sai tinh vi — đúng 2/3 ý, sai 1 ý khó nhận ra. Cần đọc kỹ toàn bài. |
 
-### ⛔ 4 loại bẫy — TẤT CẢ câu hỏi nên có ≥ 2 loại
+### ⛔ Phân loại bẫy đáp án — 7 loại tổng (5 chuẩn + bẫy có điều kiện)
 
-| Loại bẫy | Mô tả | Tại sao khó loại |
-|-----------|--------|-------------------|
-| **① Bẫy đảo ngược (reversal)** | Đảo ngược quan hệ nhân-quả, chủ-vị, hoặc ý đối lập | Phải đọc kỹ câu quan trọng mới phát hiện |
-| **② Bẫy chi tiết sai (detail swap)** | Dùng chi tiết THẬT từ bài nhưng gán cho đối tượng/thời điểm khác | Phải xác nhận đúng đối tượng/thời điểm mới loại |
-| **③ Bẫy quá rộng/hẹp (scope)** | Kết luận quá chung hoặc quá cụ thể so với bài | Phải đánh giá chính xác scope của lập luận |
-| **④ Bẫy hiểu nhầm ý (misinterpretation)** | Hiểu ý phụ thay vì ý chính, hoặc đảo ngược tone (tích cực ↔ tiêu cực) | Phải nắm đúng ý chính của bài |
+> **Nguồn**: rule_doc_hieu.md Phần 5 (5.1–5.7). Áp dụng cho dạng này: **N5–N1**.
+>
+> **Quy tắc:** Trong 4 đáp án (1 đúng + 3 sai), 3 distractor PHẢI dùng **≥ 3 loại bẫy khác nhau** từ bảng dưới. Mỗi distractor phải dùng info/ý THẬT từ bài (trừ Fabrication có thể bịa cận-context).
+
+| Loại bẫy | Mô tả | Ví dụ |
+|----------|-------|-------|
+| **① Reversal** ❌ | Đảo ngược ý nghĩa, kết luận, quan hệ nhân-quả từ bài | Bài: 「Aによって元気になった」 → Bẫy: 「Aの後で体が重くなった」 (đảo ngược) |
+| **② Detail Swap** 🔄 | Dùng thông tin đúng nhưng gán sai ngữ cảnh (sai đối tượng/thời điểm/địa điểm) | Bài: 「Aは嵐山, Bは金閣寺」 → Bẫy: 「Aは金閣寺」 (đúng chi tiết, sai ngữ cảnh) |
+| **③ Fabrication** 🎭 | Thêm thông tin hoàn toàn KHÔNG CÓ trong bài | Bài không nói X → Bẫy: 「XだからY」 — không kiểm chứng được |
+| **④ Scope** 📐 | Đáp án quá RỘNG (over-generalization) hoặc quá HẸP so với ý bài | Bài: 「金閣寺で写真」 → Bẫy rộng: 「京都で写真」 / Bẫy hẹp: 「池のそばで写真」 |
+| **⑤ Mixing** 🧩 | Kết hợp 2 thông tin đúng riêng lẻ thành ý sai (không tồn tại trong bài) | A đúng + B đúng nhưng không liên quan → Bẫy: 「AだからB」 |
+
+**📊 Phân bổ thực tế per level (từ data đề thi):**
+- **N5–N4**: Reversal (cảm xúc/hành động) + Detail Swap đơn giản + Fabrication thông tin ngoài bài
+- **N3**: Detail Swap (hoán đổi nhân vật/thời điểm) + Mixing (trộn lý do) + Fabrication tinh tế hơn
+- **N2**: Scope (quá rộng/hẹp) + Reversal logic (concede trap: ý nhượng bộ vs ý chính) + Mixing (evidence + opinion)
+- **N1**: Peripheral Source (nếu 注 dài) + Reversal sâu (premise vs conclusion) + Scope cực tinh tế (1 từ điều kiện) + Mixing phức tạp (2+ bước lập luận)
+
+> **Áp dụng:** 5 loại trên áp dụng cho mọi level. Single-side và Peripheral Source KHÔNG áp dụng cho 短文 (bài quá ngắn, không có 統合, không có 注 dài).
+
 
 ### ⛔ Self-test BẮT BUỘC cho mỗi distractor
 
