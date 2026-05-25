@@ -107,6 +107,30 @@ def extract_outside_ruby_kanji(body: str) -> list[tuple[str, int]]:
     return result
 
 
+
+# Pattern: kanji DIRECTLY adjacent to <ruby> block (no separator)
+# Matches: kanji<ruby>...</ruby> or <ruby>...</ruby>kanji
+PARTIAL_BEFORE = re.compile(r"([一-鿿])\s*(<ruby[^>]*>[^<]*<rt[^>]*>[^<]*</rt>\s*</ruby>)")
+PARTIAL_AFTER = re.compile(r"(<ruby[^>]*>[^<]*<rt[^>]*>[^<]*</rt>\s*</ruby>)\s*([一-鿿])")
+
+
+def find_partial_word_ruby(body: str) -> list[str]:
+    """Find kanji adjacent to ruby block — likely partial-word ruby (Quy tắc B violation).
+
+    Returns list of context snippets showing the partial-word issue.
+    """
+    snippets: list[str] = []
+    for m in PARTIAL_BEFORE.finditer(body):
+        kanji = m.group(1)
+        ruby = m.group(2)
+        snippets.append(f"{kanji}{ruby}")
+    for m in PARTIAL_AFTER.finditer(body):
+        ruby = m.group(1)
+        kanji = m.group(2)
+        snippets.append(f"{ruby}{kanji}")
+    return snippets
+
+
 def check_furigana(
     html: str,
     passage_level: str,
@@ -143,10 +167,13 @@ def check_furigana(
             # Kanji is at/easier than passage level → furigana might be redundant
             redundant.add(kanji)
 
+    partial_word_ruby = find_partial_word_ruby(body)
+
     return {
         "missing": missing,
         "redundant": sorted(redundant),
         "unknown": unknown,
+        "partial_word_ruby": partial_word_ruby,
         "passage_level": passage_level,
         "ruby_kanji_count": len(ruby_kanji),
         "outside_kanji_count": len(outside_kanji),
@@ -181,6 +208,15 @@ def format_report(file_path: Path, result: dict) -> tuple[str, bool]:
         lines.append(f"\n  UNKNOWN KANJI (không có trong CSV) — {len(unknown)} unique:")
         for kanji, count in sorted(unknown.items(), key=lambda x: -x[1])[:20]:
             lines.append(f"    {kanji} (xuất hiện {count} lần) — agent quyết định cần ruby không (kanji hiếm/cổ → thường có)")
+
+    partial = result.get("partial_word_ruby") or []
+    if partial:
+        has_error = True
+        lines.append(f"\n  PARTIAL-WORD FURIGANA (Quy tắc B vi phạm) — {len(partial)} chỗ kanji liền kề ruby (rắc 1 phần từ thay vì cả từ):")
+        for snippet in partial[:10]:
+            lines.append(f"    {snippet}  →  PHẢI gộp cả từ thành 1 <ruby> bao trọn")
+        if len(partial) > 10:
+            lines.append(f"    ... và {len(partial) - 10} chỗ khác")
 
     if not missing and not redundant and not unknown:
         lines.append("\n  PASS — Furigana coverage OK")
