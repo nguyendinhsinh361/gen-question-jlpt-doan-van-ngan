@@ -64,7 +64,7 @@ def extract_body(html: str) -> str:
         m = re.search(r"<body[^>]*>(.*?)</body>", html, re.DOTALL | re.IGNORECASE)
         body = m.group(1) if m else html
 
-    body = re.sub(r"<[^>]+>", " ", body)
+    body = re.sub(r"<[^>]+>", "", body)
     return body
 
 
